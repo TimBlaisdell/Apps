@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundSwitcher", "BackgroundSwitcher\BackgroundSwitcher.csproj", "{A7A1EE70-285E-4CF0-A582-AB4F617C902D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON", "JSON\JSON.csproj", "{FCB97B01-6B1D-4DBB-A3D5-FF0135AF765B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2DDF404E-839F-4B4B-B57A-353FD5A2F34A}"
+	ProjectSection(SolutionItems) = preProject
+		Settings.json = Settings.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7A1EE70-285E-4CF0-A582-AB4F617C902D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A1EE70-285E-4CF0-A582-AB4F617C902D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A1EE70-285E-4CF0-A582-AB4F617C902D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A7A1EE70-285E-4CF0-A582-AB4F617C902D}.Debug|x64.Build.0 = Debug|Any CPU
+		{A7A1EE70-285E-4CF0-A582-AB4F617C902D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A1EE70-285E-4CF0-A582-AB4F617C902D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A1EE70-285E-4CF0-A582-AB4F617C902D}.Release|x64.ActiveCfg = Release|Any CPU
+		{A7A1EE70-285E-4CF0-A582-AB4F617C902D}.Release|x64.Build.0 = Release|Any CPU
+		{FCB97B01-6B1D-4DBB-A3D5-FF0135AF765B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB97B01-6B1D-4DBB-A3D5-FF0135AF765B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB97B01-6B1D-4DBB-A3D5-FF0135AF765B}.Debug|x64.ActiveCfg = Debug|x64
+		{FCB97B01-6B1D-4DBB-A3D5-FF0135AF765B}.Debug|x64.Build.0 = Debug|x64
+		{FCB97B01-6B1D-4DBB-A3D5-FF0135AF765B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB97B01-6B1D-4DBB-A3D5-FF0135AF765B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB97B01-6B1D-4DBB-A3D5-FF0135AF765B}.Release|x64.ActiveCfg = Release|x64
+		{FCB97B01-6B1D-4DBB-A3D5-FF0135AF765B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B07AB77D-5140-4D91-A45F-BD505534470B}
+	EndGlobalSection
+EndGlobal
