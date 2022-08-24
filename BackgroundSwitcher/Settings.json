@@ -1,0 +1,107 @@
+{
+		/* 
+		  Folders 
+		  The folders to scan for images.  Folders in this list will be searched recursively.
+	  */
+		"Folders": [
+			"C:\\Users\\blaisdell\\Pictures\\Exp 396 aug-oct 2021",
+			"C:\\Users\\blaisdell\\Pictures\\2021 idaho and oregon",
+			"C:\\Users\\blaisdell\\Pictures\\Camera Roll",
+			"D:\\Images\\Houston Museum of Fine Arts - 2019",
+			"C:\\Users\\blaisdell\\Pictures\\Saved Pictures",
+			"D:\\Images\\Trip to Idaho and Oregon Feb 2019",
+			"C:\\Users\\blaisdell\\Pictures\\iTunesAlbumArt",
+			"D:\\Images\\Hong Kong - Punta Arenas 2018-2019",
+			"D:\\Images\\Exp 383 - Punta Arenas + Santiago",
+			"D:\\Images\\387T - San Diego to Fiji",
+			"D:\\Images\\San Antonio 2017",
+			"D:\\Images\\Cape Town",
+			"D:\\Images\\Moab - 2019",
+			"D:\\Images\\London 2016",
+			"D:\\Images\\Exp 374 - Christchurch + vacation",
+			"D:\\Images\\Exp 385 - San Diego",
+			"D:\\Images\\Exp 366 - Guam - Hong Kong",
+			"D:\\Images\\Exp 371 - Townsville - Hobart",
+			"D:\\Images\\Costa Rica",
+			"D:\\Images\\Exp 362",
+			"D:\\Images\\Snow day 2017",
+			"D:\\Images\\U2 Joshua Tree 2017",
+			"D:\\Widescreen Wallpapers",
+			"D:\\Images\\Barbados",
+			"D:\\Images\\Camera\\Car",
+			"D:\\Images\\Camera\\Deception Pass with Angie",
+			"D:\\Images\\Exp 339 - Med. Outflow - Azores, Lisbon",
+			"D:\\Images\\Exp 340 - Puerto Rico to Curacao",
+			"D:\\Images\\Camera\\Galveston with Jubilee and Mikey",
+			"D:\\Images\\Camera\\Olympic Penninsula with Angie",
+			"D:\\Images\\Camera\\Tim's Cubicle Tour",
+			"D:\\Images\\Camera Roll",
+			"D:\\Images\\Vacation 2020 - Bryce Canyon, Josiah, Mom",
+			"D:\\Images\\Paul Schliesing",
+			"D:\\Images\\Nikon photo contest",
+			"D:\\Images\\Exp 395P - Cape Town",
+			"D:\\Images\\Exp 384 - Kristiansand, Norway",
+			"D:\\Images\\digital blasphemy",
+			"D:\\Images\\Exp 396 - Reykjavik - Amsterdam"
+		],
+		/* 
+		  NonRecurseFolders 
+		  More folders to scan for images, but only the specified folder will be scanned.
+	  */
+		"NonRecurseFolders": [
+			"D:\\Images",
+			"D:\\Triple Screen Wallpapers",
+			"D:\\Images\\Exp 359"
+		],
+		/* 
+		  MinSourceImageSize 
+		  The minimum size of an image to consider.  Images smaller than this in either dimension will be ignored.
+	  */
+		"MinSourceImageSize": {
+			"Width": 300,
+			"Height": 300
+		},
+		/* 
+		  ImageExtensions 
+		  File extensions to be considered when scanning for images.
+	  */
+		"ImageExtensions": [
+			"JPG",
+			"JPEG",
+			"PNG",
+			"BMP"
+		],
+		/* 
+		  Margin 
+		  Number of pixels for the margin between images on the generated background.
+	  */
+		"Margin": 10,
+		/* 
+		  MinShowIntervalDays 
+		  The minimum number of days between showings of any image.
+	  */
+		"MinShowIntervalDays": 7,
+		/* 
+		  MinRatioDiff 
+		  The minimum allowed difference between the aspect ratio of a rectangle on the generated background, and the image placed in that rectangle.
+	  */
+		"MinRatioDiff": 0.05,
+		/* 
+		  SplitIterations 
+		  The number of iterations where the background canvas is split into random sub-sections.
+	  */
+		"SplitIterations": 5,
+		/* 
+		  ShowFolders 
+		  Whether or not folders should be shown along with the filenames.
+	  */
+		"ShowFolders": true,
+		/* 
+		  ShowFoldersAfter 
+		  When showing folders, generally only the last folder in the path will be shown.
+		  If this is set, then all folders after any matching the set will be shown (or only the last folder if none match the set).
+		  For example, if the file path is "C:\W\X\Y\Z\image.jpg", and ShowFoldersAfter contains "X", then the folders "Y" and "Z" will be 
+		  shown along with the filename.
+	  */
+		"ShowFoldersAfter": [ "Images", "Pictures", "Wallpapers", "iTunesAlbumArt" ]
+	}
