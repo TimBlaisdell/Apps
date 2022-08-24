@@ -87,12 +87,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JSON\JSON.csproj">
-      <Project>{FCB97B01-6B1D-4DBB-A3D5-FF0135AF765B}</Project>
-      <Name>JSON</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="FocusRectEditor.resx">
       <DependentUpon>FocusRectEditor.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +111,12 @@
     <None Include="Resources\S.png" />
     <None Include="Resources\F.png" />
     <Content Include="Resources\N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\JSON\JSON.csproj">
+      <Project>{fcb97b01-6b1d-4dbb-a3d5-ff0135af765b}</Project>
+      <Name>JSON</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,12 +5,12 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundSwitcher", "BackgroundSwitcher\BackgroundSwitcher.csproj", "{A7A1EE70-285E-4CF0-A582-AB4F617C902D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON", "JSON\JSON.csproj", "{FCB97B01-6B1D-4DBB-A3D5-FF0135AF765B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2DDF404E-839F-4B4B-B57A-353FD5A2F34A}"
 	ProjectSection(SolutionItems) = preProject
 		Settings.json = Settings.json
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON", "..\Libraries\JSON\JSON.csproj", "{FCB97B01-6B1D-4DBB-A3D5-FF0135AF765B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
