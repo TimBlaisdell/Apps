@@ -25,9 +25,13 @@ namespace BackgroundSwitcher {
             try {
                 string nevershowfname = Path.Combine(_datapath, "NeverShow.json");
                 var nevershow = File.Exists(nevershowfname) ? new JSONArray(File.ReadAllText(nevershowfname)) : new JSONArray();
-                nevershow.put(Path.GetFileNameWithoutExtension(_images[_workingIndex].Path));
-                File.WriteAllText(nevershowfname, nevershow.ToString(true, 4));
+                string fn = Path.GetFileNameWithoutExtension(_images[_workingIndex].Path);
+                if (!nevershow.ToArray().Contains(fn)) {
+                    nevershow.put(Path.GetFileNameWithoutExtension(_images[_workingIndex].Path));
+                    File.WriteAllText(nevershowfname, nevershow.ToString(true, 4));
+                }
                 MessageBox.Show(this, "Image added to never show list.", "Nevershow added");
+                _filteredImages.RemoveAt(_workingIndex);
                 NewWorkingIndex();
                 LoadImage();
             }
