@@ -66,10 +66,9 @@ namespace BackgroundSwitcher {
             }
         }
         private void MouseHook_OnMouseAction(object sender, MouseHook.MouseHookEventArgs e) {
-            //ShowMessage(Color.Green, e.Type.ToString());
-            if (new Rectangle(Location, Size).Contains(e.Data.pt.x, e.Data.pt.y) ||
+            if (!chkWatchMouse.Checked ||
+                new Rectangle(Location, Size).Contains(e.Data.pt.x, e.Data.pt.y) ||
                 FocusRectEditor != null && new Rectangle(FocusRectEditor.Location, FocusRectEditor.Size).Contains(e.Data.pt.x, e.Data.pt.y)) return;
-            //ShowMessage(Color.Green, "mouse action: " + MouseHook.MouseMessageToString(e.Type));
             if (e.Type == MouseHook.MouseMessages.WM_LBUTTONDOWN) btnOpenImage_Click(null, null);
             else if (e.Type == MouseHook.MouseMessages.WM_RBUTTONDOWN) btnGoToFile_Click(null, null);
         }

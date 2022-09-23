@@ -54,6 +54,10 @@ namespace BackgroundSwitcher {
             //    put("FocusRect", obj);
             //}
         }
+        public ulong HashCode {
+            get => optULong("Hash");
+            set => put("Hash", value);
+        }
         public DateTime LastShown {
             get => !has("RecentShows") && has("LastShown")
                 ? long.TryParse(getString("LastShown"), out long l) ? new DateTime(l) : DateTime.TryParse(getString("LastShown"), out DateTime dt) ? dt : DateTime.MinValue
@@ -75,7 +79,7 @@ namespace BackgroundSwitcher {
         public long LastShownTicks => LastShown.Ticks;
         public DateTime LastWrite {
             get => new DateTime(LastWriteTicks);
-            set => put("LastWrite", value.ToString());
+            set => put("LastWrite", value.ToString("O"));
         }
         public long LastWriteTicks => long.TryParse(optString("LastWrite", DateTime.MinValue.Ticks.ToString()), out long l) ? l :
             DateTime.TryParse(optString("LastWrite", "xxx"), out DateTime dt) ? dt.Ticks : DateTime.MinValue.Ticks;

@@ -31,7 +31,8 @@ namespace BackgroundSwitcher {
                     File.WriteAllText(nevershowfname, nevershow.ToString(true, 4));
                 }
                 MessageBox.Show(this, "Image added to never show list.", "Nevershow added");
-                _filteredImages.RemoveAt(_workingIndex);
+                _filteredImages?.Remove(_images[_workingIndex]);
+                _images.RemoveAt(_workingIndex);
                 NewWorkingIndex();
                 LoadImage();
             }

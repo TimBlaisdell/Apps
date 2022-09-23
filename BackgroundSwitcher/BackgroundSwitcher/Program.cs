@@ -261,6 +261,7 @@ namespace BackgroundSwitcher {
                     Log.Write($"{filesjson.Length} records read from Files.json");
                     foreach (var obj in filesjson) {
                         if (_neverShowList.Any(f => obj.Path.ToUpper().Contains(f))) continue;
+                        if (_images.Any(i => i.Path == obj.Path)) continue;
                         _images.Add(obj);
                     }
                 }
@@ -286,6 +287,40 @@ namespace BackgroundSwitcher {
                     ProcessFiles(files);
                 }
                 Log.Write("After searching folders, " + _images.Count + " images found. " + _images.Count(i => i.Validated) + " are validated.");
+                var notvalida = _images.Where(i => !i.Validated).ToArray();
+                if (notvalida.Length > 0) {
+                    // files that are not validated are files that were in the Files.json list, but were found to not exist now.
+                    // For each one, see if there's a file in the same folder with the same hashcode.
+                    foreach (var info in notvalida) {
+                        string dir = Path.GetDirectoryName(info.Path);
+                        var samefolder = _images.Where(i => Path.GetDirectoryName(i.Path) == dir && i.Path != info.Path).ToArray();
+                        if (samefolder.Length == 0) continue;
+                        var samefile = samefolder.FirstOrDefault(i => i.HashCode == info.HashCode);
+                        if (samefile != null && samefile.Validated) {
+                            // Sanity test: see if there's more than one image in the full list that has this same hash code.
+                            int count = _images.Count(i => i.HashCode == info.HashCode);
+                            if (count > 2) {
+                                Log.Write("Found duplicate hashcodes:");
+                                foreach (var zz in _images.Where(i => i.HashCode == info.HashCode)) {
+                                    Log.Write(info.Path);
+                                }
+                            }
+                            // I found an identical image that matches the non-validated one.  Remove the non-validated one and replace it with the validated one in FocusRects.
+                            _images.Remove(info);
+                            string frpath = Path.Combine(dir, "FocusRects.json");
+                            if (File.Exists(frpath)) {
+                                var json = new JSONObject(File.ReadAllText(frpath));
+                                var obj = json.optJSONObject(Path.GetFileName(info.Path));
+                                if (obj != null) {
+                                    json.remove(Path.GetFileName(info.Path));
+                                    json.put(Path.GetFileName(samefile.Path), obj);
+                                    File.WriteAllText(frpath, json.ToString(true));
+                                    samefile.put("FocusRect", obj);
+                                }
+                            }
+                        }
+                    }
+                }
                 // Remove any images that are in folders I'm no longer required to include.
                 // Also remove images where the folder exists, but the image doesn't.
                 // The important thing is, I don't want to remove entries where the folder doesn't exist, because that might just be a removable drive or something, and I want to keep those.
@@ -423,10 +458,10 @@ namespace BackgroundSwitcher {
                 }
                 else {
                     rectlist = currBGarray.Where(v => v.DestRect.IntersectsWith(thisScreenRect))
-                                        .Select(v => new RectImages {
-                                                                        Rect = v.DestRect,
-                                                                        Images = GetImagesToUse(_imagesFiltered, v.DestRect, _settings.MinRatioDiff)
-                                                                    }).ToList();
+                                          .Select(v => new RectImages {
+                                                                          Rect = v.DestRect,
+                                                                          Images = GetImagesToUse(_imagesFiltered, v.DestRect, _settings.MinRatioDiff)
+                                                                      }).ToList();
                 }
                 foreach (var rect in rectlist) {
                     Log.Write($"({rect.Rect.Width}, {rect.Rect.Height}): {rect.Images.Length} potential images");
@@ -449,7 +484,10 @@ namespace BackgroundSwitcher {
                     // 3. Decrease MinSourceImageSize
                     // 4. Add more folders and/or more images.
                     var images = rect.Images.Where(i => !i.Shown).ToArray();
-                    if (images.Length == 0) continue;
+                    if (images.Length == 0) {
+                        Log.Write("ERROR: No images to show in rectangle, so it will be empty.");
+                        continue;
+                    }
                     var image = images[_rand.Next(images.Length)];
                     //JSONImageInfo image = rect.Images.FirstOrDefault(i => !i.Shown);
                     image.Shown = true;
@@ -551,8 +589,9 @@ namespace BackgroundSwitcher {
         /// </summary>
         private static void ParseCommandLine(string[] args) {
             foreach (var arg in args) {
-                if (arg.ToLower().Contains("imageinfo")) _imageInfoMode = true;
-                else if (arg.ToLower().Contains("datapath")) {
+                string str = arg.Remove(0, 1).ToLower();
+                if (str.StartsWith("imageinfo")) _imageInfoMode = true;
+                else if (str.StartsWith("datapath")) {
                     var strs = arg.Split('=').Select(s => s.Trim()).ToArray();
                     if (strs.Length < 2) continue;
                     var path = strs[1];
@@ -566,10 +605,10 @@ namespace BackgroundSwitcher {
                     }
                     _dataPath = path;
                 }
-                else if (arg.ToLower().Contains("uselastrectlist")) _useLastRectList = true;
-                else if (arg.ToLower().Contains("cleanup")) _cleanup = true;
-                else if (arg.ToLower().Contains("editfocusrects")) _editFocusRects = true;
-                else if (arg.ToLower().Contains("minrunmins")) {
+                else if (str.StartsWith("uselastrectlist")) _useLastRectList = true;
+                else if (str.StartsWith("cleanup")) _cleanup = true;
+                else if (str.StartsWith("editfocusrects")) _editFocusRects = true;
+                else if (str.StartsWith("minrunmins")) {
                     var strs = arg.Split('=').Select(s => s.Trim()).ToArray();
                     if (strs.Length < 2) continue;
                     _minRunMins = int.Parse(strs[1]);
@@ -612,20 +651,31 @@ namespace BackgroundSwitcher {
                 var lwt = File.GetLastWriteTime(file);
                 var inforecord = _images.FirstOrDefault(i => i.Path == file);
                 if (inforecord != null) {
-                    if (focusRects.has(Path.GetFileName(inforecord.Path))) inforecord.put("FocusRect", focusRects.getJSONObject(Path.GetFileName(inforecord.Path)));
-                    else inforecord.remove("FocusRect");
-                    if (inforecord.LastWriteTicks == lwt.Ticks) {
-                        inforecord.Validated = true;
-                        continue; // already got it.
+                    if (inforecord.has("Width") && inforecord.has("Height")) { // because some files were erroneaously written with no size info due to a bug.
+                        if (focusRects.has(Path.GetFileName(inforecord.Path))) inforecord.put("FocusRect", focusRects.getJSONObject(Path.GetFileName(inforecord.Path)));
+                        else inforecord.remove("FocusRect");
+                        if (inforecord.LastWriteTicks == lwt.Ticks) {
+                            if (!inforecord.has("Hash")) {
+                                inforecord.remove("HashCode"); // where I used to store this.  remove if it's there.
+                                inforecord.HashCode = GetHashCode(inforecord.Path);
+                            }
+                            inforecord.Validated = true;
+                            continue; // already got it.
+                        }
                     }
+                    //else {
+                    //    int i = 10;
+                    //}
                     _images.RemoveAll(i => i.Path == file); // remove it 'cause I'm about to regenerate it.
                 }
-                // If I get here, it means this file is one I don't already have in my list.
+                // If I get here, it means this file is one I don't already have in my list or was removed because it's been updated since I last saw it.
                 Size sz;
+                ulong hashcode;
                 try {
                     using (var stream = File.OpenRead(file)) {
                         using (var img = Image.FromStream(stream, false, false)) {
                             sz = img.Size;
+                            hashcode = GetHashCode(img);
                         }
                     }
                     //using (var img = Image.FromFile(file)) {
@@ -634,15 +684,49 @@ namespace BackgroundSwitcher {
                 }
                 catch {
                     sz = new Size(0, 0);
+                    hashcode = 0;
                 }
                 if (sz.Width < _settings.MinSourceImageSize.Width || sz.Height < _settings.MinSourceImageSize.Height) continue;
-                var newii = new JSONImageInfo(inforecord) { Validated = true, LastWrite = lwt };
-                if (focusRects.has(Path.GetFileName(file))) newii.put("FocusRect", focusRects.getJSONObject(Path.GetFileName(file)));
-                _images.Add(newii);
+                inforecord = new JSONImageInfo { Path = file, Validated = true, LastWrite = lwt, Size = sz, HashCode = hashcode };
+                if (focusRects.has(Path.GetFileName(file))) inforecord.put("FocusRect", focusRects.getJSONObject(Path.GetFileName(file)));
+                _images.Add(inforecord);
             }
             Console.WriteLine("\nTotal: " + _images.Count);
         }
         // ReSharper disable UnusedMethodReturnValue.Local
+        private static ulong GetHashCode(string path) {
+            try {
+                using (var stream = File.OpenRead(path)) {
+                    using (var img = Image.FromStream(stream, false, false)) {
+                        return GetHashCode(img);
+                    }
+                }
+                //using (var img = Image.FromFile(file)) {
+                //    sz = img.Size;
+                //}
+            }
+            catch {
+                return 0;
+            }
+        }
+        private static ulong GetHashCode(Image img) {
+            using (var bmp = new Bitmap(10, 10)) {
+                using (var gfx = Graphics.FromImage(bmp)) {
+                    gfx.DrawImage(img, new Rectangle(0, 0, 10, 10));
+                }
+                ulong hash = 0;
+                var points = new Point[8] {
+                                              new Point(1, 1), new Point(8, 1), new Point(1, 8), new Point(8, 8),
+                                              new Point(3, 3), new Point(6, 3), new Point(3, 6), new Point(6, 6)
+                                          };
+                foreach (var p in points) {
+                    var c = bmp.GetPixel(p.X, p.Y);
+                    ulong i = Convert.ToUInt64(((c.R + c.G + c.B) / 3) & 0x000000FF);
+                    hash = (hash << 8) + i;
+                }
+                return hash;
+            }
+        }
         /// <summary>
         ///     set the desktop background image
         /// </summary>

@@ -1,0 +1,4157 @@
+Cleanup started.
+Cleaned Files.json: removed 16 nonexistent files, found 1740 files.
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 0 were shown recently.  1740 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1399, 348): 467 potential images
+(511, 348): 1125 potential images
+(1268, 682): 1139 potential images
+(642, 477.5): 1116 potential images
+(362.5, 194.5): 1140 potential images
+(269.5, 103.625): 678 potential images
+(188.375, 80.875): 815 potential images
+(71.125, 80.875): 663 potential images
+Took 1 tries to get a good rect list.
+(1141, 355): 530 potential images
+(231.25, 355): 369 potential images
+(527.75, 355): 1123 potential images
+(1185, 519.75): 828 potential images
+(803, 185.25): 470 potential images
+(1107, 185.25): 181 potential images
+(725, 209.9375): 498 potential images
+(725, 299.8125): 775 potential images
+9/23/2022 10:38:51 AM
+E:\Triple Screen Wallpapers\hexagram13x5760.jpg
+E:\Images\riftcanyon2560.jpg
+E:\Images\ephemera2560.jpg
+E:\Triple Screen Wallpapers\forgottenway33x5760.jpg
+E:\Triple Screen Wallpapers\sleepwalkers13x5760.jpg
+E:\Triple Screen Wallpapers\traveller2k1333x5760.jpg
+E:\Images\digital blasphemy\4096x2304\mengerbulb24ktv.jpg
+E:\Images\redfern32560.jpg
+E:\Triple Screen Wallpapers\shatteredsky23x5760.jpg
+E:\Images\frozen1280.jpg
+E:\Images\prismaticpool12560.jpg
+E:\Images\totality2560.jpg
+E:\Triple Screen Wallpapers\rollingridgesnight13x5760.jpg
+E:\Triple Screen Wallpapers\moonlitoasis2k1323x5760.jpg
+E:\Triple Screen Wallpapers\gothamgarden2k10winter13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\waveform24ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 16 were shown recently.  1724 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1321, 541): 760 potential images
+(280.25, 704): 98 potential images
+(280.25, 326): 633 potential images
+(298.75, 756): 96 potential images
+(1321, 259.25): 469 potential images
+(1321, 219.75): 174 potential images
+(119.6875, 274): 128 potential images
+(169.0625, 274): 332 potential images
+Took 1 tries to get a good rect list.
+(333.25, 1080): 33 potential images
+(710.75, 1080): 365 potential images
+(454.25, 1080): 111 potential images
+(391.75, 389.5): 781 potential images
+(391.75, 154.5): 685 potential images
+(391.75, 236): 1136 potential images
+(391.75, 270): 1102 potential images
+9/23/2022 10:39:21 AM
+E:\Images\reborn.JPG
+E:\Images\gnosis2560.jpg
+E:\Images\gazebo2k31600.jpg
+E:\Images\moonlitoasis22560.jpg
+E:\Triple Screen Wallpapers\receptor13x5760.jpg
+E:\Triple Screen Wallpapers\caveofarches43x5760.jpg
+E:\Images\macrocosm1600.jpg
+E:\Images\digital blasphemy\4096x2304\totality2k1414ktv.jpg
+E:\Images\watchtowernight2560.jpg
+E:\Images\digital blasphemy\4096x2304\necronomicon14ktv.jpg
+E:\Images\vladstudio_sos_1600x1200.jpg
+E:\Images\archaea12560.jpg
+E:\Images\digital blasphemy\4096x2304\harvestmoon14ktv.jpg
+E:\Triple Screen Wallpapers\firstblush43x5760.jpg
+E:\Images\highlandsummer32560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 31 were shown recently.  1709 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(218.25, 696): 35 potential images
+(572.75, 696): 568 potential images
+(1178, 150.5): 84 potential images
+(1178, 173.5): 115 potential images
+(732, 104.5): 103 potential images
+(732, 219.5): 500 potential images
+(1109, 431): 667 potential images
+(1109, 255): 458 potential images
+Took 1 tries to get a good rect list.
+(1088, 464): 777 potential images
+(1920, 349.5): 232 potential images
+(671, 246.5): 605 potential images
+(507.75, 246.5): 993 potential images
+(721.25, 246.5): 551 potential images
+(345.5, 464): 481 potential images
+(172.625, 464): 69 potential images
+(283.875, 464): 314 potential images
+9/23/2022 10:39:27 AM
+E:\Images\conduit1600.jpg
+E:\Images\vladstudio_lost_1600x1200.jpg
+E:\Triple Screen Wallpapers\quartet13x5760.jpg
+E:\Triple Screen Wallpapers\genesis3x5760.jpg
+E:\Triple Screen Wallpapers\oasis2k913x5760.jpg
+E:\Triple Screen Wallpapers\overseer2k1413x5760.jpg
+E:\Triple Screen Wallpapers\forestlord13x5760.jpg
+E:\Triple Screen Wallpapers\fluorescence2k9colors13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\simplexity14ktv.jpg
+E:\Triple Screen Wallpapers\hokkaido23x5760.jpg
+E:\Triple Screen Wallpapers\karesansuinight2k1413x5760.jpg
+E:\Images\subarctic12560.jpg
+E:\Triple Screen Wallpapers\furcati13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\samsara14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\quaternion14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\bonesglow34ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 47 were shown recently.  1693 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1244, 1040): 909 potential images
+(666, 666): 757 potential images
+(493.5, 118): 436 potential images
+(56.625, 364): 2 potential images
+(95.875, 364): 18 potential images
+(493.5, 102): 458 potential images
+(493.5, 124): 443 potential images
+Took 1 tries to get a good rect list.
+(1920, 334.5): 194 potential images
+(1920, 205.5): 58 potential images
+(1087, 309): 464 potential images
+(823, 214.75): 446 potential images
+(449.75, 84.25): 261 potential images
+(363.25, 84.25): 443 potential images
+(1163, 201): 193 potential images
+(747, 201): 452 potential images
+9/23/2022 10:39:34 AM
+E:\Triple Screen Wallpapers\endlessbluenight2k1413x5760.jpg
+E:\Triple Screen Wallpapers\remembrance13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\shard14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\gazebo2k1344ktv.jpg
+E:\Images\digital blasphemy\4096x2304\pageantrynight24ktv.jpg
+E:\Triple Screen Wallpapers\nightfall13x5760.jpg
+E:\Triple Screen Wallpapers\blossom13x5760.jpg
+E:\Triple Screen Wallpapers\mistveilmountain23x5760.jpg
+E:\Triple Screen Wallpapers\sliverofsun13x5760.jpg
+E:\Triple Screen Wallpapers\onelight13x5760.jpg
+E:\Triple Screen Wallpapers\atoll2k1223x5760.jpg
+E:\Triple Screen Wallpapers\mistyridge13x5760.jpg
+E:\Triple Screen Wallpapers\taketwo2k1413x5760.jpg
+E:\Triple Screen Wallpapers\arcadia13x5760.jpg
+E:\Triple Screen Wallpapers\outlier13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 62 were shown recently.  1678 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1161, 308): 445 potential images
+(438.25, 308): 1072 potential images
+(638.5, 722): 635 potential images
+(705.5, 722): 732 potential images
+(556, 190.5): 539 potential images
+(556, 521.5): 803 potential images
+(300.75, 160): 1090 potential images
+(300.75, 138): 904 potential images
+Took 1 tries to get a good rect list.
+(221, 493): 115 potential images
+(397, 493): 535 potential images
+(811, 577): 1047 potential images
+(1099, 577): 1076 potential images
+(1282, 344.75): 443 potential images
+(732.5, 138.25): 441 potential images
+(539.5, 138.25): 434 potential images
+9/23/2022 10:39:39 AM
+E:\Triple Screen Wallpapers\acumen13x5760.jpg
+E:\Images\Exp 359\cool frog.JPG
+E:\Images\helios12560.jpg
+E:\Images\digital blasphemy\4096x2304\bouquet14ktv.jpg
+E:\Triple Screen Wallpapers\sierraautumn13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\firewithin14ktv.jpg
+E:\Images\dodenfell32560.jpg
+E:\Images\digital blasphemy\4096x2304\autumnal2k1814ktv.jpg
+E:\Images\highlandyule12560.jpg
+E:\Images\digital blasphemy\4096x2304\boardwalk14ktv.jpg
+E:\Triple Screen Wallpapers\cytokinesis13x5760.jpg
+E:\Images\CMS-RingsofFire1600v2.JPG
+E:\Triple Screen Wallpapers\tears33x5760.jpg
+E:\Triple Screen Wallpapers\greenflash13x5760.jpg
+E:\Triple Screen Wallpapers\cascadia13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 77 were shown recently.  1663 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(589, 336): 1302 potential images
+(1920, 473.5): 415 potential images
+(1321, 224): 177 potential images
+(839, 210.5): 425 potential images
+(1071, 210.5): 438 potential images
+(715.25, 102): 92 potential images
+(595.75, 42.5): 1 potential images
+(595.75, 49.5): 1 potential images
+Took 1 tries to get a good rect list.
+(700, 525): 1048 potential images
+(1227, 174.75): 88 potential images
+(683, 174.75): 422 potential images
+(452.5, 525): 598 potential images
+(747.5, 525): 1051 potential images
+(1215, 360.25): 460 potential images
+(695, 167.0625): 411 potential images
+(695, 183.1875): 430 potential images
+9/23/2022 10:42:26 AM
+E:\Images\digital blasphemy\4096x2304\valleyofstars14ktv.jpg
+E:\Triple Screen Wallpapers\sakura2k13night13x5760.jpg
+E:\Triple Screen Wallpapers\eukarya13x5760.jpg
+E:\Triple Screen Wallpapers\leaftemplenight13x5760.jpg
+E:\Triple Screen Wallpapers\starlightgrotto13x5760.jpg
+E:\Triple Screen Wallpapers\mistwoodfen13x5760.jpg
+E:\Triple Screen Wallpapers\earthshadow13x5760.jpg
+E:\Triple Screen Wallpapers\waterislifenight13x5760.jpg
+E:\Images\protostar1600.jpg
+E:\Triple Screen Wallpapers\cynosure13x5760.jpg
+E:\Triple Screen Wallpapers\bouquet23x5760.jpg
+E:\Images\Kingfisher_With_aCatch.jpg
+E:\Triple Screen Wallpapers\unchained13x5760.jpg
+E:\Triple Screen Wallpapers\dione13x5760.jpg
+E:\Triple Screen Wallpapers\sol2k1513x5760.jpg
+E:\Triple Screen Wallpapers\snowtop2k1913x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 93 were shown recently.  1647 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(690.25, 1040): 346 potential images
+(405.75, 548): 454 potential images
+(535.25, 548): 713 potential images
+(951, 133.5): 84 potential images
+(951, 338.5): 542 potential images
+(258.75, 582): 111 potential images
+(112.6875, 448): 14 potential images
+(136.0625, 448): 27 potential images
+Took 1 tries to get a good rect list.
+(917, 568): 1146 potential images
+(917, 502): 1275 potential images
+(993, 113.25): 56 potential images
+(993, 165.75): 153 potential images
+(564.25, 97): 176 potential images
+(418.75, 97): 414 potential images
+(705.25, 674): 764 potential images
+(277.75, 674): 84 potential images
+9/23/2022 10:42:56 AM
+E:\Images\ofallplaces2560.jpg
+E:\Images\digital blasphemy\4096x2304\innerspace34ktv.jpg
+E:\Images\digital blasphemy\4096x2304\sakura2k1314ktv.jpg
+E:\Triple Screen Wallpapers\floatinggardentwilight2k1913x5760.jpg
+E:\Triple Screen Wallpapers\nimbus2k2013x5760.jpg
+E:\Images\vladstudio_dreamer2_1600x1200.jpg
+E:\Images\snowycreek-xmas2560.jpg
+E:\Images\morningglory2k5bg2560.jpg
+E:\Images\Exp 359\boats 4.JPG
+E:\Triple Screen Wallpapers\firewithin13x5760.jpg
+E:\Triple Screen Wallpapers\rollingridges13x5760.jpg
+E:\Triple Screen Wallpapers\standingstones13x5760.jpg
+E:\Triple Screen Wallpapers\bonesglow33x5760.jpg
+E:\Triple Screen Wallpapers\scarlet3x5760.jpg
+E:\Triple Screen Wallpapers\waterislifeoasis13x5760.jpg
+E:\Images\bluexmas2k1112560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 109 were shown recently.  1631 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1102, 257): 397 potential images
+(290, 1040): 17 potential images
+(508, 516): 707 potential images
+(615.5, 773): 508 potential images
+(476.5, 773): 296 potential images
+(316, 514): 294 potential images
+(182, 514): 45 potential images
+Took 1 tries to get a good rect list.
+(516.25, 1080): 132 potential images
+(835, 680): 891 potential images
+(548.75, 672): 526 potential images
+(165.1875, 398): 82 potential images
+(524.75, 390): 1026 potential images
+(300.25, 390): 471 potential images
+(373.5625, 190.5): 1021 potential images
+(373.5625, 197.5): 1037 potential images
+9/23/2022 10:43:02 AM
+E:\Triple Screen Wallpapers\minimal13x5760.jpg
+E:\Images\vladstudio_thetwoandthelighthouse_1600x1200.jpg
+E:\Images\divisorblue2560.jpg
+E:\Images\vladstudio_blex_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\lwfireworks14ktv.jpg
+E:\Images\vladstudio_condensed_1600x1200.jpg
+E:\Images\highlandsummer22560.jpg
+E:\Images\aquapearsgreen_1600x1200.jpg
+E:\Images\redharbinger12560.jpg
+E:\Images\digital blasphemy\4096x2304\rootaccess24ktv.jpg
+E:\Images\enclave2560.jpg
+E:\Triple Screen Wallpapers\arrakeen13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\autumnrevelation14ktv.jpg
+E:\Images\desertsnow2560.jpg
+E:\Triple Screen Wallpapers\elegy13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 124 were shown recently.  1616 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(632, 625): 722 potential images
+(1139, 405): 526 potential images
+(914.5, 625): 1023 potential images
+(215.125, 625): 42 potential images
+(216.75, 405): 181 potential images
+(544.25, 405): 1018 potential images
+(128.375, 422.25): 23 potential images
+(128.375, 192.75): 337 potential images
+Took 1 tries to get a good rect list.
+(658, 402): 1116 potential images
+(658, 668): 689 potential images
+(1252, 235.25): 239 potential images
+(1252, 419.75): 480 potential images
+(859, 273.25): 462 potential images
+(859, 121.75): 81 potential images
+(383, 218.25): 1252 potential images
+(383, 176.75): 848 potential images
+9/23/2022 10:43:07 AM
+E:\Images\digital blasphemy\4096x2304\pioneerspirit14ktv.jpg
+E:\Triple Screen Wallpapers\leaftemple13x5760.jpg
+E:\Images\Hearts Of Fire.jpg
+E:\Images\digital blasphemy\4096x2304\foggyxmasevenight14ktv.jpg
+E:\Images\lastthroes32560.jpg
+E:\Images\digital blasphemy\4096x2304\fluorescence64ktv.jpg
+E:\Images\digital blasphemy\4096x2304\moonworship14ktv.jpg
+E:\Images\summerwood2560.jpg
+E:\Triple Screen Wallpapers\satorinightalien13x5760.jpg
+E:\Images\vladstudio_leaves_1600x1200.jpg
+E:\Triple Screen Wallpapers\opening13x5760.jpg
+E:\Images\cabane.bmp
+E:\Triple Screen Wallpapers\bones13x5760.jpg
+E:\Triple Screen Wallpapers\lavender23x5760.jpg
+E:\Triple Screen Wallpapers\harvestmoon13x5760.jpg
+E:\Images\Abstract-AK-1600.JPG
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 140 were shown recently.  1600 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1193, 387): 465 potential images
+(717, 387): 1022 potential images
+(1372, 371.75): 407 potential images
+(538, 403.75): 999 potential images
+(875, 261.25): 434 potential images
+(487, 261.25): 1021 potential images
+(315.5, 229.25): 954 potential images
+(212.5, 229.25): 622 potential images
+Took 1 tries to get a good rect list.
+(1032, 486): 860 potential images
+(1920, 200): 44 potential images
+(440.5, 486): 605 potential images
+(168.625, 486): 38 potential images
+(248.875, 351.5): 375 potential images
+(248.875, 124.5): 955 potential images
+(1297, 374): 414 potential images
+(613, 374): 1102 potential images
+9/23/2022 10:43:17 AM
+E:\Images\baublepasture_1600x1200.jpg
+E:\Triple Screen Wallpapers\vernalis13x5760.jpg
+E:\Triple Screen Wallpapers\campfires2k1313x5760.jpg
+E:\Images\vladstudio_pisa_1600x1200.jpg
+E:\Triple Screen Wallpapers\gothamgarden2k10summer23x5760.jpg
+E:\Triple Screen Wallpapers\badlands13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\circumbinary14ktv.jpg
+E:\Images\Eclipse_by_Zueuk.jpg
+E:\Images\digital blasphemy\4096x2304\gateway14ktv.jpg
+E:\Triple Screen Wallpapers\cronus13x5760.jpg
+E:\Images\synthestructure12560.jpg
+E:\Images\digital blasphemy\4096x2304\oncenight14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\shard24ktv.jpg
+E:\Triple Screen Wallpapers\thunderhead2k1613x5760.jpg
+E:\Triple Screen Wallpapers\follicle13x5760.jpg
+E:\Triple Screen Wallpapers\citadelnight13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 156 were shown recently.  1584 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(846, 327): 569 potential images
+(846, 358.75): 684 potential images
+(846, 334.25): 588 potential images
+(756, 1040): 398 potential images
+(298, 461): 298 potential images
+(298, 415.25): 385 potential images
+(298, 143.75): 870 potential images
+Took 1 tries to get a good rect list.
+(1920, 262.75): 71 potential images
+(1396, 585): 664 potential images
+(514, 423.75): 841 potential images
+(1394, 212.25): 98 potential images
+(516, 56.0625): 46 potential images
+(516, 146.1875): 400 potential images
+(514, 72.8125): 76 potential images
+(514, 68.4375): 68 potential images
+9/23/2022 10:43:22 AM
+E:\Images\null1600.jpg
+E:\Triple Screen Wallpapers\heliocentricnight33x5760.jpg
+E:\Images\pulsar2k1022560.jpg
+E:\Images\vladstudio_terrelointaine_1600x1200.jpg
+E:\Images\cerulean22560.jpg
+E:\Images\axiomaticorange2560.jpg
+E:\Triple Screen Wallpapers\halcyon13x5760.jpg
+E:\Triple Screen Wallpapers\forgottenway13x5760.jpg
+E:\Images\roche2k41600.jpg
+E:\Images\digital blasphemy\4096x2304\travellercomet14ktv.jpg
+E:\Triple Screen Wallpapers\corona23x5760.jpg
+E:\Triple Screen Wallpapers\cascadiasummer13x5760.jpg
+E:\Triple Screen Wallpapers\theride2k913x5760.jpg
+E:\Triple Screen Wallpapers\beginnings13x5760.jpg
+E:\Triple Screen Wallpapers\hivemind33x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 171 were shown recently.  1569 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(351.5, 1040): 30 potential images
+(1080, 643): 997 potential images
+(468.5, 773): 256 potential images
+(468.5, 257): 1215 potential images
+(1080, 260.25): 370 potential images
+(607, 116.75): 391 potential images
+(463, 116.75): 377 potential images
+Took 1 tries to get a good rect list.
+(1920, 331.75): 156 potential images
+(1920, 539): 386 potential images
+(586, 189.25): 439 potential images
+(336, 189.25): 1206 potential images
+(308.5, 189.25): 1079 potential images
+(471.875, 189.25): 585 potential images
+(177.625, 189.25): 611 potential images
+9/23/2022 10:43:30 AM
+E:\Images\spillv2.JPG
+E:\Images\digital blasphemy\4096x2304\halcyonglow14ktv.jpg
+E:\Images\Exp 359\birthday pic.jpg
+E:\Images\digital blasphemy\4096x2304\classm2k1614ktv.jpg
+E:\Triple Screen Wallpapers\pride2k813x5760.jpg
+E:\Triple Screen Wallpapers\shard23x5760.jpg
+E:\Triple Screen Wallpapers\hyperion13x5760.jpg
+E:\Triple Screen Wallpapers\starplace13x5760.jpg
+E:\Triple Screen Wallpapers\goldenhour13x5760.jpg
+E:\Triple Screen Wallpapers\flora2k1813x5760.jpg
+E:\Images\desertdawn22560.jpg
+E:\Images\digital blasphemy\4096x2304\highlandspring14ktv.jpg
+E:\Triple Screen Wallpapers\amazed2k1423x5760.jpg
+E:\Images\vladstudio_lonelyplanet2_1600x1200.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 185 were shown recently.  1555 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(931.5, 1040): 571 potential images
+(321, 526): 259 potential images
+(321, 504): 280 potential images
+(269, 565): 112 potential images
+(269, 465): 218 potential images
+(368.5, 328): 755 potential images
+(368.5, 202.5): 1205 potential images
+(368.5, 489.5): 428 potential images
+Took 1 tries to get a good rect list.
+(727, 491): 969 potential images
+(922, 179.25): 384 potential images
+(644.75, 491): 958 potential images
+(528.25, 491): 718 potential images
+(922, 268.4375): 394 potential images
+(922, 111.3125): 47 potential images
+(988, 273.75): 384 potential images
+(988, 295.25): 406 potential images
+9/23/2022 10:43:35 AM
+E:\Images\rivervalley2dawn2560.jpg
+E:\Images\elegywinterday12560.jpg
+E:\Images\lastgold2560.jpg
+E:\Images\elegywinternight12560.jpg
+E:\Images\moonlitoasis12560.jpg
+E:\Images\thetismoon2560.jpg
+E:\Images\firstgreen2560.jpg
+E:\Images\digital blasphemy\4096x2304\starfallfireworks14ktv.jpg
+E:\Triple Screen Wallpapers\pioneerspiritnight13x5760.jpg
+E:\Triple Screen Wallpapers\hinterland13x5760.jpg
+E:\Images\newdawn22560.jpg
+E:\Images\Exp 359\view from museum 2.JPG
+E:\Triple Screen Wallpapers\endeavor13x5760.jpg
+E:\Triple Screen Wallpapers\nemo13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\paintedcanyonnight14ktv.jpg
+E:\Triple Screen Wallpapers\worldsedgewinter13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 201 were shown recently.  1539 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1430, 263): 195 potential images
+(891, 286.25): 426 potential images
+(1019, 286.25): 381 potential images
+(1920, 203.0625): 37 potential images
+(480, 121.75): 367 potential images
+(480, 131.25): 374 potential images
+(739, 257.6875): 462 potential images
+(1171, 257.6875): 382 potential images
+Took 1 tries to get a good rect list.
+(1062, 659): 1057 potential images
+(848, 544): 1017 potential images
+(302.5, 411): 397 potential images
+(324.125, 411): 445 potential images
+(415.375, 140.75): 444 potential images
+(415.375, 260.25): 1056 potential images
+(363, 526): 327 potential images
+(475, 526): 571 potential images
+9/23/2022 10:43:40 AM
+E:\Triple Screen Wallpapers\afterglow2k923x5760.jpg
+E:\Triple Screen Wallpapers\boardwalk13x5760.jpg
+E:\Triple Screen Wallpapers\autumncliffs2k1523x5760.jpg
+E:\Triple Screen Wallpapers\cloudterrace13x5760.jpg
+E:\Triple Screen Wallpapers\starfallfireworks13x5760.jpg
+E:\Triple Screen Wallpapers\lavendersunset13x5760.jpg
+E:\Triple Screen Wallpapers\taranis13x5760.jpg
+E:\Triple Screen Wallpapers\bluehollow23x5760.jpg
+E:\Images\ringoffirenight2560.jpg
+E:\Triple Screen Wallpapers\parthenogen13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\passageway14ktv.jpg
+E:\Images\Whirlpool Galaxy - Hubble.jpg
+E:\Triple Screen Wallpapers\ornament2k1813x5760.jpg
+E:\Images\digital blasphemy\4096x2304\hideaway14ktv.jpg
+E:\Triple Screen Wallpapers\travellerplanet13x5760.jpg
+E:\Images\theride2k3_riderless2560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 217 were shown recently.  1523 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1260, 485): 529 potential images
+(650, 404): 1049 potential images
+(787, 545): 948 potential images
+(650, 463.5): 929 potential images
+(463, 331.25): 907 potential images
+(463, 203.75): 675 potential images
+(415.5, 152.5): 495 potential images
+(224.5, 152.5): 948 potential images
+Took 1 tries to get a good rect list.
+(259, 1080): 7 potential images
+(399, 1080): 43 potential images
+(609.875, 1080): 188 potential images
+(239.625, 275): 527 potential images
+(239.625, 795): 18 potential images
+(193.375, 1080): 2 potential images
+(169.125, 456): 44 potential images
+(169.125, 614): 12 potential images
+9/23/2022 10:43:46 AM
+E:\Images\digital blasphemy\4096x2304\cascadiasummer14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\accretion2k1514ktv.jpg
+E:\Images\digital blasphemy\4096x2304\accelerator2k2124ktv.jpg
+E:\Images\frontier1600.jpg
+E:\Triple Screen Wallpapers\endymion13x5760.jpg
+E:\Triple Screen Wallpapers\aquarii13x5760.jpg
+E:\Triple Screen Wallpapers\avarice13x5760.jpg
+E:\Images\summoning1600.jpg
+E:\Images\Small Deer in a Large Pink Space.bmp
+E:\Images\vladstudio_somewhere_1600x1200.jpg
+E:\Images\mandala1600.jpg
+E:\Images\digital blasphemy\4096x2304\eukarya14ktv.jpg
+E:\Images\irisnebula1600.jpg
+E:\Images\digital blasphemy\4096x2304\pageantrynight14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\cynosure14ktv.jpg
+E:\Images\divisor2560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 233 were shown recently.  1507 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(887.25, 1040): 496 potential images
+(345.75, 1040): 18 potential images
+(405.75, 256): 1006 potential images
+(251.25, 745): 22 potential images
+(251.25, 285): 530 potential images
+(163.4375, 774): 1 potential images
+(232.3125, 774): 12 potential images
+Took 1 tries to get a good rect list.
+(1115, 683): 1024 potential images
+(1920, 207.25): 36 potential images
+(952, 169.75): 160 potential images
+(506.5, 169.75): 420 potential images
+(441.5, 169.75): 514 potential images
+(421.75, 683): 237 potential images
+(363.25, 231.75): 987 potential images
+(363.25, 441.25): 457 potential images
+9/23/2022 10:44:28 AM
+E:\Images\crimsonseason22560.jpg
+E:\Images\digital blasphemy\4096x2304\jellyglow2k2114ktv.jpg
+E:\Images\digital blasphemy\4096x2304\cloudvale14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\thunderhead2k1614ktv.jpg
+E:\Images\digital blasphemy\4096x2304\unchained14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\pyre2k1434ktv.jpg
+E:\Images\digital blasphemy\4096x2304\pageantryhalloween14ktv.jpg
+E:\Images\canopycreekwinter12560.jpg
+E:\Triple Screen Wallpapers\endpoint13x5760.jpg
+E:\Triple Screen Wallpapers\turning2k1613x5760.jpg
+E:\Images\firstlight22560.jpg
+E:\Triple Screen Wallpapers\islandtime13x5760.jpg
+E:\Triple Screen Wallpapers\nightdivine13x5760.jpg
+E:\Triple Screen Wallpapers\canopycreekspring23x5760.jpg
+E:\Triple Screen Wallpapers\ostereierglow13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 248 were shown recently.  1492 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(287.5, 1040): 5 potential images
+(646, 1040): 234 potential images
+(404, 502): 435 potential images
+(404, 528): 398 potential images
+(262.125, 306): 493 potential images
+(280.375, 306): 556 potential images
+(353.125, 724): 106 potential images
+(189.375, 724): 3 potential images
+Took 1 tries to get a good rect list.
+(406.75, 1080): 32 potential images
+(372.25, 1080): 19 potential images
+(684.25, 714): 571 potential images
+(449.1875, 356): 829 potential images
+(426.75, 685): 232 potential images
+(426.75, 385): 692 potential images
+(225.0625, 128): 1141 potential images
+(225.0625, 218): 646 potential images
+9/23/2022 10:49:04 AM
+E:\Images\try to remember.jpg
+E:\Images\wintermoon12560.jpg
+E:\Images\digital blasphemy\4096x2304\snowtop2k1914ktv.jpg
+E:\Triple Screen Wallpapers\moonbeamsea13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\gothamgarden2k10winter14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\innerrecess14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\starlightwoods14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\waterislifenight14ktv.jpg
+E:\Triple Screen Wallpapers\bluexmas2k1113x5760.jpg
+E:\Images\digital blasphemy\4096x2304\strathwood14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\endpointportal14ktv.jpg
+E:\Images\ringoffire2560.jpg
+E:\Images\digital blasphemy\4096x2304\shiftingsands14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\blackangel24ktv.jpg
+E:\Images\digital blasphemy\4096x2304\standingstones14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\blackangelwinter14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 264 were shown recently.  1476 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(328.75, 1040): 10 potential images
+(540.25, 1040): 121 potential images
+(722.25, 416): 1134 potential images
+(298.75, 586): 116 potential images
+(722.25, 158.5): 357 potential images
+(722.25, 445.5): 999 potential images
+(298.75, 317): 551 potential images
+(298.75, 117): 519 potential images
+Took 1 tries to get a good rect list.
+(761, 341): 647 potential images
+(894, 431.25): 772 potential images
+(1149, 203.25): 148 potential images
+(1149, 127.75): 38 potential images
+(829, 287.75): 425 potential images
+(1081, 287.75): 344 potential images
+(1016, 191.8125): 350 potential images
+(1016, 229.4375): 354 potential images
+9/23/2022 10:49:10 AM
+E:\Images\digital blasphemy\4096x2304\paintedskynight14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\lavendersunset14ktv.jpg
+E:\Triple Screen Wallpapers\jelly2k1313x5760.jpg
+E:\Images\Exp 359\IMG_0761.JPG
+E:\Triple Screen Wallpapers\gothamgarden2k1013x5760.jpg
+E:\Triple Screen Wallpapers\redseeressdome13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\shadedpathseasons14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\electricdahlia14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\springrite4ktv.jpg
+E:\Images\digital blasphemy\4096x2304\shadesofblue14ktv.jpg
+E:\Triple Screen Wallpapers\nocturne2k2013x5760.jpg
+E:\Triple Screen Wallpapers\arcana23x5760.jpg
+E:\Triple Screen Wallpapers\recontainment13x5760.jpg
+E:\Triple Screen Wallpapers\cronusrising2k1413x5760.jpg
+E:\Triple Screen Wallpapers\whirlwind2k1613x5760.jpg
+E:\Triple Screen Wallpapers\goldenhour23x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 280 were shown recently.  1460 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1920, 247.75): 49 potential images
+(451.5, 411): 668 potential images
+(524.5, 411): 818 potential images
+(924, 146.25): 90 potential images
+(1056, 361.25): 413 potential images
+(854, 361.25): 593 potential images
+(454, 254.75): 1116 potential images
+(460, 254.75): 1115 potential images
+Took 1 tries to get a good rect list.
+(1920, 301.5): 84 potential images
+(966, 238.5): 320 potential images
+(463, 238.5): 878 potential images
+(471, 238.5): 845 potential images
+(829, 380): 712 potential images
+(829, 130): 84 potential images
+(732.25, 520): 864 potential images
+(338.75, 520): 240 potential images
+9/23/2022 10:49:15 AM
+E:\Triple Screen Wallpapers\thetistropicnight33x5760.jpg
+E:\Triple Screen Wallpapers\serenity13x5760.jpg
+E:\Images\Kong's T-Rex.jpg
+E:\Triple Screen Wallpapers\manifold33x5760.jpg
+E:\Images\mandala11600.jpg
+E:\Triple Screen Wallpapers\purplerainsunset13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\ghostlight14ktv.jpg
+E:\Images\Enterprise from Starlog.jpg
+E:\Triple Screen Wallpapers\worldsedge13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\lavender14ktv.jpg
+E:\Triple Screen Wallpapers\enshrouded23x5760.jpg
+E:\Images\unveiling12560.jpg
+E:\Triple Screen Wallpapers\vulcan2k1913x5760.jpg
+E:\Triple Screen Wallpapers\terramachina13x5760.jpg
+E:\Triple Screen Wallpapers\fluorescencereddit13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\stormyweather24ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 296 were shown recently.  1444 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1920, 213.75): 34 potential images
+(1091, 465): 586 potential images
+(605.75, 465): 872 potential images
+(747, 341.25): 700 potential images
+(203.25, 258.25): 384 potential images
+(203.25, 196.75): 620 potential images
+(1163, 214.3125): 166 potential images
+(1163, 116.9375): 3 potential images
+Took 1 tries to get a good rect list.
+(438.25, 1080): 39 potential images
+(422.25, 1080): 35 potential images
+(412.75, 693): 189 potential images
+(616.75, 730): 448 potential images
+(284.1875, 377): 358 potential images
+(118.5625, 377): 8 potential images
+(331.1875, 340): 552 potential images
+(275.5625, 340): 410 potential images
+9/23/2022 10:49:24 AM
+E:\Triple Screen Wallpapers\canopycreekwinternight23x5760.jpg
+E:\Images\castledracula22560.jpg
+E:\Images\biohazard.JPG
+E:\Images\highlandwinter12560.jpg
+E:\Images\vladstudio_insidesnowflake_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\travellerplanet14ktv.jpg
+E:\Triple Screen Wallpapers\rarealignment13x5760.jpg
+E:\Triple Screen Wallpapers\shadesofblue13x5760.jpg
+E:\Images\vespers2560.jpg
+E:\Images\digital blasphemy\4096x2304\siblings14ktv.jpg
+E:\Images\haiku1600.jpg
+E:\Images\digital blasphemy\4096x2304\biome14ktv.jpg
+E:\Images\vladstudio_allisfullofladybugs_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\peacevalley14ktv.jpg
+E:\Images\Exp 359\ben quilty art 2.JPG
+E:\Images\eventhorizon1600.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 312 were shown recently.  1428 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(937, 383): 548 potential images
+(562, 647): 464 potential images
+(1348, 314.75): 311 potential images
+(995, 322.25): 375 potential images
+(343, 111.5625): 375 potential images
+(343, 200.6875): 877 potential images
+(973, 202.75): 332 potential images
+(973, 170.25): 128 potential images
+Took 1 tries to get a good rect list.
+(1047, 560): 861 potential images
+(765.75, 510): 861 potential images
+(549.25, 331.5): 885 potential images
+(549.25, 168.5): 350 potential images
+(278.25, 510): 123 potential images
+(296.75, 510): 165 potential images
+(863, 230): 319 potential images
+(863, 320): 442 potential images
+9/23/2022 10:49:29 AM
+E:\Triple Screen Wallpapers\purplerain13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\flourish14ktv.jpg
+E:\Triple Screen Wallpapers\shadowbloom33x5760.jpg
+E:\Triple Screen Wallpapers\rarealignmentcloudtops13x5760.jpg
+E:\Images\radiance2560.jpg
+E:\Images\reverie2560.jpg
+E:\Triple Screen Wallpapers\shanshui23x5760.jpg
+E:\Triple Screen Wallpapers\firemadeflesh13x5760.jpg
+E:\Images\circumpolar2560.jpg
+E:\Images\atrium1600.jpg
+E:\Triple Screen Wallpapers\untouchedautumn13x5760.jpg
+E:\Triple Screen Wallpapers\organelle2k1813x5760.jpg
+E:\Images\dish1600 x 1200.jpg
+E:\Images\digital blasphemy\4096x2304\vulcan2k1914ktv.jpg
+E:\Triple Screen Wallpapers\canopycreek13x5760.jpg
+E:\Images\highlandsummer12560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 328 were shown recently.  1412 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1920, 226.5): 34 potential images
+(580, 576): 578 potential images
+(1330, 576): 573 potential images
+(653.5, 217.5): 367 potential images
+(618.5, 217.5): 401 potential images
+(396, 217.5): 1076 potential images
+(60.5, 217.5): 2 potential images
+(151.5, 217.5): 268 potential images
+Took 1 tries to get a good rect list.
+(1358, 1080): 752 potential images
+(310, 693): 51 potential images
+(232, 194.25): 706 potential images
+(232, 488.75): 68 potential images
+(320, 377): 433 potential images
+(222, 119.25): 847 potential images
+(222, 247.75): 477 potential images
+9/23/2022 10:49:34 AM
+E:\Triple Screen Wallpapers\shadedpathautumn13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\karesansuinight2k1414ktv.jpg
+E:\Images\digital blasphemy\4096x2304\geode2k1324ktv.jpg
+E:\Triple Screen Wallpapers\nimbusnight13x5760.jpg
+E:\Triple Screen Wallpapers\lastthroes33x5760.jpg
+E:\Images\starlightgrotto12560.jpg
+E:\Images\seasonoflight2560.jpg
+E:\Images\resonance2560.jpg
+E:\Images\heliocentricnight12560.jpg
+E:\Images\digital blasphemy\4096x2304\landmark14ktv.jpg
+E:\Triple Screen Wallpapers\moonworship13x5760.jpg
+E:\Images\solitude1280.jpg
+E:\Triple Screen Wallpapers\castledracula33x5760.jpg
+E:\Images\digital blasphemy\4096x2304\amatheiamoonlight14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\shadedpathwinternight34ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 343 were shown recently.  1397 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1920, 448.75): 296 potential images
+(244.75, 315): 345 potential images
+(568.25, 315): 1058 potential images
+(1034, 256.25): 299 potential images
+(650, 256.25): 470 potential images
+(216, 256.25): 416 potential images
+(802.75, 315): 467 potential images
+(274.25, 315): 445 potential images
+Took 1 tries to get a good rect list.
+(1159, 290): 295 potential images
+(751, 290): 447 potential images
+(990, 391): 462 potential images
+(1251, 379): 329 potential images
+(920, 283.75): 337 potential images
+(920, 97.25): 26 potential images
+(659, 100.75): 66 potential images
+(659, 268.25): 511 potential images
+9/23/2022 10:49:40 AM
+E:\Triple Screen Wallpapers\passageway13x5760.jpg
+E:\Images\Exp 359\me and town hall ruins, darwin.JPG
+E:\Triple Screen Wallpapers\shard13x5760.jpg
+E:\Triple Screen Wallpapers\relic13x5760.jpg
+E:\Triple Screen Wallpapers\cloudtree13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\twilightsonata14ktv.jpg
+E:\Triple Screen Wallpapers\ghostlight13x5760.jpg
+E:\Images\shambhala2560.jpg
+E:\Triple Screen Wallpapers\untouched23x5760.jpg
+E:\Triple Screen Wallpapers\aquilaeye13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\grid2k1624ktv.jpg
+E:\Triple Screen Wallpapers\nolanding13x5760.jpg
+E:\Images\fireice2560.jpg
+E:\Triple Screen Wallpapers\serpentine13x5760.jpg
+E:\Triple Screen Wallpapers\shiftingsandsnight13x5760.jpg
+E:\Triple Screen Wallpapers\strathwood23x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 359 were shown recently.  1381 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(877, 514): 838 potential images
+(1033, 514): 748 potential images
+(410, 248): 853 potential images
+(728, 248): 363 potential images
+(1148, 116.5): 1 potential images
+(1148, 131.5): 27 potential images
+(368.5, 516): 278 potential images
+(383.5, 516): 315 potential images
+Took 1 tries to get a good rect list.
+(1176, 452): 430 potential images
+(266.5, 452): 158 potential images
+(1108, 618): 1041 potential images
+(457.5, 187): 502 potential images
+(457.5, 255): 1041 potential images
+(498.5, 618): 369 potential images
+(293.5, 618): 64 potential images
+9/23/2022 10:50:01 AM
+E:\Images\Exp 359\past equator.JPG
+E:\Images\digital blasphemy\4096x2304\forgottenway34ktv.jpg
+E:\Images\karesansuinight2560.jpg
+E:\Triple Screen Wallpapers\terramechanica13x5760.jpg
+E:\Triple Screen Wallpapers\potofgoldnight13x5760.jpg
+E:\Triple Screen Wallpapers\manifold13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\hyperborea14ktv.jpg
+E:\Triple Screen Wallpapers\pioneerspirit13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\arcadia14ktv.jpg
+E:\Images\crucibleplanet2560.jpg
+E:\Triple Screen Wallpapers\castlemere13x5760.jpg
+E:\Triple Screen Wallpapers\sunshinetree13x5760.jpg
+E:\Images\subarctic22560.jpg
+E:\Images\elevado2560.jpg
+E:\Images\digital blasphemy\4096x2304\cloudcanyon2k1714ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 374 were shown recently.  1366 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(896, 558): 913 potential images
+(425.5, 1040): 32 potential images
+(578.5, 563): 560 potential images
+(305.875, 467): 213 potential images
+(896, 179): 299 potential images
+(896, 283): 329 potential images
+(262.625, 148.75): 1034 potential images
+(262.625, 308.25): 411 potential images
+Took 1 tries to get a good rect list.
+(1418, 562): 443 potential images
+(245.5, 508): 69 potential images
+(602.5, 508): 668 potential images
+(292, 508): 141 potential images
+(492, 326.5): 812 potential images
+(492, 225.5): 633 potential images
+(750, 196): 288 potential images
+(750, 302): 476 potential images
+9/23/2022 10:51:15 AM
+E:\Images\digital blasphemy\4096x2304\annuli14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\nightdivine14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\invocation14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\neptune2k1914ktv.jpg
+E:\Triple Screen Wallpapers\rootaccess13x5760.jpg
+E:\Triple Screen Wallpapers\samsara13x5760.jpg
+E:\Images\Exp 359\ship's progress.JPG
+E:\Images\undiscovered2560.jpg
+E:\Images\digital blasphemy\4096x2304\reservoirspring14ktv.jpg
+E:\Triple Screen Wallpapers\skysongyuletide3x5760.jpg
+E:\Images\Chestnut-tailed starling - wikipedia.jpg
+E:\Images\skysongyuletide2560.jpg
+E:\Images\winterborn1600.jpg
+E:\Triple Screen Wallpapers\cloudtreenight13x5760.jpg
+E:\Triple Screen Wallpapers\pyre2k1433x5760.jpg
+E:\Triple Screen Wallpapers\archiveminor13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 390 were shown recently.  1350 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(366.25, 1040): 9 potential images
+(467.25, 1040): 46 potential images
+(721.75, 400): 1019 potential images
+(321.4375, 630): 85 potential images
+(334.75, 425): 332 potential images
+(334.75, 605): 113 potential images
+(390.3125, 300.5): 792 potential images
+(390.3125, 319.5): 682 potential images
+Took 1 tries to get a good rect list.
+(941.75, 1080): 411 potential images
+(509, 216.75): 509 potential images
+(509, 192.25): 401 potential images
+(449.25, 288): 856 potential images
+(449.25, 782): 133 potential images
+(509, 399.75): 724 potential images
+(359.25, 241.25): 799 potential images
+(139.75, 241.25): 136 potential images
+9/23/2022 10:51:21 AM
+E:\Images\snowycreek-xmas22560.jpg
+E:\Images\tobe21600.jpg
+E:\Images\autumncliffs2560.jpg
+E:\Images\cancer2560.jpg
+E:\Triple Screen Wallpapers\waypointnight13x5760.jpg
+E:\Images\containment2560.jpg
+E:\Images\Exp 359\IMG_0732.JPG
+E:\Triple Screen Wallpapers\vulcansnow13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\taranis14ktv.jpg
+E:\Triple Screen Wallpapers\annuli13x5760.jpg
+E:\Triple Screen Wallpapers\boardwalkday13x5760.jpg
+E:\Images\vladstudio_microbes_1600x1200.jpg
+E:\Images\Exp 359\bacon cheetos.JPG
+E:\Images\digital blasphemy\4096x2304\potofgold2k1414ktv.jpg
+E:\Images\riverbend12560.jpg
+E:\Images\digital blasphemy\4096x2304\ornament2k1814ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 406 were shown recently.  1334 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(420.5, 1040): 26 potential images
+(295.5, 1040): 1 potential images
+(506, 1040): 65 potential images
+(668, 380): 1013 potential images
+(304, 650): 53 potential images
+(354, 228.5): 797 potential images
+(354, 411.5): 400 potential images
+Took 1 tries to get a good rect list.
+(954, 792): 651 potential images
+(694, 278): 430 potential images
+(1216, 278): 273 potential images
+(956, 495): 773 potential images
+(294, 287): 532 potential images
+(652, 85.75): 36 potential images
+(652, 191.25): 291 potential images
+9/23/2022 10:51:34 AM
+E:\Images\heliocentricnight32560.jpg
+E:\Images\digital blasphemy\4096x2304\mistwoodfen14ktv.jpg
+E:\Images\Tribal-D-1600.JPG
+E:\Triple Screen Wallpapers\happybirthday13x5760.jpg
+E:\Images\denouement1600.jpg
+E:\Triple Screen Wallpapers\winterrevelation13x5760.jpg
+E:\Images\Exp 359\view from museum 1.JPG
+E:\Images\blue003_1600x1200.jpg
+E:\Triple Screen Wallpapers\oddball13x5760.jpg
+E:\Triple Screen Wallpapers\endlessblue2k1413x3x5760.jpg
+E:\Images\chikusei2560.jpg
+E:\Images\theend12560.jpg
+E:\Triple Screen Wallpapers\singularity2k1333x5760.jpg
+E:\Triple Screen Wallpapers\waveform23x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 420 were shown recently.  1320 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(355.25, 1040): 5 potential images
+(536.25, 275): 761 potential images
+(536.25, 755): 243 potential images
+(339.75, 481): 238 potential images
+(339.75, 324.25): 543 potential images
+(339.75, 214.75): 847 potential images
+(658.75, 438): 779 potential images
+(658.75, 592): 577 potential images
+Took 1 tries to get a good rect list.
+(1920, 755): 379 potential images
+(646, 224.25): 332 potential images
+(328.5, 80.75): 259 potential images
+(500, 315): 841 potential images
+(754, 315): 473 potential images
+(87.875, 80.75): 557 potential images
+(209.625, 80.75): 396 potential images
+9/23/2022 10:52:36 AM
+E:\Images\firstmoonlight12560.jpg
+E:\Triple Screen Wallpapers\nascence13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\grid2k1634ktv.jpg
+E:\Images\digital blasphemy\4096x2304\imagename4ktv.jpg
+E:\Images\digital blasphemy\4096x2304\strathwood24ktv.jpg
+E:\Triple Screen Wallpapers\cerulean23x5760.jpg
+E:\Images\aftermath1600.jpg
+E:\Triple Screen Wallpapers\chione13x5760.jpg
+E:\Triple Screen Wallpapers\strathwoodwinter13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\mengerbloom14ktv.jpg
+E:\Triple Screen Wallpapers\seasonoflight2k1913x5760.jpg
+E:\Images\niflheim12560.jpg
+E:\Images\digital blasphemy\4096x2304\sunshinetree14ktv.jpg
+E:\Images\thecomb1600.jpg
+E:\Images\vladstudio_thetwoandthebubbles_1600x1200.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 435 were shown recently.  1305 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(348.5, 1040): 4 potential images
+(820, 371): 549 potential images
+(419.5, 689): 151 potential images
+(419.5, 341): 648 potential images
+(111.5, 371): 1 potential images
+(180.5, 371): 57 potential images
+(791, 659): 634 potential images
+(331, 659): 64 potential images
+Took 1 tries to get a good rect list.
+(1045, 551): 749 potential images
+(983, 519): 749 potential images
+(418.25, 251.75): 780 potential images
+(418.25, 257.25): 850 potential images
+(865, 347.75): 414 potential images
+(865, 193.25): 280 potential images
+(498.75, 136.75): 271 potential images
+(498.75, 372.25): 755 potential images
+9/23/2022 10:52:49 AM
+E:\Images\bluexmas2k21600.jpg
+E:\Images\dragongold12560.jpg
+E:\Images\locus1600.jpg
+E:\Images\digital blasphemy\4096x2304\cygninight14ktv.jpg
+E:\Images\neighbors2560.jpg
+E:\Images\digital blasphemy\4096x2304\rosyfingered24ktv.jpg
+E:\Images\Exp 359\abo art 5 closeup.JPG
+E:\Images\digital blasphemy\4096x2304\turning2k1614ktv.jpg
+E:\Triple Screen Wallpapers\automaton13x5760.jpg
+E:\Images\granddesign22560.jpg
+E:\Images\protist1600.jpg
+E:\Images\digital blasphemy\4096x2304\distantlights14ktv.jpg
+E:\Triple Screen Wallpapers\shadowbloom13x5760.jpg
+E:\Triple Screen Wallpapers\cloudcanyon202013x5760.jpg
+E:\Images\fluorescence2k9colors12560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 450 were shown recently.  1290 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(769, 751): 504 potential images
+(468.75, 279): 757 potential images
+(180.5625, 279): 170 potential images
+(99.6875, 279): 3 potential images
+(558.25, 566): 473 potential images
+(572.75, 566): 495 potential images
+(1141, 183): 62 potential images
+(1141, 271): 254 potential images
+Took 1 tries to get a good rect list.
+(1420, 314): 274 potential images
+(1025, 300): 275 potential images
+(885, 405): 574 potential images
+(885, 341): 382 potential images
+(215.5, 314): 201 potential images
+(264.5, 314): 344 potential images
+(337.25, 446): 272 potential images
+(677.75, 446): 746 potential images
+9/23/2022 10:52:54 AM
+E:\Images\halo2_oxm_1600.jpg
+E:\Images\Blue Mercury.JPG
+E:\Images\digital blasphemy\4096x2304\innerspace24ktv.jpg
+E:\Images\vladstudio_redseadragon_1600x1200.jpg
+E:\Images\grid2560.jpg
+E:\Triple Screen Wallpapers\electricdahlia13x5760.jpg
+E:\Triple Screen Wallpapers\redfern33x5760.jpg
+E:\Triple Screen Wallpapers\caeruleaelevated13x5760.jpg
+E:\Triple Screen Wallpapers\floatinggarden2k1913x5760.jpg
+E:\Triple Screen Wallpapers\seasonspirit2k1713x5760.jpg
+E:\Images\digital blasphemy\4096x2304\dragongold14ktv.jpg
+E:\Triple Screen Wallpapers\satorinight13x5760.jpg
+E:\Images\Sans-titre2.JPG
+E:\Images\Exp 359\stairs to mess hall.JPG
+E:\Images\digital blasphemy\4096x2304\shadedpathwinternight14ktv.jpg
+E:\Triple Screen Wallpapers\solace13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 466 were shown recently.  1274 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(746, 401): 735 potential images
+(746, 629): 604 potential images
+(1164, 428.25): 353 potential images
+(1164, 143.75): 24 potential images
+(1164, 229.25): 267 potential images
+(473, 208.75): 490 potential images
+(681, 208.75): 281 potential images
+Took 1 tries to get a good rect list.
+(1112, 528): 593 potential images
+(833, 542): 738 potential images
+(457.5, 528): 365 potential images
+(330.5, 278): 600 potential images
+(1077, 272.5): 251 potential images
+(1077, 259.5): 245 potential images
+(230.625, 240): 429 potential images
+(89.875, 240): 7 potential images
+9/23/2022 10:52:59 AM
+E:\Images\firstblush22560.jpg
+E:\Images\digital blasphemy\4096x2304\abovecanopy24ktv.jpg
+E:\Images\vladstudio_3friends_1600x1200.jpg
+E:\Triple Screen Wallpapers\tears13x5760.jpg
+E:\Triple Screen Wallpapers\worldsedgespring13x5760.jpg
+E:\Triple Screen Wallpapers\valleyofstars23x5760.jpg
+E:\Triple Screen Wallpapers\moonshadow2k1523x5760.jpg
+E:\Images\digital blasphemy\4096x2304\valleyofstars24ktv.jpg
+E:\Images\digital blasphemy\4096x2304\bouquet34ktv.jpg
+E:\Images\Exp 359\big ass fan in sydney airport.JPG
+E:\Triple Screen Wallpapers\shardnight13x5760.jpg
+E:\Triple Screen Wallpapers\fisherman13x5760.jpg
+E:\Images\vladstudio_emotion2_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\subglacial14ktv.jpg
+E:\Images\snowycreek2560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 481 were shown recently.  1259 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(554, 504): 524 potential images
+(1356, 175): 25 potential images
+(1356, 319): 242 potential images
+(1920, 274.5): 31 potential images
+(1293, 241.5): 121 potential images
+(170.25, 241.5): 212 potential images
+(436.75, 241.5): 942 potential images
+Took 1 tries to get a good rect list.
+(393.25, 1080): 4 potential images
+(1109, 571): 706 potential images
+(796.25, 499): 817 potential images
+(302.75, 252.25): 597 potential images
+(397.75, 579): 192 potential images
+(397.75, 491): 304 potential images
+(136.6875, 236.75): 108 potential images
+(156.0625, 236.75): 169 potential images
+9/23/2022 10:53:05 AM
+E:\Images\digital blasphemy\4096x2304\threemoonbay14ktv.jpg
+E:\Triple Screen Wallpapers\unveiling13x5760.jpg
+E:\Triple Screen Wallpapers\rectilinea13x5760.jpg
+E:\Triple Screen Wallpapers\thetistropic23x5760.jpg
+E:\Triple Screen Wallpapers\bayou13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\shinrinyoku14ktv.jpg
+E:\Images\citadelnight12560.jpg
+E:\Images\vladstudio_dreamer_1600x1200.jpg
+E:\Triple Screen Wallpapers\autumncliffs2k1513x5760.jpg
+E:\Images\Exp 359\skeleton of marsupial rhino.JPG
+E:\Images\darkfluorescence12560.jpg
+E:\Triple Screen Wallpapers\luckycharm2k1313x5760.jpg
+E:\Images\introspection1600.jpg
+E:\Images\Exp 359\abo art 4.JPG
+E:\Images\Zorn-Blue.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 496 were shown recently.  1244 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(611, 268): 465 potential images
+(1920, 316.5): 60 potential images
+(405.75, 268): 718 potential images
+(633.8125, 268): 440 potential images
+(239.4375, 165): 712 potential images
+(239.4375, 93): 367 potential images
+(1100, 435.5): 375 potential images
+(810, 435.5): 710 potential images
+Took 1 tries to get a good rect list.
+(1920, 388.25): 252 potential images
+(1920, 274.75): 28 potential images
+(1003, 239.25): 232 potential images
+(1003, 147.75): 33 potential images
+(667.25, 397): 714 potential images
+(229.75, 97.25): 433 potential images
+(229.75, 289.75): 271 potential images
+9/23/2022 10:53:09 AM
+E:\Images\sigil1600.jpg
+E:\Triple Screen Wallpapers\mengerbloom13x5760.jpg
+E:\Images\annuli32560.jpg
+E:\Images\digital blasphemy\4096x2304\shadesmar14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\daedalus14ktv.jpg
+E:\Triple Screen Wallpapers\neptune2k1913x5760.jpg
+E:\Images\digital blasphemy\4096x2304\anvilnight14ktv.jpg
+E:\Triple Screen Wallpapers\redskymorning23x5760.jpg
+E:\Triple Screen Wallpapers\anemone23x5760.jpg
+E:\Triple Screen Wallpapers\newconstellation13x5760.jpg
+E:\Triple Screen Wallpapers\sleepwalkerwoodwinternightblue13x5760.jpg
+E:\Triple Screen Wallpapers\panoply33x5760.jpg
+E:\Images\digital blasphemy\4096x2304\gazebonight14ktv.jpg
+E:\Triple Screen Wallpapers\shadesmar13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\asunder14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 511 were shown recently.  1229 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1108, 607): 917 potential images
+(984, 423): 440 potential images
+(274.5, 607): 29 potential images
+(517.5, 607): 326 potential images
+(608.5, 193.25): 265 potential images
+(307.5, 193.25): 797 potential images
+(926, 109.9375): 17 potential images
+(926, 99.8125): 14 potential images
+Took 1 tries to get a good rect list.
+(690, 729): 390 potential images
+(767, 352): 534 potential images
+(443, 352): 622 potential images
+(494, 718): 180 potential images
+(716, 718): 444 potential images
+(690, 112.25): 47 potential images
+(690, 218.75): 260 potential images
+9/23/2022 10:53:15 AM
+E:\Triple Screen Wallpapers\foggyxmasevenight13x5760.jpg
+E:\Triple Screen Wallpapers\dragonyearnight13x5760.jpg
+E:\Images\Exp 359\birthday 2.jpg
+E:\Images\digital blasphemy\4096x2304\charcoaldaisy1red4ktv.jpg
+E:\Triple Screen Wallpapers\archaea13x5760.jpg
+E:\Images\riverbend1600.jpg
+E:\Triple Screen Wallpapers\shanshui13x5760.jpg
+E:\Triple Screen Wallpapers\ephemera3x5760.jpg
+E:\Images\extrasolar12560.jpg
+E:\Triple Screen Wallpapers\waypoint13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\vernalisbloom14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\snowglobefluorescence14ktv.jpg
+E:\Images\gardener2k1212560.jpg
+E:\Triple Screen Wallpapers\rosyfingered23x5760.jpg
+E:\Triple Screen Wallpapers\mengerbulb23x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 526 were shown recently.  1214 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(416.5, 1040): 14 potential images
+(162, 431): 6 potential images
+(278, 599): 34 potential images
+(344, 599): 97 potential images
+(233, 431): 68 potential images
+(217, 431): 51 potential images
+(851.5, 770): 500 potential images
+(851.5, 260): 250 potential images
+Took 1 tries to get a good rect list.
+(724, 469): 687 potential images
+(655.5, 1080): 115 potential images
+(520.5, 482): 475 potential images
+(520.5, 412): 613 potential images
+(520.5, 166): 256 potential images
+(724, 271.75): 322 potential images
+(293, 319.25): 369 potential images
+(421, 319.25): 685 potential images
+9/23/2022 10:53:20 AM
+E:\Images\digital blasphemy\4096x2304\perseverance14ktv.jpg
+E:\Images\autumnwood2560.jpg
+E:\Triple Screen Wallpapers\peacevalley13x5760.jpg
+E:\Images\Exp 359\sydney, walking to airport terminal.JPG
+E:\Images\digital blasphemy\4096x2304\stormtide14ktv.jpg
+E:\Images\luckycharm1600.jpg
+E:\Images\digital blasphemy\4096x2304\purplerainnight14ktv.jpg
+E:\Triple Screen Wallpapers\landmark13x5760.jpg
+E:\Images\cloudterrace12560.jpg
+E:\Images\digital blasphemy\4096x2304\vulcansnow14ktv.jpg
+E:\Images\doublerainbow22560.jpg
+E:\Images\digital blasphemy\4096x2304\hiddenforces14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\archiveminor14ktv.jpg
+E:\Images\portals12560.jpg
+E:\Images\digital blasphemy\4096x2304\greenvale14ktv.jpg
+E:\Images\vladstudio_lonelybicycle_1600x1200.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 542 were shown recently.  1198 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1293, 566): 427 potential images
+(617, 105.75): 72 potential images
+(617, 167.25): 229 potential images
+(617, 281.75): 472 potential images
+(617, 455.25): 682 potential images
+(1293, 217): 61 potential images
+(1293, 237): 95 potential images
+Took 1 tries to get a good rect list.
+(705, 751): 365 potential images
+(705, 319): 466 potential images
+(812.75, 600): 677 potential images
+(1205, 146.5): 13 potential images
+(1205, 313.5): 220 potential images
+(382.25, 196): 651 potential images
+(382.25, 394): 386 potential images
+9/23/2022 10:53:25 AM
+E:\Images\cradle2k32560.jpg
+E:\Triple Screen Wallpapers\island2k1433x5760.jpg
+E:\Triple Screen Wallpapers\skygatenight13x5760.jpg
+E:\Triple Screen Wallpapers\granddesign13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\bayounight14ktv.jpg
+E:\Triple Screen Wallpapers\grid2k1643x5760.jpg
+E:\Triple Screen Wallpapers\seasonoflight2k1923x5760.jpg
+E:\Images\cosmicshoals2k1112560.jpg
+E:\Triple Screen Wallpapers\citadel2k813x5760.jpg
+E:\Images\vladstudio_worldinversed_1600x1200.jpg
+E:\Triple Screen Wallpapers\highlandspring13x5760.jpg
+E:\Triple Screen Wallpapers\karesansui2k1423x5760.jpg
+E:\Images\digital blasphemy\4096x2304\morningglory2k1314ktv.jpg
+E:\Images\digital blasphemy\4096x2304\platonics34ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 556 were shown recently.  1184 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(738, 288): 328 potential images
+(1172, 258): 230 potential images
+(312.5, 742): 12 potential images
+(1172, 459): 330 potential images
+(1172, 303): 217 potential images
+(415.5, 248.5): 671 potential images
+(415.5, 227.875): 881 potential images
+(415.5, 245.625): 671 potential images
+Took 1 tries to get a good rect list.
+(1920, 355.75): 90 potential images
+(242, 271.25): 333 potential images
+(604, 271.25): 440 potential images
+(1054, 116.8125): 9 potential images
+(1054, 144.4375): 16 potential images
+(717, 433): 681 potential images
+(1193, 433): 285 potential images
+9/23/2022 10:53:30 AM
+E:\Triple Screen Wallpapers\theride2k1913x5760.jpg
+E:\Triple Screen Wallpapers\greenmire13x5760.jpg
+E:\Images\synapse1600.jpg
+E:\Images\digital blasphemy\4096x2304\floatinggarden2k1914ktv.jpg
+E:\Triple Screen Wallpapers\bouquet13x5760.jpg
+E:\Images\highlandspring12560.jpg
+E:\Triple Screen Wallpapers\threemoonbay13x5760.jpg
+E:\Images\enshrouded12560.jpg
+E:\Triple Screen Wallpapers\stringtheory13x5760.jpg
+E:\Images\Exp 359\birthday card 1.JPG
+E:\Triple Screen Wallpapers\anvilnight13x5760.jpg
+E:\Triple Screen Wallpapers\greenpower33x5760.jpg
+E:\Triple Screen Wallpapers\synthestructure33x5760.jpg
+E:\Triple Screen Wallpapers\roche2k1313x5760.jpg
+E:\Triple Screen Wallpapers\innerspace63x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 571 were shown recently.  1169 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(500, 470): 450 potential images
+(720.5, 470): 657 potential images
+(679.5, 470): 656 potential images
+(1139, 332): 217 potential images
+(1139, 218): 219 potential images
+(771, 230): 222 potential images
+(771, 320): 370 potential images
+Took 1 tries to get a good rect list.
+(566, 719): 241 potential images
+(1365, 351): 201 potential images
+(319.25, 351): 344 potential images
+(215.75, 207.75): 434 potential images
+(215.75, 133.25): 738 potential images
+(784, 719): 462 potential images
+(550, 246.75): 412 potential images
+(550, 462.25): 532 potential images
+9/23/2022 10:53:36 AM
+E:\Images\magi12560.jpg
+E:\Triple Screen Wallpapers\oculus13x5760.jpg
+E:\Images\newdawn12560.jpg
+E:\Triple Screen Wallpapers\innerworkings33x5760.jpg
+E:\Triple Screen Wallpapers\gardener2k1213x5760.jpg
+E:\Triple Screen Wallpapers\classm2k1613x5760.jpg
+E:\Triple Screen Wallpapers\helios33x5760.jpg
+E:\Images\flora2560.jpg
+E:\Triple Screen Wallpapers\aftermath2k1423x5760.jpg
+E:\Images\colorwheel2560.jpg
+E:\Images\Exp 359\darwin waterfront 3.JPG
+E:\Images\dodenfell22560.jpg
+E:\Images\digital blasphemy\4096x2304\seeressdome2k2014ktv.jpg
+E:\Triple Screen Wallpapers\firstlight23x5760.jpg
+E:\Images\digital blasphemy\4096x2304\cascadia14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 586 were shown recently.  1154 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1920, 348): 75 potential images
+(996, 446): 406 potential images
+(582, 226): 306 potential images
+(390, 226): 862 potential images
+(573.5, 446): 581 potential images
+(330.5, 446): 213 potential images
+(515, 226): 394 potential images
+(403, 226): 856 potential images
+Took 1 tries to get a good rect list.
+(791, 603): 641 potential images
+(418.25, 624): 150 potential images
+(418.25, 193.5): 475 potential images
+(418.25, 242.5): 856 potential images
+(791, 153.75): 209 potential images
+(791, 303.25): 291 potential images
+(690.75, 549): 573 potential images
+(690.75, 521): 643 potential images
+9/23/2022 10:53:41 AM
+E:\Triple Screen Wallpapers\hexaline23x1080p.jpg
+E:\Images\Mach5.jpg
+E:\Triple Screen Wallpapers\threemoonbayday13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\jelly2k1314ktv.jpg
+E:\Images\tears12560.jpg
+E:\Images\Exp 359\sushi day2.JPG
+E:\Images\Exp 359\Male 2.JPG
+E:\Triple Screen Wallpapers\magi13x5760.jpg
+E:\Triple Screen Wallpapers\sunworship13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\stormyweather14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\badlands14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\island2k1414ktv.jpg
+E:\Triple Screen Wallpapers\symbiota13x5760.jpg
+E:\Triple Screen Wallpapers\pillar13x5760.jpg
+E:\Triple Screen Wallpapers\gothamgarden2k10summer13x5760.jpg
+E:\Images\phraxismoon22560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 602 were shown recently.  1138 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1920, 556): 200 potential images
+(1285, 180.5): 15 potential images
+(1285, 283.5): 206 potential images
+(625, 201.5): 224 potential images
+(625, 141.625): 206 potential images
+(373.25, 110.875): 206 potential images
+(241.75, 110.875): 466 potential images
+Took 1 tries to get a good rect list.
+(1337, 439): 224 potential images
+(1349, 631): 474 potential images
+(561, 300.75): 615 potential images
+(561, 96.0625): 54 potential images
+(561, 214.1875): 279 potential images
+(573, 198.75): 237 potential images
+(573, 148.5625): 188 potential images
+(573, 71.6875): 7 potential images
+9/23/2022 10:53:48 AM
+E:\Triple Screen Wallpapers\innerrecess13x5760.jpg
+E:\Triple Screen Wallpapers\shadedpathwinternight33x5760.jpg
+E:\Triple Screen Wallpapers\anima13x5760.jpg
+E:\Triple Screen Wallpapers\waterislife13x5760.jpg
+E:\Triple Screen Wallpapers\heliocentric33x5760.jpg
+E:\Triple Screen Wallpapers\poinsettia2k1413x5760.jpg
+E:\Images\helios32560.jpg
+E:\Triple Screen Wallpapers\invocation33x5760.jpg
+E:\Triple Screen Wallpapers\snowglobe2k1713x5760.jpg
+E:\Images\nightatoll12560.jpg
+E:\Triple Screen Wallpapers\winterrose13x5760.jpg
+E:\Triple Screen Wallpapers\caeruleaorbit13x5760.jpg
+E:\Triple Screen Wallpapers\endogenesis13x5760.jpg
+E:\Triple Screen Wallpapers\elegywinternight13x5760.jpg
+E:\Triple Screen Wallpapers\moonlitnightparadise13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 617 were shown recently.  1123 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(726.5, 452): 710 potential images
+(553.5, 452): 526 potential images
+(836.5, 578): 621 potential images
+(443.5, 578): 221 potential images
+(620, 458): 629 potential images
+(264, 572): 26 potential images
+(346, 572): 104 potential images
+Took 1 tries to get a good rect list.
+(912, 516): 827 potential images
+(1198, 554): 455 potential images
+(712.5, 516): 574 potential images
+(275.5, 154): 825 potential images
+(275.5, 162): 617 potential images
+(275.5, 180): 617 potential images
+(291, 554): 47 potential images
+(411, 554): 202 potential images
+9/23/2022 10:53:55 AM
+E:\Images\hammerheads2k622560.jpg
+E:\Images\Exp 359\lifeboat entryway.JPG
+E:\Images\nebula_genocide_1600x1200.jpg
+E:\Images\vladstudio_ornamental2_1600x1200.jpg
+E:\Images\Exp 359\rhino and goose info.JPG
+E:\Images\UmeyamaII_red1600.jpg
+E:\Images\arcana12560.jpg
+E:\Images\digital blasphemy\4096x2304\dapplewoodautumn24ktv.jpg
+E:\Triple Screen Wallpapers\sunburstdaisy13x5760.jpg
+E:\Triple Screen Wallpapers\octopusgarden23x5760.jpg
+E:\Images\digital blasphemy\4096x2304\breathofspring14ktv.jpg
+E:\Images\fluorescence62560.jpg
+E:\Images\aurulence2560.jpg
+E:\Images\azula1600.jpg
+E:\Images\spark2560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 632 were shown recently.  1108 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1283, 754): 606 potential images
+(627, 328): 593 potential images
+(324.25, 702): 25 potential images
+(292.75, 383.5): 215 potential images
+(454.75, 276): 682 potential images
+(818.25, 276): 218 potential images
+(292.75, 92.125): 200 potential images
+(292.75, 206.375): 604 potential images
+Took 1 tries to get a good rect list.
+(637, 459): 564 potential images
+(1920, 238.75): 5 potential images
+(904.75, 459): 556 potential images
+(1121, 362.25): 208 potential images
+(789, 362.25): 442 potential images
+(358.25, 138.25): 265 potential images
+(358.25, 104.6875): 186 potential images
+(358.25, 196.0625): 810 potential images
+9/23/2022 10:54:00 AM
+E:\Images\Exp 359\birthday 4.jpg
+E:\Images\digital blasphemy\4096x2304\dreamer24ktv.jpg
+E:\Images\digital blasphemy\4096x2304\furcati14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\moonlitoasis2k1314ktv.jpg
+E:\Images\purplemountains2560.jpg
+E:\Triple Screen Wallpapers\ringoffirenight2k1533x5760.jpg
+E:\Triple Screen Wallpapers\threnody13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\waterislife14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\fallspectrumsunset14ktv.jpg
+E:\Triple Screen Wallpapers\foggyxmaseve13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\amazed2k1414ktv.jpg
+E:\Triple Screen Wallpapers\innerworkings13x5760.jpg
+E:\Triple Screen Wallpapers\sliverofsunautumn13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\cygni14ktv.jpg
+E:\Triple Screen Wallpapers\lonetree13x5760.jpg
+E:\Images\arcana22560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 648 were shown recently.  1092 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1920, 245.25): 6 potential images
+(1039, 201.75): 184 potential images
+(871, 94.4375): 3 potential images
+(252.75, 97.3125): 261 potential images
+(608.25, 97.3125): 27 potential images
+(1149, 573): 517 potential images
+(761, 573): 603 potential images
+Took 1 tries to get a good rect list.
+(650, 1080): 92 potential images
+(798, 225): 177 potential images
+(798, 241): 184 potential images
+(452, 586): 211 potential images
+(452, 484): 321 potential images
+(798, 197.5): 164 potential images
+(798, 386.5): 483 potential images
+9/23/2022 10:54:04 AM
+E:\Triple Screen Wallpapers\potofgold2k1423x5760.jpg
+E:\Triple Screen Wallpapers\nightatoll13x5760.jpg
+E:\Triple Screen Wallpapers\makai13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\moonshadow2k1524ktv.jpg
+E:\Triple Screen Wallpapers\autumnalnight13x5760.jpg
+E:\Images\wallpaper_retro_1600.jpg
+E:\Images\muspelheim12560.jpg
+E:\Images\core1600.jpg
+E:\Triple Screen Wallpapers\greenpower23x5760.jpg
+E:\Triple Screen Wallpapers\dapplewoodautumn13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\sunderedmountainwinterday14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\nascence14ktv.jpg
+E:\Triple Screen Wallpapers\paintedsky13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\oceana14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 662 were shown recently.  1078 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1076, 368): 212 potential images
+(1920, 267.5): 8 potential images
+(1920, 384.5): 177 potential images
+(834, 204): 161 potential images
+(556.5, 154): 171 potential images
+(147.875, 154): 333 potential images
+(109.625, 41.5): 247 potential images
+(109.625, 102.5): 404 potential images
+Took 1 tries to get a good rect list.
+(505, 580): 273 potential images
+(505, 196.5): 257 potential images
+(505, 283.5): 786 potential images
+(717.75, 435): 650 potential images
+(717.75, 635): 425 potential images
+(677.25, 716): 318 potential images
+(677.25, 147.5): 173 potential images
+(677.25, 196.5): 172 potential images
+9/23/2022 10:54:09 AM
+E:\Images\digital blasphemy\4096x2304\whirlwind2k1614ktv.jpg
+E:\Triple Screen Wallpapers\moondshadow13x5760.jpg
+E:\Triple Screen Wallpapers\hybrid3x5760.jpg
+E:\Triple Screen Wallpapers\newdawn23x5760.jpg
+E:\Triple Screen Wallpapers\springpromise2k1513x5760.jpg
+E:\Images\digital blasphemy\4096x2304\oasiadusk14ktv.jpg
+E:\Images\episteme2560.jpg
+E:\Images\nightatoll22560.jpg
+E:\Images\orthohedron2560.jpg
+E:\Triple Screen Wallpapers\magnetar23x5760.jpg
+E:\Images\digital blasphemy\4096x2304\primatic2k14dragon14ktv.jpg
+E:\Images\Exp 359\IMG_0786.JPG
+E:\Images\digital blasphemy\4096x2304\chamelea4ktv.jpg
+E:\Images\vladstudio_medieval_1600x1200.jpg
+E:\Triple Screen Wallpapers\origami13x5760.jpg
+E:\Triple Screen Wallpapers\bouquet33x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 678 were shown recently.  1062 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(507, 308): 645 potential images
+(507, 344.5): 573 potential images
+(1403, 479): 201 potential images
+(1030.75, 551): 558 potential images
+(362.25, 551): 121 potential images
+(507, 116.875): 155 potential images
+(507, 240.625): 437 potential images
+Took 1 tries to get a good rect list.
+(743, 496): 571 potential images
+(462.75, 574): 224 potential images
+(270.25, 574): 21 potential images
+(550.25, 389): 565 potential images
+(645.75, 681): 312 potential images
+(511.25, 681): 188 potential images
+(385.6875, 389): 351 potential images
+(211.0625, 389): 46 potential images
+9/23/2022 10:54:15 AM
+E:\Images\digital blasphemy\4096x2304\sunburstdaisy14ktv.jpg
+E:\Images\The Longest Journey - Art Print - Artic Blue.jpg
+E:\Triple Screen Wallpapers\breathofspring13x5760.jpg
+E:\Images\Seraphim.jpg
+E:\Images\digital blasphemy\4096x2304\outlier14ktv.jpg
+E:\Triple Screen Wallpapers\caerulea13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\greenflash14ktv.jpg
+E:\Images\Exp 359\in the mess hall.jpg
+E:\Images\digital blasphemy\4096x2304\seasonoflight2k1914ktv.jpg
+E:\Images\digital blasphemy\4096x2304\autumncliffs2k1524ktv.jpg
+E:\Images\digital blasphemy\4096x2304\hinterland14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\boreal14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\manifold14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\cloudtreenight14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\moonlitnightparadise14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 693 were shown recently.  1047 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(531.25, 1040): 34 potential images
+(889.75, 756): 451 potential images
+(551.3125, 274): 480 potential images
+(328.4375, 178.5): 762 potential images
+(328.4375, 85.5): 159 potential images
+(479, 577): 230 potential images
+(479, 453): 380 potential images
+Took 1 tries to get a good rect list.
+(1264, 523): 291 potential images
+(407.5, 523): 192 potential images
+(228.5, 523): 11 potential images
+(502.75, 547): 292 potential images
+(380.25, 325.75): 445 potential images
+(380.25, 211.25): 757 potential images
+(1017, 167.75): 28 potential images
+(1017, 369.25): 212 potential images
+9/23/2022 10:54:20 AM
+E:\Images\vladstudio_quiet_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\gazebo2k2014ktv.jpg
+E:\Images\digital blasphemy\4096x2304\starfall14ktv.jpg
+E:\Images\cloudcanyon2560.jpg
+E:\Triple Screen Wallpapers\vaulted13x5760.jpg
+E:\Triple Screen Wallpapers\exoplanet13x5760.jpg
+E:\Images\vladstudio_emotion5_1600x1200.jpg
+E:\Triple Screen Wallpapers\platonics33x5760.jpg
+E:\Images\nova1600.jpg
+E:\Triple Screen Wallpapers\moonlitoasis13x5760.jpg
+E:\Images\pantheon22560.jpg
+E:\Images\PillarOfLight.JPG
+E:\Images\digital blasphemy\4096x2304\sol2k1514ktv.jpg
+E:\Triple Screen Wallpapers\tharsis23x5760.jpg
+E:\Triple Screen Wallpapers\blackangel23x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 708 were shown recently.  1032 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1045, 255): 146 potential images
+(1920, 266.25): 6 potential images
+(1920, 240.6875): 3 potential images
+(597, 248.0625): 288 potential images
+(413.25, 255): 631 potential images
+(441.75, 255): 757 potential images
+(384.25, 248.0625): 550 potential images
+(918.75, 248.0625): 154 potential images
+Took 1 tries to get a good rect list.
+(652, 575): 408 potential images
+(1006, 198.75): 156 potential images
+(1006, 286.25): 153 potential images
+(1258, 374.25): 157 potential images
+(820.5, 190.75): 141 potential images
+(427.5, 190.75): 319 potential images
+(650, 495): 550 potential images
+(244, 495): 26 potential images
+9/23/2022 10:54:25 AM
+E:\Triple Screen Wallpapers\valinor43x5760.jpg
+E:\Triple Screen Wallpapers\twilightsonata13x5760.jpg
+E:\Triple Screen Wallpapers\cloudterracenight13x5760.jpg
+E:\Triple Screen Wallpapers\autumncove13x5760.jpg
+E:\Images\nightchildren2560.jpg
+E:\Triple Screen Wallpapers\seeressdome2k2013x5760 (1).jpg
+E:\Images\skysong2k722560.jpg
+E:\Triple Screen Wallpapers\nightshade13x5760.jpg
+E:\Images\mistygrove1600.jpg
+E:\Triple Screen Wallpapers\pyrexmas3x5760.jpg
+E:\Triple Screen Wallpapers\revival13x5760.jpg
+E:\Triple Screen Wallpapers\darkwings13x5760.jpg
+E:\Triple Screen Wallpapers\rainydayparadise13x5760.jpg
+E:\Triple Screen Wallpapers\pulsar2k1023x5760.jpg
+E:\Images\digital blasphemy\4096x2304\boardwalkday14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\jelly2k2114ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 724 were shown recently.  1016 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(498, 660): 174 potential images
+(498, 227.5): 377 potential images
+(539, 297): 738 potential images
+(539, 733): 165 potential images
+(863, 681): 483 potential images
+(863, 349): 262 potential images
+(163.5, 132.5): 454 potential images
+(324.5, 132.5): 271 potential images
+Took 1 tries to get a good rect list.
+(1397, 379): 143 potential images
+(1920, 277.75): 6 potential images
+(1920, 403.25): 150 potential images
+(167.0625, 379): 9 potential images
+(148.25, 143.75): 343 potential images
+(148.25, 225.25): 103 potential images
+(177.6875, 225.75): 181 potential images
+(177.6875, 143.25): 450 potential images
+9/23/2022 10:54:31 AM
+E:\Images\digital blasphemy\4096x2304\chione14ktv.jpg
+E:\Images\pathways2560.jpg
+E:\Images\digital blasphemy\4096x2304\thecomb2k2024ktv.jpg
+E:\Images\digital blasphemy\4096x2304\islandtime2k2014ktv.jpg
+E:\Triple Screen Wallpapers\ostereier2k1113x5760.jpg
+E:\Images\digital blasphemy\4096x2304\skyward14ktv.jpg
+E:\Images\vladstudio_winterforest_1600x1200.jpg
+E:\Images\origins2560.jpg
+E:\Triple Screen Wallpapers\distantlights13x5760.jpg
+E:\Triple Screen Wallpapers\firewithin23x5760.jpg
+E:\Triple Screen Wallpapers\mauka13x5760.jpg
+E:\Images\Exp 359\Arabic Coca-Cola Light.JPG
+E:\Images\fluorescence2k932560.jpg
+E:\Images\vladstudio_airofabstraction10_1600x1200.jpg
+E:\Images\eventide1600.jpg
+E:\Images\hellbebacksoon1600.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 740 were shown recently.  1000 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1192, 334): 144 potential images
+(718, 381): 511 potential images
+(718, 314.75): 296 potential images
+(718, 194.0625): 141 potential images
+(367.5, 120.1875): 169 potential images
+(340.5, 120.1875): 187 potential images
+(1192, 169): 4 potential images
+(1192, 517): 290 potential images
+Took 1 tries to get a good rect list.
+(514, 1080): 16 potential images
+(506, 609): 206 potential images
+(285.5, 461): 82 potential images
+(880, 383): 284 potential images
+(880, 687): 467 potential images
+(210.5, 294.25): 133 potential images
+(210.5, 156.75): 530 potential images
+9/23/2022 10:54:37 AM
+E:\Triple Screen Wallpapers\canopycreekwinter13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\acumen14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\anima14ktv.jpg
+E:\Triple Screen Wallpapers\cygni23x5760.jpg
+E:\Images\digital blasphemy\4096x2304\bouquet24ktv.jpg
+E:\Images\digital blasphemy\4096x2304\prismatic2k1414ktv.jpg
+E:\Triple Screen Wallpapers\cosmicshoals2k1113x5760.jpg
+E:\Triple Screen Wallpapers\sierra2k1223x5760.jpg
+E:\Images\digital blasphemy\4096x2304\harbinger2k914ktv.jpg
+E:\Images\newborn2560.jpg
+E:\Images\neuronet1600.jpg
+E:\Images\infullbloom12560.jpg
+E:\Images\vladstudio_upordown_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\ringoffirenight2k1514ktv.jpg
+E:\Images\digital blasphemy\4096x2304\campfires2k1234ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 755 were shown recently.  985 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(738, 375): 482 potential images
+(738, 388.25): 495 potential images
+(738, 92.1875): 1 potential images
+(738, 154.5625): 142 potential images
+(462, 504): 261 potential images
+(462, 526): 234 potential images
+(700, 594): 408 potential images
+(700, 436): 596 potential images
+Took 1 tries to get a good rect list.
+(1920, 320.75): 22 potential images
+(896, 483): 492 potential images
+(1014, 314.25): 146 potential images
+(319.5, 158.75): 428 potential images
+(1387, 256.25): 46 potential images
+(523, 256.25): 419 potential images
+(464.125, 158.75): 168 potential images
+(210.375, 158.75): 513 potential images
+9/23/2022 10:55:17 AM
+E:\Images\vladstudio_strangeweather_1600x1200.jpg
+E:\Images\redskymorning12560.jpg
+E:\Triple Screen Wallpapers\bayounight13x5760.jpg
+E:\Triple Screen Wallpapers\greenfluorescence2k1513x5760.jpg
+E:\Images\digital blasphemy\4096x2304\hybrid2k14gold24ktv.jpg
+E:\Images\moonshadow12560.jpg
+E:\Images\vladstudio_octopuses_1600x1200.jpg
+E:\Triple Screen Wallpapers\distantshores13x5760.jpg
+E:\Triple Screen Wallpapers\carvedbytime13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\biosynthesis14ktv.jpg
+E:\Triple Screen Wallpapers\circumbinary13x5760.jpg
+E:\Triple Screen Wallpapers\phyllotaxis13x5760.jpg
+E:\Triple Screen Wallpapers\dodenfell33x5760.jpg
+E:\Images\digital blasphemy\4096x2304\parkplace14ktv.jpg
+E:\Triple Screen Wallpapers\niflheim13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\primordia14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 771 were shown recently.  969 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1269, 367): 130 potential images
+(641, 103.25): 11 potential images
+(171.25, 149.75): 372 potential images
+(459.75, 149.75): 153 potential images
+(342.25, 767): 8 potential images
+(288.75, 767): 3 potential images
+(782.25, 663): 397 potential images
+(476.75, 663): 128 potential images
+Took 1 tries to get a good rect list.
+(720, 1080): 91 potential images
+(1190, 385): 144 potential images
+(1190, 385): 144 potential images
+(388.5, 290): 503 potential images
+(791.5, 145.5): 41 potential images
+(352.875, 134.5): 187 potential images
+(428.625, 134.5): 137 potential images
+9/23/2022 10:55:23 AM
+E:\Triple Screen Wallpapers\rootaccess23x5760.jpg
+E:\Triple Screen Wallpapers\infullbloom23x5760.jpg
+E:\Images\Exp 359\port of darwin 3.JPG
+E:\Images\Exp 359\shark whole.JPG
+E:\Images\UmeyamaII_green1600.jpg
+E:\Images\serenade2560.jpg
+E:\Images\lastlight2560.jpg
+E:\Triple Screen Wallpapers\cygninight13x5760.jpg
+E:\Images\darkmatter1600.jpg
+E:\Images\digital blasphemy\4096x2304\dreamer34ktv.jpg
+E:\Triple Screen Wallpapers\bloomingdesert13x5760.jpg
+E:\Images\rusty_1600.jpg
+E:\Triple Screen Wallpapers\locus2k1413x5760.jpg
+E:\Triple Screen Wallpapers\sisters13x5760.jpg
+E:\Triple Screen Wallpapers\truenorth13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 786 were shown recently.  954 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1317, 634): 367 potential images
+(593, 205.5): 151 potential images
+(593, 114.625): 128 potential images
+(593, 293.875): 410 potential images
+(497.75, 396): 429 potential images
+(623.25, 396): 536 potential images
+(779, 162): 128 potential images
+(779, 224): 120 potential images
+Took 1 tries to get a good rect list.
+(629, 314): 425 potential images
+(1920, 476): 111 potential images
+(901.25, 314): 146 potential images
+(369.75, 314): 380 potential images
+(1341, 270): 123 potential images
+(352.25, 270): 490 potential images
+(206.75, 270): 144 potential images
+9/23/2022 10:55:28 AM
+E:\Images\digital blasphemy\4096x2304\pyre2k1424ktv.jpg
+E:\Triple Screen Wallpapers\subarctic23x5760.jpg
+E:\Triple Screen Wallpapers\perseverance13x5760.jpg
+E:\Images\Exp 359\woven car 3.JPG
+E:\Images\digital blasphemy\4096x2304\sanctuary14ktv.jpg
+E:\Triple Screen Wallpapers\hiddenforces13x5760.jpg
+E:\Triple Screen Wallpapers\granddesign23x5760.jpg
+E:\Triple Screen Wallpapers\cloudkingdom13x5760.jpg
+E:\Images\anomalous21600.jpg
+E:\Images\digital blasphemy\4096x2304\pioneerspiritnight14ktv.jpg
+E:\Images\watchtower2560.jpg
+E:\Images\Exp 359\port of darwin 1.JPG
+E:\Triple Screen Wallpapers\gothamgardenxmas33x5760.jpg
+E:\Triple Screen Wallpapers\poseidon13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\carvedbytime14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 801 were shown recently.  939 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1050, 390): 163 potential images
+(860, 390): 288 potential images
+(890, 292): 132 potential images
+(479, 338): 473 potential images
+(291, 292): 281 potential images
+(719, 292): 214 potential images
+(1037.75, 338): 132 potential images
+(383.25, 338): 349 potential images
+Took 1 tries to get a good rect list.
+(1248, 617): 388 potential images
+(492, 453): 316 potential images
+(746, 453): 537 potential images
+(303.5, 790): 2 potential images
+(331.5, 280): 373 potential images
+(320.5, 280): 348 potential images
+(348.5, 535.5): 78 potential images
+(348.5, 244.5): 468 potential images
+9/23/2022 10:55:34 AM
+E:\Triple Screen Wallpapers\windflower33x5760.jpg
+E:\Triple Screen Wallpapers\paintedskynight13x5760.jpg
+E:\Images\NautilusAttacks1600.jpg
+E:\Images\digital blasphemy\4096x2304\rosyfingered14ktv.jpg
+E:\Triple Screen Wallpapers\dreamer43x5760.jpg
+E:\Triple Screen Wallpapers\riverbend33x5760.jpg
+E:\Triple Screen Wallpapers\cloverscape13x5760.jpg
+E:\Triple Screen Wallpapers\pulsar2k1013x5760.jpg
+E:\Images\digital blasphemy\4096x2304\hivemind14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\karesansui2k1414ktv.jpg
+E:\Triple Screen Wallpapers\chisen23x5760.jpg
+E:\Triple Screen Wallpapers\silentnight13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\synthestructure34ktv.jpg
+E:\Images\holidayflo1600.jpg
+E:\Images\Exp 359\big ass fans in sydney airport.JPG
+E:\Images\digital blasphemy\4096x2304\endymion14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 817 were shown recently.  923 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(413.5, 1040): 1 potential images
+(506.5, 732): 96 potential images
+(980, 240.25): 99 potential images
+(980, 210.75): 113 potential images
+(349.625, 298): 364 potential images
+(146.875, 298): 14 potential images
+(315, 569): 27 potential images
+(655, 569): 360 potential images
+Took 1 tries to get a good rect list.
+(599, 800): 129 potential images
+(373.75, 270): 422 potential images
+(626.75, 270): 227 potential images
+(494.25, 270): 658 potential images
+(174.8125, 270): 71 potential images
+(210.4375, 270): 138 potential images
+(957.75, 800): 366 potential images
+(343.25, 800): 1 potential images
+9/23/2022 10:55:53 AM
+E:\Images\vladstudio_aquarium_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\nocturne2k2014ktv.jpg
+E:\Triple Screen Wallpapers\skyline13x5760.jpg
+E:\Triple Screen Wallpapers\worldsedgexmas23x5760.jpg
+E:\Images\digital blasphemy\4096x2304\gotham2k1224ktv.jpg
+E:\Images\vladstudio_waitingforspring_1600x1200.jpg
+E:\Images\yuletide2k72560.jpg
+E:\Images\Exp 359\sushi day1.JPG
+E:\Images\anemone12560.jpg
+E:\Images\digital blasphemy\4096x2304\winterborn2k1514ktv.jpg
+E:\Triple Screen Wallpapers\redandgold13x5760.jpg
+E:\Images\corona12560.jpg
+E:\Images\psychlococcus1600.jpg
+E:\Images\fluorescence_green1600.jpg
+E:\Images\digital blasphemy\4096x2304\shatteredsky14ktv.jpg
+E:\Images\Exp 359\happy woven dude.JPG
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 833 were shown recently.  907 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(498, 516): 233 potential images
+(498, 514): 234 potential images
+(1412, 466): 120 potential images
+(356, 250): 448 potential images
+(1046, 250): 96 potential images
+(480, 304): 510 potential images
+(275.5, 304): 206 potential images
+(636.5, 304): 329 potential images
+Took 1 tries to get a good rect list.
+(1046, 279.25): 97 potential images
+(1046, 167.75): 7 potential images
+(638, 613): 275 potential images
+(264, 457): 36 potential images
+(590, 457): 394 potential images
+(1272, 373.25): 101 potential images
+(1272, 229.75): 28 potential images
+9/23/2022 10:57:02 AM
+E:\Images\digital blasphemy\4096x2304\sonoranspring14ktv.jpg
+E:\Images\cathedral1600.jpg
+E:\Triple Screen Wallpapers\nightatoll23x5760.jpg
+E:\Images\digital blasphemy\4096x2304\hexagram14ktv.jpg
+E:\Triple Screen Wallpapers\autumnal2k1813x5760.jpg
+E:\Images\starbirth2k812560.jpg
+E:\Images\digital blasphemy\4096x2304\autumncove14ktv.jpg
+E:\Images\forestlord12560.jpg
+E:\Triple Screen Wallpapers\darkfluorescence13x5760.jpg
+E:\Triple Screen Wallpapers\sunderedmountainautumn13x5760.jpg
+E:\Images\fma2k52560.jpg
+E:\Images\Exp 359\abo art 7 closeup.JPG
+E:\Images\doublerainbow32560.jpg
+E:\Triple Screen Wallpapers\horizons23x5760.jpg
+E:\Triple Screen Wallpapers\worldwatches13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 848 were shown recently.  892 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1003, 546): 640 potential images
+(907, 525): 648 potential images
+(907, 505): 643 potential images
+(1003, 159): 6 potential images
+(619.75, 132.75): 104 potential images
+(619.75, 172.25): 93 potential images
+(174.3125, 315): 22 potential images
+(188.9375, 315): 47 potential images
+Took 1 tries to get a good rect list.
+(1132, 420): 136 potential images
+(1132, 650): 641 potential images
+(778, 148.25): 100 potential images
+(778, 198.25): 88 potential images
+(778, 580.75): 448 potential images
+(323.5, 122.75): 145 potential images
+(110.125, 122.75): 191 potential images
+(324.375, 122.75): 145 potential images
+9/23/2022 10:57:08 AM
+E:\Images\digital blasphemy\4096x2304\caveofarches24ktv.jpg
+E:\Images\digital blasphemy\4096x2304\bluebellseason14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\shiftingsandsnight14ktv.jpg
+E:\Triple Screen Wallpapers\sunderedmountainwinternight13x5760.jpg
+E:\Triple Screen Wallpapers\unfolding13x5760.jpg
+E:\Triple Screen Wallpapers\ofallplaces2k1713x5760.jpg
+E:\Images\ceruleanblue.jpg
+E:\Triple Screen Wallpapers\firstmoonlight13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\exoplanet14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\vernalis14ktv.jpg
+E:\Triple Screen Wallpapers\dragongold13x5760.jpg
+E:\Triple Screen Wallpapers\greenandgold13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\bones24ktv.jpg
+E:\Triple Screen Wallpapers\morningglory2k1323x5760.jpg
+E:\Images\digital blasphemy\4096x2304\greenfluorescence2k1514ktv.jpg
+E:\Triple Screen Wallpapers\null2k2013x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 864 were shown recently.  876 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(474.25, 1040): 2 potential images
+(775, 313): 177 potential images
+(775, 717): 276 potential images
+(650.75, 247.75): 141 potential images
+(650.75, 431.25): 431 potential images
+(650.75, 235.75): 124 potential images
+(157.6875, 95.25): 443 potential images
+(483.0625, 95.25): 96 potential images
+Took 1 tries to get a good rect list.
+(1382, 789): 623 potential images
+(836.25, 281): 101 potential images
+(498.75, 281): 623 potential images
+(151.75, 281): 17 potential images
+(403.25, 69.25): 14 potential images
+(403.25, 201.75): 368 potential images
+(528, 287.25): 620 potential images
+(528, 491.75): 269 potential images
+9/23/2022 10:57:15 AM
+E:\Images\cabal_1600x1200_dark.jpg
+E:\Triple Screen Wallpapers\dragonyear13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\traveller2k1334ktv.jpg
+E:\Images\digital blasphemy\4096x2304\oddball14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\amazed2k1424ktv.jpg
+E:\Triple Screen Wallpapers\axonal13x5760.jpg
+E:\Images\Exp 359\abo art 4 closeup.JPG
+E:\Triple Screen Wallpapers\skygateautumn13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\anemone24ktv.jpg
+E:\Triple Screen Wallpapers\mistyridgeautumn13x5760.jpg
+E:\Images\vladstudio_hairdresser_1600x1200.jpg
+E:\Images\fisherman12560.jpg
+E:\Triple Screen Wallpapers\ringoffire2k1513x5760.jpg
+E:\Images\Exp 359\cliff near the museum.JPG
+E:\Images\digital blasphemy\4096x2304\effusia14ktv.jpg
+E:\Images\Yesterdays Gone 1600.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 880 were shown recently.  860 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1379, 721): 395 potential images
+(678.25, 309): 237 potential images
+(690.75, 133.25): 91 potential images
+(690.75, 165.75): 78 potential images
+(531, 381.25): 386 potential images
+(531, 345.75): 420 potential images
+(531, 148.25): 82 potential images
+(531, 134.75): 80 potential images
+Took 1 tries to get a good rect list.
+(558.5, 1080): 9 potential images
+(749.5, 645): 316 potential images
+(749.5, 425): 611 potential images
+(230, 392): 32 potential images
+(592, 450.5): 424 potential images
+(592, 217.5): 114 potential images
+(352, 217): 494 potential images
+(352, 165): 282 potential images
+9/23/2022 10:57:21 AM
+E:\Images\digital blasphemy\4096x2304\translucence14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\pomology14ktv.jpg
+E:\Triple Screen Wallpapers\simplexity13x5760.jpg
+E:\Triple Screen Wallpapers\coreworld13x5760.jpg
+E:\Triple Screen Wallpapers\geomancy13x5760.jpg
+E:\Images\confluence1600.jpg
+E:\Triple Screen Wallpapers\pali13x5760.jpg
+E:\Triple Screen Wallpapers\dapplewood13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\alpineautumn14ktv.jpg
+E:\Images\Exp 359\approaching equator.JPG
+E:\Images\digital blasphemy\4096x2304\cloudtree14ktv.jpg
+E:\Images\vladstudio_greenfield3_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\rectilinea14ktv.jpg
+E:\Triple Screen Wallpapers\autumnpalette13x5760.jpg
+E:\Images\floatinggardentwilight32560.jpg
+E:\Images\vladstudio_graphiteriver_1600x1200.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 896 were shown recently.  844 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(731, 359): 321 potential images
+(731, 671): 264 potential images
+(398.25, 402): 223 potential images
+(398.25, 168): 175 potential images
+(770.75, 345): 200 potential images
+(770.75, 225): 78 potential images
+(570.75, 450): 361 potential images
+(598.25, 450): 420 potential images
+Took 1 tries to get a good rect list.
+(783, 373): 283 potential images
+(323.25, 697): 2 potential images
+(574.75, 1080): 10 potential images
+(542.25, 1080): 7 potential images
+(449.75, 307.25): 401 potential images
+(449.75, 379.75): 311 potential images
+9/23/2022 10:57:25 AM
+E:\Images\digital blasphemy\4096x2304\beginnings14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\manifold44ktv.jpg
+E:\Images\digital blasphemy\4096x2304\greenvalenight14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\foggyxmaseve14ktv.jpg
+E:\Images\singularity2560.jpg
+E:\Triple Screen Wallpapers\snowball2k1713x5760.jpg
+E:\Images\Sunday 1600.jpg
+E:\Images\borealis2k62560.jpg
+E:\Triple Screen Wallpapers\cogitoergosum13x5760.jpg
+E:\Images\Exp 359\skeleton of giant goose.JPG
+E:\Images\pulsar2k1012560.jpg
+E:\Images\cosmos2560.jpg
+E:\Images\digital blasphemy\4096x2304\endlessblue2k1434ktv.jpg
+E:\Images\digital blasphemy\4096x2304\reservoirwinterglow14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 910 were shown recently.  830 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(736, 336): 218 potential images
+(736, 694): 248 potential images
+(396.5, 659): 34 potential images
+(702.5, 371): 375 potential images
+(342.875, 659): 5 potential images
+(414.625, 659): 44 potential images
+(461.5, 88.75): 83 potential images
+(461.5, 272.25): 394 potential images
+Took 1 tries to get a good rect list.
+(592.25, 1080): 7 potential images
+(742.75, 1080): 59 potential images
+(565, 366.25): 387 potential images
+(287.25, 130.75): 209 potential images
+(267.75, 130.75): 299 potential images
+(273.75, 563): 1 potential images
+(281.25, 283.75): 210 potential images
+(281.25, 269.25): 235 potential images
+9/23/2022 10:57:40 AM
+E:\Images\digital blasphemy\4096x2304\taigamorning14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\moonbeamsea14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\bonesglow14ktv.jpg
+E:\Images\therewasatime1600.jpg
+E:\Images\vladstudio_waterdrops_1600x1200.jpg
+E:\Images\vladstudio_emotion3_1600x1200.jpg
+E:\Triple Screen Wallpapers\skylineday13x5760.jpg
+E:\Triple Screen Wallpapers\hivemindnucleus23x5760.jpg
+E:\Images\digital blasphemy\4096x2304\receptor14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\exobotany14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\descension14ktv.jpg
+E:\Triple Screen Wallpapers\primordia13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\amatheiamoon14ktv.jpg
+E:\Images\vladstudio_oldwood_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\mistyridgeautumn14ktv.jpg
+E:\Triple Screen Wallpapers\redharbinger13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 926 were shown recently.  814 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1343, 348): 68 potential images
+(590.75, 682): 143 potential images
+(742.25, 682): 244 potential images
+(567, 229.75): 141 potential images
+(567, 167.75): 72 potential images
+(567, 181.25): 76 potential images
+(567, 137.8125): 66 potential images
+(567, 283.4375): 326 potential images
+Took 1 tries to get a good rect list.
+(1078, 600): 573 potential images
+(832, 1080): 88 potential images
+(558.5, 225.5): 132 potential images
+(509.5, 225.5): 166 potential images
+(351.5, 234.5): 378 potential images
+(453.125, 234.5): 350 potential images
+(253.375, 234.5): 234 potential images
+9/23/2022 10:57:45 AM
+E:\Triple Screen Wallpapers\lightfall13x5760.jpg
+E:\Images\shanshui12560.jpg
+E:\Images\Blue Star 1600.jpg
+E:\Triple Screen Wallpapers\autumnrevelation13x5760.jpg
+E:\Triple Screen Wallpapers\animus13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\shadowbloom34ktv.jpg
+E:\Triple Screen Wallpapers\ethosautumn13x5760.jpg
+E:\Images\Spot-tailed_Pitviper_in_attack_mode.jpg
+E:\Images\tears32560.jpg
+E:\Images\Exp 359\Crowded in citadel.JPG
+E:\Images\digital blasphemy\4096x2304\pantheon2k2014ktv.jpg
+E:\Images\rebirth2560.jpg
+E:\Images\digital blasphemy\4096x2304\manifold34ktv.jpg
+E:\Images\digital blasphemy\4096x2304\forgottenway14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\panoply34ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 941 were shown recently.  799 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1431, 701): 280 potential images
+(479, 701): 52 potential images
+(788.25, 329): 140 potential images
+(233.25, 329): 61 potential images
+(417.75, 329): 326 potential images
+(450.75, 175.25): 108 potential images
+(152.6875, 143.75): 228 potential images
+(288.0625, 143.75): 312 potential images
+Took 1 tries to get a good rect list.
+(1119, 417): 90 potential images
+(791, 417): 341 potential images
+(798.25, 653): 289 potential images
+(588.75, 653): 145 potential images
+(513, 132.4375): 62 potential images
+(513, 171.3125): 73 potential images
+(247.25, 329.25): 84 potential images
+(255.75, 329.25): 86 potential images
+9/23/2022 10:57:50 AM
+E:\Images\vladstudio_aflyingtree3_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\strathwoodwinter14ktv.jpg
+E:\Images\Tribal Dragon.JPG
+E:\Images\undiscovered-night2560.jpg
+E:\Images\Exp 359\port of darwin 5.JPG
+E:\Images\digital blasphemy\4096x2304\fallspectrum14ktv.jpg
+E:\Triple Screen Wallpapers\elegywinterday13x5760.jpg
+E:\Triple Screen Wallpapers\seeressdome2k1713x5760.jpg
+E:\Triple Screen Wallpapers\beneath13x5760.jpg
+E:\Images\nanocyte2560.jpg
+E:\Images\digital blasphemy\4096x2304\reservoirwinter14ktv.jpg
+E:\Images\vladstudio_aflyingtree_1600x1200.jpg
+E:\Triple Screen Wallpapers\gateway13x5760.jpg
+E:\Triple Screen Wallpapers\chamelea3x5760.jpg
+E:\Images\digital blasphemy\4096x2304\cogitoergosum14ktv.jpg
+E:\Images\clockwork12560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 957 were shown recently.  783 usable images (based on settings).
+2 screens.
+Took 2 tries to get a good rect list.
+(730.5, 640): 247 potential images
+(519.5, 390): 369 potential images
+(672.5, 390): 556 potential images
+(708, 407): 556 potential images
+(708, 623): 244 potential images
+(461.5, 427): 217 potential images
+(461.5, 203): 147 potential images
+Took 1 tries to get a good rect list.
+(673, 462): 355 potential images
+(673, 186): 60 potential images
+(673, 412): 431 potential images
+(1237, 361): 62 potential images
+(1237, 386.75): 64 potential images
+(500.25, 312.25): 433 potential images
+(726.75, 312.25): 135 potential images
+9/23/2022 10:57:55 AM
+E:\Images\vladstudio_towardsthewithin_1600x1200.jpg
+E:\Images\maya22560.jpg
+E:\Images\digital blasphemy\4096x2304\onelight14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\phyllotaxis14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\receptor34ktv.jpg
+E:\Images\relics11600.jpg
+E:\Images\digital blasphemy\4096x2304\satorinightalien14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\rhizome14ktv.jpg
+E:\Triple Screen Wallpapers\archive23x5760.jpg
+E:\Images\digital blasphemy\4096x2304\aftermath2k1414ktv.jpg
+E:\Triple Screen Wallpapers\once202013x5760.jpg
+E:\Triple Screen Wallpapers\paintedcanyon13x5760.jpg
+E:\Images\theride2k912560.jpg
+E:\Images\Exp 359\three dudes.JPG
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 971 were shown recently.  769 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1115, 572): 318 potential images
+(636, 458): 315 potential images
+(851.5, 458): 330 potential images
+(465.75, 572): 99 potential images
+(319.25, 197): 426 potential images
+(319.25, 365): 124 potential images
+(412.5, 218.5): 325 potential images
+(412.5, 229.5): 541 potential images
+Took 1 tries to get a good rect list.
+(889, 494): 532 potential images
+(1021, 542): 319 potential images
+(1021, 339): 64 potential images
+(1021, 179): 9 potential images
+(496.25, 286): 539 potential images
+(382.75, 286): 355 potential images
+(647.25, 280): 129 potential images
+(231.75, 280): 98 potential images
+9/23/2022 10:58:00 AM
+E:\Images\digital blasphemy\4096x2304\oasiadawn14ktv.jpg
+E:\Triple Screen Wallpapers\dapplewoodautumn23x5760.jpg
+E:\Images\vladstudio_emotion7_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\manifold24ktv.jpg
+E:\Images\thetistropicnight22560.jpg
+E:\Images\digital blasphemy\4096x2304\newconstellation14ktv.jpg
+E:\Images\subterra2560.jpg
+E:\Images\digital blasphemy\4096x2304\erebus14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\autumnpalette14ktv.jpg
+E:\Images\hexaline12560.jpg
+E:\Triple Screen Wallpapers\dapplewoodnight13x5760.jpg
+E:\Triple Screen Wallpapers\rhizome13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\sincerepumpkinpatch14ktv.jpg
+E:\Images\Exp 359\sushi day13.JPG
+E:\Images\digital blasphemy\4096x2304\winterrose14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\ofallplaces2k1714ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 987 were shown recently.  753 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(489, 376): 347 potential images
+(705, 654): 203 potential images
+(702.25, 654): 202 potential images
+(492.75, 247.5): 280 potential images
+(492.75, 396.5): 273 potential images
+(866.75, 376): 125 potential images
+(544.25, 100): 13 potential images
+(544.25, 266): 248 potential images
+Took 1 tries to get a good rect list.
+(648, 406): 408 potential images
+(1920, 347): 11 potential images
+(1367, 307): 62 potential images
+(552.5, 406): 347 potential images
+(699.5, 406): 528 potential images
+(362.75, 307): 248 potential images
+(170.25, 162.75): 192 potential images
+(170.25, 134.25): 287 potential images
+9/23/2022 10:58:06 AM
+E:\Images\XBOX1600.bmp
+E:\Images\digital blasphemy\4096x2304\cygni24ktv.jpg
+E:\Images\vladstudio_silvus_1600x1200.jpg
+E:\Images\riverbend32560.jpg
+E:\Images\digital blasphemy\4096x2304\myriad14ktv.jpg
+E:\Triple Screen Wallpapers\canopycreekautumn23x5760.jpg
+E:\Triple Screen Wallpapers\aspenlakeautumn13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\archive24ktv.jpg
+E:\Images\Exp 359\sushi day5.JPG
+E:\Triple Screen Wallpapers\shiftingsands13x5760.jpg
+E:\Triple Screen Wallpapers\bones23x5760.jpg
+E:\Images\Exp 359\desserts on jr.JPG
+E:\Images\vladstudio_typographic_world_map_1600x1200.jpg
+E:\Images\fluorescence2k912560.jpg
+E:\Images\digital blasphemy\4096x2304\fallspectrumafternoon14ktv.jpg
+E:\Images\prismaticpool32560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1003 were shown recently.  737 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(656, 528): 263 potential images
+(1254, 652): 301 potential images
+(656, 215.5): 56 potential images
+(327, 276.5): 243 potential images
+(319, 179.125): 517 potential images
+(319, 87.375): 50 potential images
+(593.5, 378): 369 potential images
+(650.5, 378): 522 potential images
+Took 1 tries to get a good rect list.
+(1272, 1080): 232 potential images
+(638, 408.5): 365 potential images
+(638, 107.875): 2 potential images
+(362.5, 129.625): 62 potential images
+(265.5, 129.625): 232 potential images
+(638, 284): 125 potential images
+(638, 110): 3 potential images
+9/23/2022 10:58:11 AM
+E:\Images\digital blasphemy\4096x2304\oasianoon14ktv.jpg
+E:\Images\Duality.JPG
+E:\Triple Screen Wallpapers\skygatespring3x5760.jpg
+E:\Images\Nebulosity 1280x1024.JPG
+E:\Images\digital blasphemy\4096x2304\seasonspirit2k1714ktv.jpg
+E:\Triple Screen Wallpapers\phraxis13x5760.jpg
+E:\Triple Screen Wallpapers\tori13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\abovecanopy34ktv.jpg
+E:\Images\a_year_has_gone.jpg
+E:\Triple Screen Wallpapers\archipelago2k1413x5760.jpg
+E:\Triple Screen Wallpapers\phraxismoon23x5760.jpg
+E:\Triple Screen Wallpapers\dragonfest23x5760.jpg
+E:\Images\digital blasphemy\4096x2304\abovecanopy14ktv.jpg
+E:\Triple Screen Wallpapers\gothamgarden2k10autumn23x5760.jpg
+E:\Triple Screen Wallpapers\extrasolar23x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1018 were shown recently.  722 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(718, 630): 212 potential images
+(1192, 306.5): 41 potential images
+(916, 195): 52 potential images
+(916, 195): 52 potential images
+(390.5, 400): 146 potential images
+(593.5, 400): 314 potential images
+(767, 313.5): 97 potential images
+(415, 313.5): 327 potential images
+Took 1 tries to get a good rect list.
+(1160, 612): 282 potential images
+(746, 458): 381 potential images
+(516, 458): 196 potential images
+(378.5, 612): 24 potential images
+(361.5, 612): 16 potential images
+(638, 114.5): 5 potential images
+(638, 333.5): 282 potential images
+9/23/2022 10:58:18 AM
+E:\Images\digital blasphemy\4096x2304\gothamgardenxmas34ktv.jpg
+E:\Triple Screen Wallpapers\starvalleyportals13x5760.jpg
+E:\Triple Screen Wallpapers\shadedpathseasons13x5760.jpg
+E:\Triple Screen Wallpapers\badlandsnight13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\gazebo2k1314ktv.jpg
+E:\Images\digital blasphemy\4096x2304\caeruleaorbit14ktv.jpg
+E:\Images\springwood2560.jpg
+E:\Images\digital blasphemy\4096x2304\dapplewood14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\firemadeflesh14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\moondance14ktv.jpg
+E:\Images\PillarOfLight2.JPG
+E:\Images\vladstudio_grex_1600x1200.jpg
+E:\Images\Exp 359\IMG_0784.JPG
+E:\Triple Screen Wallpapers\cyberblossom13x5760.jpg
+E:\Images\dispersion2560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1033 were shown recently.  707 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(674, 697): 136 potential images
+(891, 333): 63 potential images
+(1019, 333): 45 potential images
+(699, 697): 158 potential images
+(527, 295.25): 492 potential images
+(527, 114.9375): 48 potential images
+(527, 266.8125): 251 potential images
+Took 1 tries to get a good rect list.
+(817, 1080): 67 potential images
+(717.25, 414): 491 potential images
+(365.75, 233.5): 345 potential images
+(365.75, 85.625): 35 potential images
+(365.75, 74.875): 47 potential images
+(1093, 274): 36 potential images
+(1093, 372): 45 potential images
+9/23/2022 10:58:23 AM
+E:\Images\innerworkings12560.jpg
+E:\Images\digital blasphemy\4096x2304\lotus2k2014ktv.jpg
+E:\Images\digital blasphemy\4096x2304\skyward24ktv.jpg
+E:\Images\digital blasphemy\4096x2304\horizons34ktv.jpg
+E:\Images\vladstudio_thetwoandthemouse_1600x1200.jpg
+E:\Triple Screen Wallpapers\homeworld2k1913x5760.jpg
+E:\Images\digital blasphemy\4096x2304\cloudvalenight14ktv.jpg
+E:\Images\aquamarine2560.jpg
+E:\Images\digital blasphemy\4096x2304\bluehollow14ktv.jpg
+E:\Images\ostereier2560.jpg
+E:\Triple Screen Wallpapers\resonance3x5760.jpg
+E:\Triple Screen Wallpapers\holidayfluorescence2k1413x5760.jpg
+E:\Triple Screen Wallpapers\persona13x5760.jpg
+E:\Triple Screen Wallpapers\portals13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1047 were shown recently.  693 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(781, 446): 484 potential images
+(1129, 739): 290 potential images
+(761.25, 291): 59 potential images
+(357.75, 291): 230 potential images
+(397.25, 227): 484 potential images
+(397.25, 122.75): 35 potential images
+(397.25, 214.25): 272 potential images
+(373.75, 188): 239 potential images
+(373.75, 386): 129 potential images
+Took 1 tries to get a good rect list.
+(903, 662): 304 potential images
+(1007, 607): 291 potential images
+(1007, 239.75): 29 potential images
+(356.75, 408): 94 potential images
+(332.75, 213.25): 332 potential images
+(370.0625, 213.25): 476 potential images
+(284.1875, 213.25): 301 potential images
+(536.25, 174): 34 potential images
+(536.25, 224): 84 potential images
+9/23/2022 10:58:46 AM
+E:\Images\digital blasphemy\4096x2304\silentnight14ktv.jpg
+E:\Images\springpromise22560.jpg
+E:\Images\digital blasphemy\4096x2304\leaftempledawn14ktv.jpg
+E:\Images\containmentred1600.jpg
+E:\Images\vladstudio_soakingwet_1600x1200.jpg
+E:\Triple Screen Wallpapers\recursion13x5760.jpg
+E:\Triple Screen Wallpapers\floatinggarden13x5760.jpg
+E:\Images\harbinger2k912560.jpg
+E:\Images\digital blasphemy\4096x2304\opening14ktv.jpg
+E:\Images\blueships1600.jpg
+E:\Images\digital blasphemy\4096x2304\chisen24ktv.jpg
+E:\Triple Screen Wallpapers\halcyonglow13x5760.jpg
+E:\Images\vladstudio_thetwoandthenightmare_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\winterborn2k1214ktv.jpg
+E:\Images\digital blasphemy\4096x2304\dispersion4ktv.jpg
+E:\Images\digital blasphemy\4096x2304\taiga14ktv.jpg
+E:\Triple Screen Wallpapers\stormyweather23x5760.jpg
+E:\Triple Screen Wallpapers\erebus13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1065 were shown recently.  675 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(629, 535): 205 potential images
+(1281, 535): 82 potential images
+(1123, 242.25): 38 potential images
+(532.75, 242.75): 123 potential images
+(787, 178.75): 38 potential images
+(787, 306.25): 59 potential images
+(297.0625, 242.75): 219 potential images
+(273.1875, 160.6875): 270 potential images
+(273.1875, 72.0625): 28 potential images
+Took 1 tries to get a good rect list.
+(1033, 667): 270 potential images
+(469.75, 403): 197 potential images
+(331.25, 299): 165 potential images
+(535.75, 299): 457 potential images
+(553.25, 152.25): 26 potential images
+(877, 336.75): 47 potential images
+(877, 424.25): 186 potential images
+(299.3125, 240.75): 219 potential images
+(243.9375, 240.75): 136 potential images
+9/23/2022 10:58:52 AM
+E:\Images\digital blasphemy\4096x2304\shadowbloom14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\remembrance14ktv.jpg
+E:\Triple Screen Wallpapers\clockwork13x5760.jpg
+E:\Images\maelstrom1600.jpg
+E:\Triple Screen Wallpapers\stringtheory23x5760.jpg
+E:\Images\digital blasphemy\4096x2304\caveofarches34ktv.jpg
+E:\Images\digital blasphemy\4096x2304\smokeonthewater14ktv.jpg
+E:\Images\fluorescencereddit12560.jpg
+E:\Triple Screen Wallpapers\desertdawn13x5760.jpg
+E:\Images\Skatch Gold.JPG
+E:\Images\Exp 359\waiting for abandonship drill.JPG
+E:\Images\windflower32560.jpg
+E:\Images\magical23.jpg
+E:\Triple Screen Wallpapers\boreal13x5760.jpg
+E:\Triple Screen Wallpapers\leaftempledawn13x5760.jpg
+E:\Triple Screen Wallpapers\asgardnight13x5760.jpg
+E:\Triple Screen Wallpapers\winterborn2k1513x5760.jpg
+E:\Images\digital blasphemy\4096x2304\geomancygreen14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1083 were shown recently.  657 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(652, 614): 149 potential images
+(1258, 557): 87 potential images
+(1258, 240.25): 31 potential images
+(282, 416): 35 potential images
+(820.5, 222.75): 22 potential images
+(360, 257): 251 potential images
+(360, 149): 70 potential images
+(167.875, 222.75): 55 potential images
+(249.625, 222.75): 160 potential images
+Took 1 tries to get a good rect list.
+(1211, 483): 45 potential images
+(679.25, 587): 184 potential images
+(571, 397.75): 257 potential images
+(699, 317.75): 106 potential images
+(699, 155.25): 27 potential images
+(362.75, 179.25): 186 potential images
+(198.25, 179.25): 153 potential images
+(308.4375, 587): 1 potential images
+(331.3125, 587): 4 potential images
+9/23/2022 10:59:01 AM
+E:\Triple Screen Wallpapers\accretion2k1513x5760.jpg
+E:\Images\digital blasphemy\4096x2304\shadedpath04ktv.jpg
+E:\Triple Screen Wallpapers\doublerainbow33x5760.jpg
+E:\Images\digital blasphemy\4096x2304\innerspace64ktv.jpg
+E:\Triple Screen Wallpapers\moonlitoasis23x5760.jpg
+E:\Triple Screen Wallpapers\theend13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\rollingridges14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\hybrid2k14gold14ktv.jpg
+E:\Images\sublimation2560.jpg
+E:\Images\digital blasphemy\4096x2304\karesansui2k1424ktv.jpg
+E:\Images\digital blasphemy\4096x2304\traveller2k1314ktv.jpg
+E:\Images\digital blasphemy\4096x2304\worldsedgewinter14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\firebelowice14ktv.jpg
+E:\Triple Screen Wallpapers\harbinger2k913x5760.jpg
+E:\Images\digital blasphemy\4096x2304\threemoonbayday14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\publicenemy14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\skyline14ktv.jpg
+E:\Images\Q's Mindbender 1600.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1101 were shown recently.  639 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(659, 555): 179 potential images
+(743, 555): 265 potential images
+(659.25, 475): 218 potential images
+(467.75, 475): 111 potential images
+(773, 320.75): 58 potential images
+(498, 196.75): 41 potential images
+(498, 348.25): 249 potential images
+(471.25, 144.25): 19 potential images
+(291.75, 144.25): 179 potential images
+Took 1 tries to get a good rect list.
+(839, 398.75): 144 potential images
+(617.75, 575): 127 potential images
+(443.25, 575): 46 potential images
+(247.75, 182.25): 258 potential images
+(581.25, 182.25): 16 potential images
+(671.75, 495): 257 potential images
+(389.25, 495): 49 potential images
+(839, 325.75): 35 potential images
+(839, 143.25): 1 potential images
+9/23/2022 10:59:10 AM
+E:\Images\Exp 359\359 Group photo.jpg
+E:\Images\Exp 359\birthday 3.jpg
+E:\Images\Exp 359\woven car 2.JPG
+E:\Images\islandtime12560.jpg
+E:\Images\digital blasphemy\4096x2304\potofgoldnight14ktv.jpg
+E:\Images\eyriepagoda2560.jpg
+E:\Triple Screen Wallpapers\sleepwalkerwoodwinternight33x5760.jpg
+E:\Triple Screen Wallpapers\sunrisesonata13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\traveller2k1324ktv.jpg
+E:\Images\digital blasphemy\4096x2304\wintercliffs14ktv.jpg
+E:\Images\Exp 359\woven car 1.JPG
+E:\Images\digital blasphemy\4096x2304\ouranos14ktv.jpg
+E:\Images\Exp 359\group photo.jpg
+E:\Triple Screen Wallpapers\arrakeenday13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\sakura2k13blue4ktv.jpg
+E:\Images\digital blasphemy\4096x2304\harbinger2k94ktv.jpg
+E:\Images\shadeforest2560.jpg
+E:\Triple Screen Wallpapers\sincerepumpkinpatch13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1119 were shown recently.  621 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1165, 385): 17 potential images
+(748, 645): 162 potential images
+(450.25, 385): 162 potential images
+(284.75, 206.25): 203 potential images
+(131.1875, 168.75): 44 potential images
+(143.5625, 168.75): 63 potential images
+(786.5, 645): 170 potential images
+(365.5, 255.25): 236 potential images
+(365.5, 379.75): 86 potential images
+Took 1 tries to get a good rect list.
+(905, 444): 158 potential images
+(393.25, 444): 67 potential images
+(943, 626): 225 potential images
+(967, 258.5): 13 potential images
+(967, 357.5): 25 potential images
+(601.75, 324): 209 potential images
+(178.4375, 110): 299 potential images
+(413.3125, 110): 13 potential images
+9/23/2022 10:59:15 AM
+E:\Triple Screen Wallpapers\seeressdome2k2013x5760.jpg
+E:\Images\solace12560.jpg
+E:\Images\digital blasphemy\4096x2304\reservoirwinternight14ktv.jpg
+E:\Images\atoll2k1222560.jpg
+E:\Images\untouched22560.jpg
+E:\Images\digital blasphemy\4096x2304\hideawaymoonlight14ktv.jpg
+E:\Images\Exp 359\shark 2.JPG
+E:\Images\Abstract-AJ-1600.JPG
+E:\Images\synthestructure22560.jpg
+E:\Images\digital blasphemy\4096x2304\waveformchrome4ktv.jpg
+E:\Images\digital blasphemy\4096x2304\pageantry14ktv.jpg
+E:\Images\idyll2560.jpg
+E:\Triple Screen Wallpapers\anvil13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\caeruleaelevated14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\satori2k1334ktv.jpg
+E:\Images\capricorn2560.jpg
+E:\Triple Screen Wallpapers\sunderedmountainwinterday13x5760.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1136 were shown recently.  604 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1920, 373): 19 potential images
+(634.5, 257.25): 44 potential images
+(634.5, 389.75): 292 potential images
+(609.5, 415.25): 222 potential images
+(609.5, 231.75): 25 potential images
+(656, 407.25): 293 potential images
+(374, 239.75): 267 potential images
+(272, 239.75): 134 potential images
+Took 1 tries to get a good rect list.
+(903, 414): 114 potential images
+(799, 212): 10 potential images
+(799, 434): 400 potential images
+(459.25, 414): 117 potential images
+(1111, 301): 10 potential images
+(1111, 345): 11 potential images
+(537.75, 169.5): 11 potential images
+(320.4375, 234.5): 236 potential images
+(207.3125, 234.5): 61 potential images
+9/23/2022 10:59:21 AM
+E:\Triple Screen Wallpapers\interopposite13x5760.jpg
+E:\Images\gotham2k1222560.jpg
+E:\Images\Exp 359\sushi day4.JPG
+E:\Images\digital blasphemy\4096x2304\dapplewoodautumn14ktv.jpg
+E:\Images\neuron2560.jpg
+E:\Images\annuli12560.jpg
+E:\Images\satori2560.jpg
+E:\Images\digital blasphemy\4096x2304\fibonacciflower14ktv.jpg
+E:\Images\vladstudio_xmasnight2_1600x1200.jpg
+E:\Triple Screen Wallpapers\autumnshades13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\sierraautumn14ktv.jpg
+E:\Images\karesansui2560.jpg
+E:\Triple Screen Wallpapers\shadedpath13x5760.jpg
+E:\Triple Screen Wallpapers\moondance13x5760.jpg
+E:\Triple Screen Wallpapers\gotham2k1223x5760.jpg
+E:\Images\digital blasphemy\4096x2304\once202014ktv.jpg
+E:\Images\digital blasphemy\4096x2304\charcoaldaisy1muted4ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1153 were shown recently.  587 usable images (based on settings).
+2 screens.
+Took 2 tries to get a good rect list.
+(628, 762): 44 potential images
+(628, 268): 39 potential images
+(616.5, 1040): 5 potential images
+(655.5, 324): 143 potential images
+(310.625, 316.5): 81 potential images
+(655.5, 114.875): 1 potential images
+(655.5, 254.625): 18 potential images
+(334.875, 102.125): 5 potential images
+(334.875, 204.375): 277 potential images
+Took 1 tries to get a good rect list.
+(651, 490): 218 potential images
+(1259, 306): 4 potential images
+(1259, 437): 6 potential images
+(1259, 317): 4 potential images
+(341.75, 305): 104 potential images
+(299.25, 305): 75 potential images
+(268.75, 265): 81 potential images
+(372.25, 265): 188 potential images
+9/23/2022 10:59:28 AM
+E:\Images\digital blasphemy\4096x2304\null2k2014ktv.jpg
+E:\Images\vladstudio_montserrat1_1600x1200.jpg
+E:\Images\conduit2560.jpg
+E:\Images\digital blasphemy\4096x2304\flora2k1814ktv.jpg
+E:\Images\vladstudio_frog_1600x1200.jpg
+E:\Triple Screen Wallpapers\annuli33x5760.jpg
+E:\Images\digital blasphemy\4096x2304\thecomb2k2034ktv.jpg
+E:\Images\Exp 359\Male 1.JPG
+E:\Images\digital blasphemy\4096x2304\hybrid2k14gold4ktv.jpg
+E:\Images\Exp 359\darwin waterfront 2.JPG
+E:\Triple Screen Wallpapers\asgard13x5760.jpg
+E:\Triple Screen Wallpapers\desertdawn23x5760.jpg
+E:\Triple Screen Wallpapers\aquariiprime13x5760.jpg
+E:\Images\indiansummer2560.jpg
+E:\Images\digital blasphemy\4096x2304\geomancy14ktv.jpg
+E:\Images\Tribal-D-Uncut-1600.JPG
+E:\Images\KingKong.JPG
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1170 were shown recently.  570 usable images (based on settings).
+2 screens.
+Took 2 tries to get a good rect list.
+(1152, 469): 25 potential images
+(391.5, 428): 54 potential images
+(356.5, 428): 42 potential images
+(758, 431.5): 387 potential images
+(377.5, 160.5): 29 potential images
+(372, 561): 17 potential images
+(770, 561): 164 potential images
+(370.5, 70.125): 10 potential images
+(370.5, 80.375): 10 potential images
+Took 1 tries to get a good rect list.
+(829, 595): 157 potential images
+(829, 475): 382 potential images
+(1081, 629): 382 potential images
+(490.75, 441): 94 potential images
+(375.0625, 263.75): 186 potential images
+(195.1875, 263.75): 29 potential images
+(154.0625, 167.25): 49 potential images
+(416.1875, 167.25): 12 potential images
+9/23/2022 10:59:38 AM
+E:\Images\digital blasphemy\4096x2304\fallspectrummorning14ktv.jpg
+E:\Images\PM.jpg
+E:\Images\vladstudio_treeswithlabyrinths_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\automaton14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\bloomingdesert14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\snowtop2k2114ktv.jpg
+E:\Images\vladstudio_emoticons_1600x1200.jpg
+E:\Triple Screen Wallpapers\receptor33x5760.jpg
+E:\Triple Screen Wallpapers\ethos13x5760.jpg
+E:\Images\planitia2560.jpg
+E:\Images\digital blasphemy\4096x2304\skygateautumn14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\ethos14ktv.jpg
+E:\Images\vladstudio_fleursdefrance_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\horizons24ktv.jpg
+E:\Images\Exp 359\IMG_0748.JPG
+E:\Images\digital blasphemy\4096x2304\cyberblossom14ktv.jpg
+E:\Images\worldsedgespring12560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1187 were shown recently.  553 usable images (based on settings).
+2 screens.
+Took 2 tries to get a good rect list.
+(510.25, 418): 131 potential images
+(404.75, 418): 54 potential images
+(702, 404): 375 potential images
+(399.5, 198): 120 potential images
+(292.5, 198): 181 potential images
+(434, 612): 17 potential images
+(764, 612): 146 potential images
+(363.25, 418): 39 potential images
+(611.75, 418): 181 potential images
+Took 2 tries to get a good rect list.
+(1392, 696): 130 potential images
+(518, 696): 27 potential images
+(562, 374): 170 potential images
+(605, 374): 242 potential images
+(364.25, 151.5): 19 potential images
+(202.0625, 212.5): 47 potential images
+(152.1875, 212.5): 19 potential images
+(358.75, 181.5): 133 potential images
+(358.75, 182.5): 148 potential images
+9/23/2022 10:59:44 AM
+E:\Images\digital blasphemy\4096x2304\hybrid2k14frost4ktv.jpg
+E:\Images\digital blasphemy\4096x2304\receptor24ktv.jpg
+E:\Images\dolmen12560.jpg
+E:\Images\minutiae21600.jpg
+E:\Images\riverbend22560.jpg
+E:\Images\digital blasphemy\4096x2304\asunder24ktv.jpg
+E:\Images\redandgold12560.jpg
+E:\Images\thetismoon2k722560.jpg
+E:\Images\Exp 359\empty dallas airport.JPG
+E:\Images\gothamgarden2560.jpg
+E:\Images\Exp 359\port of darwin 5 (from bottom of stairs).JPG
+E:\Images\digital blasphemy\4096x2304\hivemind34ktv.jpg
+E:\Images\hexaline22560.jpg
+E:\Images\neuronet22560.jpg
+E:\Images\digital blasphemy\4096x2304\valeofselene14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\nightfall14ktv.jpg
+E:\Images\winterwood2560.jpg
+E:\Images\digital blasphemy\4096x2304\nightatoll14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1205 were shown recently.  535 usable images (based on settings).
+2 screens.
+Took 3 tries to get a good rect list.
+(918, 391.5): 19 potential images
+(992, 443): 32 potential images
+(992, 587): 160 potential images
+(564.5, 300): 145 potential images
+(259.5, 328.5): 22 potential images
+(648.5, 328.5): 125 potential images
+(343.5, 150): 24 potential images
+(343.5, 140): 17 potential images
+Took 5 tries to get a good rect list.
+(812, 694): 102 potential images
+(1098, 468): 15 potential images
+(574, 376): 154 potential images
+(701.5, 602): 102 potential images
+(228, 250): 38 potential images
+(228, 116): 132 potential images
+(386.5, 312.5): 120 potential images
+(386.5, 81.875): 8 potential images
+(386.5, 187.625): 92 potential images
+9/23/2022 10:59:52 AM
+E:\Images\digital blasphemy\4096x2304\aboveall14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\opening24ktv.jpg
+E:\Images\vladstudio_michel_1600x1200.jpg
+E:\Images\beforestorm22560.jpg
+E:\Images\digital blasphemy\4096x2304\asunder34ktv.jpg
+E:\Images\sakura2560.jpg
+E:\Images\canopycreekwinternight22560.jpg
+E:\Images\blossom12560.jpg
+E:\Images\Core of Galaxy - Hubble.jpg
+E:\Images\digital blasphemy\4096x2304\taiganight14ktv.jpg
+E:\Images\612.jpg
+E:\Images\quartet12560.jpg
+E:\Images\digital blasphemy\4096x2304\springrite2k1414ktv.jpg
+E:\Images\digital blasphemy\4096x2304\dreamer44ktv.jpg
+E:\Images\StratoSphere.jpg
+E:\Triple Screen Wallpapers\slenderman13x5760.jpg
+E:\Images\digital blasphemy\4096x2304\autumnshades14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1222 were shown recently.  518 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1092, 651): 146 potential images
+(818, 651): 119 potential images
+(420.5, 379): 68 potential images
+(506, 379): 174 potential images
+(292, 379): 20 potential images
+(322, 236.75): 175 potential images
+(322, 132.25): 13 potential images
+(339.5, 207.75): 218 potential images
+(339.5, 161.25): 78 potential images
+Took 11 tries to get a good rect list.
+(881, 408): 64 potential images
+(568.75, 662): 26 potential images
+(482.25, 410.5): 91 potential images
+(214.5625, 241.5): 29 potential images
+(257.6875, 241.5): 58 potential images
+(394.25, 662): 3 potential images
+(444.75, 662): 9 potential images
+(458.25, 408): 65 potential images
+(560.75, 408): 119 potential images
+9/23/2022 11:00:01 AM
+E:\Images\digital blasphemy\4096x2304\griddof14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\dragonfest24ktv.jpg
+E:\Images\riven2560.jpg
+E:\Images\planetfall1600.jpg
+E:\Images\digital blasphemy\4096x2304\happybirthday14ktv.jpg
+E:\Images\octopusgarden22560.jpg
+E:\Images\gothamgarden2k10summer22560.jpg
+E:\Images\springpromise12560.jpg
+E:\Images\digital blasphemy\4096x2304\hokkaido24ktv.jpg
+E:\Images\digital blasphemy\4096x2304\dapplewoodnight14ktv.jpg
+E:\Images\Exp 359\Male 4.JPG
+E:\Images\digital blasphemy\4096x2304\lightfall14ktv.jpg
+E:\Images\smidgeons1600.jpg
+E:\Images\Exp 359\parrots at the museum.JPG
+E:\Images\digital blasphemy\4096x2304\cronusrising2k1414ktv.jpg
+E:\Images\infullbloom22560.jpg
+E:\Images\digital blasphemy\4096x2304\sunrisesonata14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\midnightsun14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1240 were shown recently.  500 usable images (based on settings).
+2 screens.
+Took 3 tries to get a good rect list.
+(1261, 444): 2 potential images
+(298.25, 516): 1 potential images
+(340.75, 516): 5 potential images
+(536.25, 586): 26 potential images
+(714.75, 586): 96 potential images
+(649, 297.5): 57 potential images
+(445.25, 206.5): 60 potential images
+(193.75, 114.625): 130 potential images
+(193.75, 81.875): 10 potential images
+Took 7 tries to get a good rect list.
+(1141, 462): 6 potential images
+(786, 608): 102 potential images
+(530, 608): 20 potential images
+(584, 297): 107 potential images
+(584, 301): 109 potential images
+(769, 149.5): 7 potential images
+(769, 302.5): 3 potential images
+9/23/2022 11:00:13 AM
+E:\Images\cloverscape12560.jpg
+E:\Images\Exp 359\IMG_0739.JPG
+E:\Images\Exp 359\abo art 7.JPG
+E:\Images\innerworkings32560.jpg
+E:\Images\Exp 359\christ church cathedral, darwin.JPG
+E:\Images\digital blasphemy\4096x2304\greenpower24ktv.jpg
+E:\Images\digital blasphemy\4096x2304\threnody14ktv.jpg
+E:\Images\overseer2560.jpg
+E:\Images\digital blasphemy\4096x2304\fireborn14ktv.jpg
+E:\Images\canopycreek12560.jpg
+E:\Images\synthestructure32560.jpg
+E:\Images\digital blasphemy\4096x2304\seeressdomenight2k1714ktv.jpg
+E:\Images\accelerator2560.jpg
+E:\Images\digital blasphemy\4096x2304\arrakeenday14ktv.jpg
+E:\Triple Screen Wallpapers\floatinggardentwilight43x5760.jpg
+E:\Images\digital blasphemy\4096x2304\endlessbluenight2k1414ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1256 were shown recently.  484 usable images (based on settings).
+2 screens.
+Took 6 tries to get a good rect list.
+(1081, 479): 13 potential images
+(448.25, 231.75): 103 potential images
+(622.75, 231.75): 1 potential images
+(500.25, 488): 40 potential images
+(318.75, 488): 1 potential images
+(829, 371.5): 14 potential images
+(829, 160.5): 6 potential images
+(368.25, 309.25): 78 potential images
+(702.75, 309.25): 9 potential images
+Took 3 tries to get a good rect list.
+(1192, 641): 101 potential images
+(718, 569): 91 potential images
+(185.5, 217.25): 15 potential images
+(379.5, 273.75): 96 potential images
+(328.5, 273.75): 75 potential images
+(543, 429): 93 potential images
+(639, 429): 118 potential images
+(358.625, 217.25): 173 potential images
+(153.875, 217.25): 3 potential images
+9/23/2022 11:00:27 AM
+E:\Images\Exp 359\IMG_0783.JPG
+E:\Images\vladstudio_seasons_1600x1200.jpg
+E:\Images\digital blasphemy\4096x2304\bluehollow24ktv.jpg
+E:\Images\vladstudio_telescope_1600x1200.jpg
+E:\Images\Iron-Spider-Man.jpg
+E:\Images\doublerainbow12560.jpg
+E:\Triple Screen Wallpapers\sakura2k1313x5760.jpg
+E:\Images\vladstudio_aflyingtree2_1600x1200.jpg
+E:\Images\poppies2560.jpg
+E:\Images\digital blasphemy\4096x2304\symbiota14ktv.jpg
+E:\Images\sunflower1600.jpg
+E:\Images\hiddenforces12560.jpg
+E:\Images\vigil11600.jpg
+E:\Images\Abstract-AB-1600.JPG
+E:\Images\conglomerator1600.jpg
+E:\Images\cupid32560.jpg
+E:\Images\Exp 359\cool aboriginal cave art.JPG
+E:\Images\sisters12560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1274 were shown recently.  466 usable images (based on settings).
+2 screens.
+Took 16 tries to get a good rect list.
+(653, 418): 155 potential images
+(631, 612): 33 potential images
+(1279, 612): 48 potential images
+(309.3125, 418): 12 potential images
+(581.9375, 418): 88 potential images
+(345.75, 238.5): 110 potential images
+(143.4375, 169.5): 13 potential images
+(192.3125, 169.5): 52 potential images
+Took 10 tries to get a good rect list.
+(713, 392): 293 potential images
+(479, 678): 2 potential images
+(685.25, 392): 299 potential images
+(300.4375, 220): 131 potential images
+(191.3125, 220): 9 potential images
+(957.75, 678): 103 potential images
+(463.25, 678): 1 potential images
+(184.4375, 162): 47 potential images
+(307.3125, 162): 87 potential images
+9/23/2022 11:01:24 AM
+E:\Images\thetistropic22560.jpg
+E:\Images\astronomer22560.jpg
+E:\Images\digital blasphemy\4096x2304\stasis14ktv.jpg
+E:\Images\tigerlily_1600x1200.jpg
+E:\Images\accretion1600.jpg
+E:\Images\LCARS Wall 1600.JPG
+E:\Images\chamelea2k72560.jpg
+E:\Images\digital blasphemy\4096x2304\moonshadow2k1514ktv.jpg
+E:\Images\springcreek22560.jpg
+E:\Images\Exp 359\2nd mate clears the muster.JPG
+E:\Images\digital blasphemy\4096x2304\philomath14ktv.jpg
+E:\Images\twine1600.jpg
+E:\Images\digital blasphemy\4096x2304\pyrexmas4ktv.jpg
+E:\Images\lastthroes22560.jpg
+E:\Images\sunsetcove1600.jpg
+E:\Images\digital blasphemy\4096x2304\untouchedautumn14ktv.jpg
+E:\Images\octopusgarden12560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1291 were shown recently.  449 usable images (based on settings).
+2 screens.
+Took 8 tries to get a good rect list.
+(500, 506): 20 potential images
+(1047, 524): 67 potential images
+(385.25, 524): 9 potential images
+(656.5, 506): 74 potential images
+(743.5, 506): 96 potential images
+(467.75, 214): 33 potential images
+(227.8125, 300): 10 potential images
+(229.9375, 118): 79 potential images
+(229.9375, 172): 126 potential images
+Took 20 tries to get a good rect list.
+(672, 287.5): 2 potential images
+(793, 512): 93 potential images
+(488.5, 558): 7 potential images
+(739.5, 558): 122 potential images
+(188, 260.5): 2 potential images
+(474, 260.5): 282 potential images
+(445.25, 512): 6 potential images
+(661.75, 512): 71 potential images
+9/23/2022 11:01:30 AM
+E:\Images\gotham2k1212560.jpg
+E:\Images\digital blasphemy\4096x2304\accelerator2k2114ktv.jpg
+E:\Images\Exp 359\boats 2.JPG
+E:\Images\vladstudio_midnightforest_1600x1200.jpg
+E:\Images\whitemagic2560.jpg
+E:\Images\digital blasphemy\4096x2304\shadedpathwinternight24ktv.jpg
+E:\Images\Exp 359\crabs and things.JPG
+E:\Images\hiddenfalls2560.jpg
+E:\Images\BrigadeDamaged-1600.jpg
+E:\Images\digital blasphemy\4096x2304\aquarii14ktv.jpg
+E:\Images\xenotron2560.jpg
+E:\Images\Exp 359\museum snakes.JPG
+E:\Images\vladstudio_rainyday_1600x1200.jpg
+E:\Images\lonetree12560.jpg
+E:\Images\digital blasphemy\4096x2304\parthenogen14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\greenpower34ktv.jpg
+E:\Images\digital blasphemy\4096x2304\parkplaceskyline14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1308 were shown recently.  432 usable images (based on settings).
+2 screens.
+Took 7 tries to get a good rect list.
+(887, 560): 138 potential images
+(887, 470): 73 potential images
+(390.75, 429): 8 potential images
+(540.75, 601): 8 potential images
+(472.25, 601): 2 potential images
+(401.5625, 184.75): 32 potential images
+(210.6875, 184.75): 41 potential images
+(433.5625, 234.25): 75 potential images
+(178.6875, 234.25): 6 potential images
+Took 10 tries to get a good rect list.
+(669, 478): 74 potential images
+(1357, 592): 2 potential images
+(356.25, 279): 65 potential images
+(186.75, 279): 2 potential images
+(742.25, 478): 127 potential images
+(488.75, 478): 17 potential images
+(553, 115.75): 5 potential images
+(380.25, 177.25): 31 potential images
+(162.75, 177.25): 7 potential images
+9/23/2022 11:01:36 AM
+E:\Images\spellcraft2560.jpg
+E:\Images\Exp 359\ben quilty art 1.JPG
+E:\Images\endlessblue2560.jpg
+E:\Images\digital blasphemy\4096x2304\taigadawn14ktv.jpg
+E:\Images\Exp 359\abo art 6.JPG
+E:\Images\digital blasphemy\4096x2304\skyward2nodof4ktv.jpg
+E:\Images\digital blasphemy\4096x2304\twilitatoll14ktv.jpg
+E:\Images\worldsedgewinter12560.jpg
+E:\Images\Exp 359\entering the museum of art and history.JPG
+E:\Images\Exp 359\surprise in upper tween.JPG
+E:\Images\digital blasphemy\4096x2304\aspenlakeautumn14ktv.jpg
+E:\Images\elegy12560.jpg
+E:\Images\Exp 359\birthday 5.jpg
+E:\Images\Sombrero Galaxy - Hubble.jpg
+E:\Images\seeker1600.JPG
+E:\Triple Screen Wallpapers\satori2k1333x5760.jpg
+E:\Images\digital blasphemy\4096x2304\ostereierglow14ktv.jpg
+E:\Images\island1600.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1326 were shown recently.  414 usable images (based on settings).
+2 screens.
+Took 24 tries to get a good rect list.
+(1304, 575): 3 potential images
+(545, 455): 41 potential images
+(807.75, 455): 268 potential images
+(606, 323.75): 62 potential images
+(417.5, 241.25): 270 potential images
+(547.25, 122.75): 4 potential images
+(547.25, 322.25): 70 potential images
+(178.5, 136.3125): 106 potential images
+(178.5, 94.9375): 62 potential images
+Took 1 tries to get a good rect list.
+(963, 772): 50 potential images
+(463.75, 458): 10 potential images
+(473.25, 458): 11 potential images
+(517.75, 219): 1 potential images
+(419.25, 219): 55 potential images
+(607.75, 383): 119 potential images
+(329.25, 383): 1 potential images
+(481.75, 298): 132 potential images
+(471.25, 298): 119 potential images
+9/23/2022 11:01:48 AM
+E:\Images\digital blasphemy\4096x2304\finalflame14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\rarealignment14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\darkarts04ktv.jpg
+E:\Images\canopycreekspring12560.jpg
+E:\Images\digital blasphemy\4096x2304\darkfluorescence14ktv.jpg
+E:\Triple Screen Wallpapers\bluebellseason13x5760.jpg
+E:\Images\axonal12560.jpg
+E:\Images\vladstudio_clocks_1600x1200.jpg
+E:\Images\gotham2k11600.jpg
+E:\Images\creep1600.jpg
+E:\Images\pagodatableau1600.jpg
+E:\Images\vladstudio_nsoroma_1600x1200.jpg
+E:\Images\untouched12560.jpg
+E:\Images\digital blasphemy\4096x2304\shadedpathautumn14ktv.jpg
+E:\Images\citidel2k812560.jpg
+E:\Images\Exp 359\abo art 5.JPG
+E:\Images\digital blasphemy\4096x2304\worldsedgechristmas24ktv.jpg
+E:\Images\forestcitadel12560.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1344 were shown recently.  396 usable images (based on settings).
+2 screens.
+Took 16 tries to get a good rect list.
+(1056, 516): 34 potential images
+(393, 212.5): 55 potential images
+(393, 291.5): 98 potential images
+(854, 405): 29 potential images
+(854, 625): 97 potential images
+(653, 286.5): 1 potential images
+(255.25, 217.5): 31 potential images
+(387.75, 217.5): 255 potential images
+Took 65 tries to get a good rect list.
+(706, 465): 60 potential images
+(706, 605): 29 potential images
+(605, 286): 25 potential images
+(1204, 234): 3 potential images
+(666, 540): 38 potential images
+(528, 540): 3 potential images
+(306.25, 286): 9 potential images
+(272.75, 286): 3 potential images
+9/23/2022 11:02:05 AM
+E:\Images\digital blasphemy\4096x2304\persona14ktv.jpg
+E:\Images\gothamgarden2k1012560.jpg
+E:\Images\digital blasphemy\4096x2304\accelerator2k2134ktv.jpg
+E:\Images\digital blasphemy\4096x2304\origami14ktv.jpg
+E:\Images\vladstudio_dali_1600x1200.jpg
+E:\Images\phraxis12560.jpg
+E:\Images\hybrid2560.jpg
+E:\Images\digital blasphemy\4096x2304\organelle2k1814ktv.jpg
+E:\Images\Exp 359\view from hotel darwin.JPG
+E:\Images\greenandgold12560.jpg
+E:\Images\Batpod.JPG
+E:\Triple Screen Wallpapers\valleyofstars13x5760.jpg
+E:\Images\autumnal1600.jpg
+E:\Images\canopycreekspring22560.jpg
+E:\Images\leaftemple12560.jpg
+E:\Images\Exp 359\ben quilty art 3.JPG
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1360 were shown recently.  380 usable images (based on settings).
+2 screens.
+Took 49 tries to get a good rect list.
+(1080, 596): 243 potential images
+(355.5, 240): 53 potential images
+(464.5, 240): 44 potential images
+(830, 174.5): 2 potential images
+(830, 161.5): 2 potential images
+(484, 103.5): 2 potential images
+(484, 320.5): 53 potential images
+(698.5, 434): 114 potential images
+(717.5, 434): 63 potential images
+Took 317 tries to get a good rect list.
+(1064, 577): 41 potential images
+(898, 493): 238 potential images
+(1012, 493): 25 potential images
+(427.5, 577): 3 potential images
+(408.5, 321.25): 38 potential images
+(184.125, 245.75): 3 potential images
+(214.375, 168.4375): 38 potential images
+(105.5938, 67.3125): 95 potential images
+(98.78125, 67.3125): 49 potential images
+9/23/2022 11:02:10 AM
+E:\Images\digital blasphemy\4096x2304\ringoffire2k1514ktv.jpg
+E:\Images\morningmist2560.jpg
+E:\Images\digital blasphemy\4096x2304\visitation24ktv.jpg
+E:\Triple Screen Wallpapers\cloudcanyon2k1713x5760.jpg
+E:\Triple Screen Wallpapers\starfall23x5760.jpg
+E:\Images\hiero2560.jpg
+E:\Images\interopposite12560.jpg
+E:\Images\desertdawn12560.jpg
+E:\Images\vault2560.jpg
+E:\Images\digital blasphemy\4096x2304\asgard14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\blackangel14ktv.jpg
+E:\Images\Exp 359\sushi day3.JPG
+E:\Images\Need4Speed1600.JPG
+E:\Images\Exp 359\IMG_0740.JPG
+E:\Images\ruinsofsintra1600.JPG
+E:\Images\rivervalley22560.jpg
+E:\Images\digital blasphemy\4096x2304\windflower34ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1377 were shown recently.  363 usable images (based on settings).
+2 screens.
+Took 2 tries to get a good rect list.
+(944, 598): 94 potential images
+(944, 432): 17 potential images
+(610.5, 451): 79 potential images
+(345.5, 156.75): 4 potential images
+(345.5, 284.25): 21 potential images
+(387.5, 579): 1 potential images
+(568.5, 294.75): 38 potential images
+(568.5, 274.25): 22 potential images
+Took 1 tries to get a good rect list.
+(1164, 523): 3 potential images
+(746, 489): 42 potential images
+(746, 581): 27 potential images
+(741, 547): 76 potential images
+(413, 547): 1 potential images
+9/23/2022 11:02:19 AM
+E:\Images\gothamgarden2k10winter12560.jpg
+E:\Images\digital blasphemy\4096x2304\halcyon14ktv.jpg
+E:\Images\organismer_wall.jpg
+E:\Images\digital blasphemy\4096x2304\waypoint14ktv.jpg
+E:\Images\HG_Tree.JPG
+E:\Images\Exp 359\birthday 1.jpg
+E:\Images\darkwings12560.jpg
+E:\Images\floatinggardentwilight42560.jpg
+E:\Images\digital blasphemy\4096x2304\skylineday14ktv.jpg
+E:\Images\maya2560.jpg
+E:\Images\Exp 359\shark 3.JPG
+E:\Images\Exp 359\galloping crocs sign.JPG
+E:\Images\Exp 359\birthday card 2.JPG
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1390 were shown recently.  350 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1920, 1040): 30 potential images
+Took 1 tries to get a good rect list.
+(1920, 1080): 226 potential images
+9/23/2022 11:02:23 AM
+E:\Images\floatinggarden12560.jpg
+E:\Images\digital blasphemy\4096x2304\goldenhour24ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1392 were shown recently.  348 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1920, 1040): 29 potential images
+Took 1 tries to get a good rect list.
+(1920, 1080): 224 potential images
+9/23/2022 11:02:27 AM
+E:\Images\cosmicdawn2560.jpg
+E:\Images\digital blasphemy\4096x2304\badmoonrising44ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1394 were shown recently.  346 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1920, 1040): 28 potential images
+Took 1 tries to get a good rect list.
+(1920, 1080): 222 potential images
+9/23/2022 11:02:51 AM
+E:\Images\outpost32560.jpg
+E:\Images\digital blasphemy\4096x2304\tendrils4ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1396 were shown recently.  344 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1920, 1040): 27 potential images
+Took 1 tries to get a good rect list.
+(1920, 1080): 220 potential images
+9/23/2022 11:10:09 AM
+E:\Images\digital blasphemy\4096x2304\springrite2k1434ktv.jpg
+E:\Images\digital blasphemy\4096x2304\fabrica14ktv.jpg
+
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1398 were shown recently.  342 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 4 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 1740 are validated.
+After culling missing files and folders I don't care about, 1740 images found.
+0 failed to validate, 1398 were shown recently.  342 usable images (based on settings).
+2 screens.
+Starting
+Loaded settings.
+Fixed folders up using base folders list: 2 fixed, 0 had drive spec, 0 were not found.
+0 nevershow files read from NeverShow.json.
+1740 records read from Files.json
+After culling nevershows, 1740 image files.
+After searching folders, 1740 images found. 720 are validated.
+After culling missing files and folders I don't care about, 720 images found.
+0 failed to validate, 0 were shown recently.  720 usable images (based on settings).
+2 screens.
+Took 1 tries to get a good rect list.
+(1045, 1040): 318 potential images
+(865, 271.25): 50 potential images
+(389.75, 169.75): 229 potential images
+(865, 401.25): 338 potential images
+(259.25, 167.75): 402 potential images
+(595.75, 167.75): 29 potential images
+(198.3125, 169.75): 375 potential images
+(256.9375, 169.75): 402 potential images
+Took 1 tries to get a good rect list.
+(1119, 347): 44 potential images
+(295.8125, 1080): 9 potential images
+(221.4375, 1080): 4 potential images
+(253.75, 477): 77 potential images
+(253.75, 593): 38 potential images
+(637.75, 298.75): 344 potential images
+(637.75, 414.25): 394 potential images
+(277.8125, 723): 33 potential images
+(183.4375, 723): 8 potential images
+9/23/2022 11:21:30 AM
+E:\Images\digital blasphemy\4096x2304\traveller2k1324ktv.jpg
+E:\Images\digital blasphemy\4096x2304\traveller2k1334ktv.jpg
+E:\Images\digital blasphemy\4096x2304\furcati14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\hyperborea14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\breathofspring14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\greenflash14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\strathwood14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\manifold44ktv.jpg
+E:\Images\digital blasphemy\4096x2304\shadesofblue14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\pyre2k1434ktv.jpg
+E:\Images\digital blasphemy\4096x2304\pageantrynight14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\skyline14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\peacevalley14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\arcadia14ktv.jpg
+E:\Images\digital blasphemy\4096x2304\seasonoflight2k1914ktv.jpg
+E:\Images\digital blasphemy\4096x2304\pageantrynight24ktv.jpg
+E:\Images\digital blasphemy\4096x2304\waterislifenight14ktv.jpg
+

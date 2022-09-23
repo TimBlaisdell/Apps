@@ -33,8 +33,8 @@ namespace BackgroundSwitcher {
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblMessage = new System.Windows.Forms.Label();
             this.btnOpenImage = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnFocusRectEdit = new System.Windows.Forms.Button();
+            this.chkWatchMouse = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lblValues
@@ -122,17 +122,6 @@ namespace BackgroundSwitcher {
             this.btnOpenImage.UseVisualStyleBackColor = true;
             this.btnOpenImage.Click += new System.EventHandler(this.btnOpenImage_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(8, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(466, 16);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Left-click to open image in editor, right-click to show in explorer, escape to ex" +
-    "it.";
-            // 
             // btnFocusRectEdit
             // 
             this.btnFocusRectEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -146,12 +135,26 @@ namespace BackgroundSwitcher {
             this.btnFocusRectEdit.UseVisualStyleBackColor = true;
             this.btnFocusRectEdit.Click += new System.EventHandler(this.btnFocusRectEdit_Click);
             // 
+            // chkWatchMouse
+            // 
+            this.chkWatchMouse.AutoSize = true;
+            this.chkWatchMouse.Checked = true;
+            this.chkWatchMouse.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkWatchMouse.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkWatchMouse.Location = new System.Drawing.Point(12, 10);
+            this.chkWatchMouse.Name = "chkWatchMouse";
+            this.chkWatchMouse.Size = new System.Drawing.Size(485, 20);
+            this.chkWatchMouse.TabIndex = 6;
+            this.chkWatchMouse.Text = "Left-click to open image in editor, right-click to show in explorer, escape to ex" +
+    "it.";
+            this.chkWatchMouse.UseVisualStyleBackColor = true;
+            // 
             // ImageProps
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(579, 181);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.chkWatchMouse);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.lblMouseCoords);
             this.Controls.Add(this.lblValues);
@@ -179,7 +182,7 @@ namespace BackgroundSwitcher {
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label lblMessage;
         private System.Windows.Forms.Button btnOpenImage;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnFocusRectEdit;
+        private System.Windows.Forms.CheckBox chkWatchMouse;
     }
 }

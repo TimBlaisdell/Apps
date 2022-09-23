@@ -1,0 +1,94 @@
+{
+	"BaseFolders": [
+		"C:\\Users\\timblaisdell\\Pictures",
+		"C:\\Users\\blaisdell\\Pictures",
+		"D:\\Images",
+		"D:\\Images\\Camera",
+		"D:\\",
+		"E:\\Images",
+		"E:\\Images\\Camera",
+		"E:\\",
+		"F:\\Images",
+		"F:\\Images\\Camera",
+		"F:\\"
+	],
+	/* 
+		Folders 
+		The folders to scan for images.  Folders in this list will be searched recursively.
+		The base folders will be used to complete a full path from these.
+		Any entries here that include a drive specifier will be used as written rather than searched for via BaseFolders.
+	*/
+	"Folders": [
+		"digital blasphemy"
+	],
+	/* 
+		NonRecurseFolders 
+		More folders to scan for images, but only the specified folder will be scanned.
+		Same rules apply here with respect to BaseFolders
+	*/
+	"NonRecurseFolders": [
+		/*
+		"Images",
+		"Triple Screen Wallpapers",
+		*/
+		"Exp 359"
+	],
+	/* 
+		MinSourceImageSize 
+		The minimum size of an image to consider.  Images smaller than this in either dimension will be ignored.
+	*/
+	"MinSourceImageSize": {
+		"Width": 300,
+		"Height": 300
+	},
+	/* 
+		ImageExtensions 
+		File extensions to be considered when scanning for images.
+	*/
+	"ImageExtensions": [
+		"JPG",
+		"JPEG",
+		"PNG",
+		"BMP"
+	],
+	/* 
+		Margin 
+		Number of pixels for the margin between images on the generated background.
+	*/
+	"Margin": 10,
+	/* 
+		MinShowIntervalDays 
+		The minimum number of days between showings of any image.  
+		Set to zero if you don't care how frequently an image is shown.
+	*/
+	"MinShowIntervalDays": 0,
+	/* 
+		MinRatioDiff 
+		The minimum allowed difference between the aspect ratio of a rectangle on the generated background, and the image placed in that rectangle.
+	*/
+	"MinRatioDiff": 0.02,
+	/* 
+		SplitIterations 
+		The number of iterations where the background canvas is split into random sub-sections.
+	*/
+	"SplitIterations": 5,
+	/* 
+		ShowFilenames 
+		Whether or not filenames should be shown.
+	*/
+	"ShowFilenames": false,
+	/* 
+		ShowFolders 
+		Whether or not folders should be shown along with the filenames.
+	*/
+	"ShowFolders": false,
+	/* 
+		ShowFoldersAfter 
+		When showing folders, generally only the last folder in the path will be shown.
+		If this is set, then all folders after any matching the set will be shown (or only the last folder if none match the set).
+		For example, if the file path is "C:\W\X\Y\Z\image.jpg", and ShowFoldersAfter contains "X", then the folders "Y" and "Z" will be 
+		shown along with the filename.
+	*/
+	"ShowFoldersAfter": ["Images", "Pictures", "Wallpapers", "iTunesAlbumArt"],
+	"EditImageCommand": "C:\\Program Files\\GIMP 2\\bin\\gimp-2.10.exe"
+}
