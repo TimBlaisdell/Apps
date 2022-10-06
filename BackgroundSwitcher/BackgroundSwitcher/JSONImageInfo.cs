@@ -112,7 +112,16 @@ namespace BackgroundSwitcher {
                 return a;
             }
         }
-        public Rectangle RectShown { get; set; }
+        public Rectangle RectShown {
+            get {
+                if (has("RectShown")) {
+                    var obj = getJSONObject("RectShown");
+                    return new Rectangle(obj.getInt("X"), obj.getInt("Y"), obj.getInt("Width"), obj.getInt("Height"));
+                }
+                return Rectangle.Empty;
+            }
+            set => put("RectShown", new JSONObject().put("X", value.X).put("Y", value.Y).put("Width", value.Width).put("Height", value.Height));
+        }
         public int ShowCount {
             get => optInt("ShowCount");
             set => put("ShowCount", value);

@@ -237,11 +237,19 @@ namespace BackgroundSwitcher {
         }
         private void NewWorkingIndex() {
             int tries = 0;
+            int oldindex = _workingIndex;
             if (_filteredImages == null || _filteredImages.Count == 0) {
                 do {
                     _workingIndex = _rand.Next(_images.Count);
                     ++tries;
                 } while (tries < 100 && (_images[_workingIndex].has("FocusRect") || !File.Exists(_images[_workingIndex].Path)));
+                if (tries == 100) {
+                    _workingIndex = _images.FindIndex(i => !i.has("FocusRect") && File.Exists(i.Path));
+                    if (_workingIndex < 0) {
+                        _workingIndex = oldindex;
+                        MessageBox.Show("There are no more images without a FocusRect specification.");
+                    }
+                }
             }
             else {
                 int index;

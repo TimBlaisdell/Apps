@@ -236,17 +236,22 @@ namespace BackgroundSwitcher {
             if (!File.Exists(bgfile)) return;
             var currbg = new JSONArray(File.ReadAllText(bgfile));
             LoadSettings();
-            var form = new ImageProps(currbg.ToArray<JSONImageInfo>(), _dataPath, _settings);
+            var form = new MainForm(currbg.ToArray<JSONImageInfo>(), _dataPath, _settings);
             form.EditImage += Form_OnEditImage;
             form.OpenFocusRectEditor += (sender, e) => {
-                                            if (!LoadSettings()) return;
-                                            if (!FixupFolders()) return;
-                                            if (!LoadNeverShowList()) return;
-                                            if (!LoadImageList()) return;
-                                            var f = form.FocusRectEditor = new FocusRectEditor(_images, _dataPath);
-                                            f.Closing += (o, ee) => form.FocusRectEditor = null;
-                                            f.EditImage += Form_OnEditImage;
-                                            f.Show();
+                                            new Thread(() => {
+                                                           if (!LoadSettings()) return;
+                                                           if (!FixupFolders()) return;
+                                                           if (!LoadNeverShowList()) return;
+                                                           if (!LoadImageList()) return;
+                                                           var a = new Action(() => {
+                                                                                  var f = form.FocusRectEditor = new FocusRectEditor(_images, _dataPath);
+                                                                                  f.Closing += (o, ee) => form.FocusRectEditor = null;
+                                                                                  f.EditImage += Form_OnEditImage;
+                                                                                  f.Show();
+                                                                              });
+                                                           form.Invoke(a);
+                                                       }).Start();
                                         };
             form.ShowDialog();
         }
@@ -616,7 +621,8 @@ namespace BackgroundSwitcher {
             }
         }
         /// <summary>
-        ///     Takes a list of file paths, and builds up _images, which is a list of ImageInfo records.  The resulting _images
+        ///     Takes a list of file paths, and builds up _images, which is a list of ImageInfoPanel records.  The resulting
+        ///     _images
         ///     list will only include images for which:
         ///     1. The file exists.
         ///     2. The file is not already in _images (or if it is, it's last write time will be updated).
@@ -693,6 +699,41 @@ namespace BackgroundSwitcher {
             }
             Console.WriteLine("\nTotal: " + _images.Count);
         }
+        /// <summary>
+        ///     set the parameter of system
+        /// </summary>
+        /// <param name="uAction"></param>
+        /// <param name="uParam"></param>
+        /// <param name="lpvParam"></param>
+        /// <param name="fuWinIni"></param>
+        /// <example></example>
+        /// <returns></returns>
+        [DllImport("user32.dll", EntryPoint = "SystemParametersInfo")]
+        private static extern int SystemParametersInfo(UAction uAction, int uParam, StringBuilder lpvParam, int fuWinIni);
+        private static void WriteFilesJson() {
+            var jsonarray = new JSONArray();
+            foreach (var image in _images) jsonarray.put(image);
+            File.WriteAllText(Path.Combine(_dataPath, "Files.json"), jsonarray.ToString(true, 0));
+        }
+        private static bool _cleanup;
+        private static string _dataPath = "C:\\ProgramData\\BackgroundSwitcher";
+        private static bool _editFocusRects;
+        private static bool _imageInfoMode;
+        private static List<JSONImageInfo> _images = new List<JSONImageInfo>();
+        private static List<JSONImageInfo> _imagesFiltered = new List<JSONImageInfo>();
+        private static int _minRunMins; // use /minRunMins=n to set min run frequency.  Program will do nothing if run too frequently.
+        private static string[] _neverShowList = Array.Empty<string>();
+        private static readonly Random _rand = new Random();
+        private static JSONSettings _settings;
+        private static bool _useLastRectList;
+        private static double MaxRatio = 4; // max ratio = height 4 times greater than width.
+        private static double MinRatio = 1 / 4D; // min ratio = width 4 times greater than height.
+        private enum UAction {
+            /// <summary>
+            ///     set the desktop background image
+            /// </summary>
+            SPI_SETDESKWALLPAPER = 0x0014,
+        }
         // ReSharper disable UnusedMethodReturnValue.Local
         private static ulong GetHashCode(string path) {
             try {
@@ -741,41 +782,6 @@ namespace BackgroundSwitcher {
             return result;
         }
         // ReSharper restore UnusedMethodReturnValue.Local
-        /// <summary>
-        ///     set the parameter of system
-        /// </summary>
-        /// <param name="uAction"></param>
-        /// <param name="uParam"></param>
-        /// <param name="lpvParam"></param>
-        /// <param name="fuWinIni"></param>
-        /// <example></example>
-        /// <returns></returns>
-        [DllImport("user32.dll", EntryPoint = "SystemParametersInfo")]
-        private static extern int SystemParametersInfo(UAction uAction, int uParam, StringBuilder lpvParam, int fuWinIni);
-        private static void WriteFilesJson() {
-            var jsonarray = new JSONArray();
-            foreach (var image in _images) jsonarray.put(image);
-            File.WriteAllText(Path.Combine(_dataPath, "Files.json"), jsonarray.ToString(true, 0));
-        }
-        private static bool _cleanup;
-        private static string _dataPath = "C:\\ProgramData\\BackgroundSwitcher";
-        private static bool _editFocusRects;
-        private static bool _imageInfoMode;
-        private static List<JSONImageInfo> _images = new List<JSONImageInfo>();
-        private static List<JSONImageInfo> _imagesFiltered = new List<JSONImageInfo>();
-        private static int _minRunMins; // use /minRunMins=n to set min run frequency.  Program will do nothing if run too frequently.
-        private static string[] _neverShowList = Array.Empty<string>();
-        private static readonly Random _rand = new Random();
-        private static JSONSettings _settings;
-        private static bool _useLastRectList;
-        private static double MaxRatio = 4; // max ratio = height 4 times greater than width.
-        private static double MinRatio = 1 / 4D; // min ratio = width 4 times greater than height.
-        private enum UAction {
-            /// <summary>
-            ///     set the desktop background image
-            /// </summary>
-            SPI_SETDESKWALLPAPER = 0x0014,
-        }
     }
     public class RectImages {
         public JSONImageInfo[] Images;

@@ -6,15 +6,23 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using System.Windows.Input;
+using BackgroundSwitcher.Panels;
 using JSON;
 
 namespace BackgroundSwitcher {
-    public sealed partial class ImageProps : Form {
-        public ImageProps(string datapath) {
+    public sealed partial class MainForm : Form {
+        public MainForm(string datapath) {
             _datapath = datapath;
             InitializeComponent();
+            multiSliderPanel.Height = ClientRectangle.Height - multiSliderPanel.Top;
+            panelImageInfo.SetDataPath(_datapath);
+            panelSettings.SetDataPath(_datapath);
+            panelFolders.SetDataPath(_datapath);
+            multiSliderPanel.Main = panelImageInfo;
+            multiSliderPanel.AddSlider(panelSettings, true);
+            multiSliderPanel.AddSlider(panelFolders, true);
         }
-        public ImageProps(JSONImageInfo[] infoarray, string datapath, JSONSettings settings) : this(datapath) {
+        public MainForm(JSONImageInfo[] infoarray, string datapath, JSONSettings settings) : this(datapath) {
             _settings = settings;
             Location = MousePosition;
             _info = infoarray.FirstOrDefault(i => i.DestRect.Contains(Location));
@@ -22,21 +30,22 @@ namespace BackgroundSwitcher {
             if (_info != null) FillValues(_info);
         }
         public FocusRectEditor FocusRectEditor {
-            get => _focusRectEditor;
+            get => panelImageInfo.FocusRectEditor;
             set {
-                _focusRectEditor = value;
-                if (_info != null) _focusRectEditor?.SetImage(_info.Path);
+                panelImageInfo.FocusRectEditor = value;
+                if (_info != null) panelImageInfo.FocusRectEditor?.SetImage(_info.Path);
             }
         }
         public event EventHandler<string> EditImage;
         public event EventHandler OpenFocusRectEditor;
         private void btnFocusRectEdit_Click(object sender, EventArgs e) {
+            ShowMessage(Color.Green, "Opening focus rect editor...");
             OpenFocusRectEditor?.Invoke(this, EventArgs.Empty);
         }
         private void btnGoToFile_Click(object sender, EventArgs e) {
             try {
-                Process.Start("explorer.exe", "/select," + _info.Path);
                 ShowMessage(Color.Green, "Starting explorer.exe...");
+                Process.Start("explorer.exe", "/select," + _info.Path);
             }
             catch (Exception ex) {
                 ShowMessage(Color.Red, "Error: " + ex.Message);
@@ -58,32 +67,50 @@ namespace BackgroundSwitcher {
             if (_openingImage || _info == null) return;
             _openingImage = true;
             try {
-                EditImage?.Invoke(this, _info.Path);
                 ShowMessage(Color.Green, "Launching editor for this file...");
+                EditImage?.Invoke(this, _info.Path);
             }
             catch (Exception ex) {
                 ShowMessage(Color.Red, "Error: " + ex.Message);
             }
         }
         private void MouseHook_OnMouseAction(object sender, MouseHook.MouseHookEventArgs e) {
-            if (!chkWatchMouse.Checked ||
+            if (!panelImageInfo.WatchMouse || multiSliderPanel.Current != panelImageInfo ||
                 new Rectangle(Location, Size).Contains(e.Data.pt.x, e.Data.pt.y) ||
                 FocusRectEditor != null && new Rectangle(FocusRectEditor.Location, FocusRectEditor.Size).Contains(e.Data.pt.x, e.Data.pt.y)) return;
             if (e.Type == MouseHook.MouseMessages.WM_LBUTTONDOWN) btnOpenImage_Click(null, null);
             else if (e.Type == MouseHook.MouseMessages.WM_RBUTTONDOWN) btnGoToFile_Click(null, null);
         }
+        private void panel_ShowMessage(object sender, MessageInfo e) {
+            ShowMessage(e.Color, e.Message);
+        }
+        private void tabControl_SelectedIndexChanged(object sender, EventArgs e) {
+            switch (tabControl.SelectedTab.Name) {
+                case "pageImageInfo":
+                    multiSliderPanel.SlideBack(true);
+                    break;
+                case "pageSettings":
+                    multiSliderPanel.SlideTo(panelSettings);
+                    break;
+                case "pageFolders":
+                    multiSliderPanel.SlideTo(panelFolders);
+                    break;
+            }
+        }
+        private void tabControl_TabIndexChanged(object sender, EventArgs e) {
+        }
         private void timer1_Tick(object sender, EventArgs e) {
             var m = MousePosition;
             var now = DateTime.Now;
-            if (Keyboard.IsKeyDown(Key.Escape)) {
+            if (Keyboard.IsKeyDown(Key.Escape) && panelImageInfo.WatchMouse && multiSliderPanel.Current == panelImageInfo) {
                 Close();
             }
             // Update the UI every 500 ms.
             if ((now - _lastUIUpdate).TotalMilliseconds > 500) {
                 _openingImage = false; // clear this every 500 ms.
                 _lastUIUpdate = now;
-                lblMouseCoords.Text = $"({m.X}, {m.Y})";
-                lblMouseCoords.Left = Width - (lblMouseCoords.Width + 30);
+                //lblMouseCoords.Text = $"({m.X}, {m.Y})";
+                //lblMouseCoords.Left = Width - (lblMouseCoords.Width + 30);
                 if (FocusRectEditor == null || !new Rectangle(FocusRectEditor.Location, FocusRectEditor.Size).Contains(m)) {
                     var info = GetInfo(m);
                     if (info != _info) {
@@ -94,7 +121,7 @@ namespace BackgroundSwitcher {
             }
             // Clear the message after 10 seconds.
             if (lblMessage.Visible && (now - _messageShown).TotalSeconds > 10) {
-                lblMessage.Visible = false;
+                ShowMessage(Color.Black, "");
             }
         }
         protected override void OnClosing(CancelEventArgs e) {
@@ -110,32 +137,11 @@ namespace BackgroundSwitcher {
             timer1.Start();
             //Capture = true;
         }
-        private JSONSettings _settings;
         //private void MouseHook_OnMouseAction(object sender, EventArgs e) {
         //    
         //}
         private void FillValues(JSONImageInfo info) {
-            if (info == null) {
-                lblValues.Text = "";
-                Text = "No file";
-                return;
-            }
-            string s = _info.Path + Environment.NewLine +
-                       _info.Size.Width + ", " + _info.Size.Height + " (" + _info.Ratio.ToString("F3") + ")" + Environment.NewLine +
-                       _info.DestRect.Width + ", " + _info.DestRect.Height + " (" + _info.DestRatio.ToString("F3") + ")" + Environment.NewLine +
-                       _info.ShowCount;
-            DateTime prevdt = DateTime.MinValue;
-            foreach (var dt in _info.RecentShows) {
-                s += Environment.NewLine + dt.ToString("g");
-                if ((dt - prevdt).TotalDays < _settings.MinShowIntervalDays) s += " (too soon!)";
-                prevdt = dt;
-            }
-            lblValues.Text = s;
-            Text = Path.GetFileName(info.Path);
-            if (!File.Exists(info.Path)) {
-                ShowMessage(Color.Red, "File does not exist: " + info.Path);
-            }
-            else FocusRectEditor?.SetImage(info.Path);
+            panelImageInfo.FillValues(info);
         }
         private JSONImageInfo GetInfo(Point p) {
             foreach (var info in _infoArray) {
@@ -147,17 +153,20 @@ namespace BackgroundSwitcher {
             return null;
         }
         private void ShowMessage(Color c, string msg) {
+            msg = msg.Trim();
             lblMessage.ForeColor = c;
             lblMessage.Text = msg;
-            lblMessage.Visible = true;
+            lblMessage.Visible = !string.IsNullOrEmpty(msg);
             _messageShown = DateTime.Now;
+            if (string.IsNullOrEmpty(msg.Trim())) multiSliderPanel.Height = ClientRectangle.Height - multiSliderPanel.Top;
+            else multiSliderPanel.Height = ClientRectangle.Height - (multiSliderPanel.Top + lblMessage.Height + 5);
         }
         private readonly string _datapath;
-        private FocusRectEditor _focusRectEditor;
         private JSONImageInfo _info;
         private readonly JSONImageInfo[] _infoArray;
         private DateTime _lastUIUpdate = DateTime.MinValue;
         private DateTime _messageShown;
         private bool _openingImage;
+        private JSONSettings _settings;
     }
 }
