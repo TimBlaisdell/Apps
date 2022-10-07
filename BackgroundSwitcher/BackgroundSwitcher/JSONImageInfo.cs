@@ -41,7 +41,7 @@ namespace BackgroundSwitcher {
                     return new RectangleF(obj.optInt("X"), obj.optInt("Y"), obj.optInt("Width"), obj.optInt("Height"));
                 }
                 var size = Size;
-                var difsize = new SizeF((float)(size.Width * MinRatioDiff), (float)(size.Height * MinRatioDiff));
+                var difsize = new SizeF((float)(size.Width * MaxRatioDiff), (float)(size.Height * MaxRatioDiff));
                 return new RectangleF(difsize.Width / 2, difsize.Height / 2, size.Width - difsize.Width, size.Height - difsize.Height);
             }
             //private set {
@@ -93,7 +93,7 @@ namespace BackgroundSwitcher {
         //        return FocusRect.Height / Size.Width;
         //    }
         //}
-        public static double MinRatioDiff { private get; set; } = 0.1;
+        public static double MaxRatioDiff { private get; set; } = 0.1;
         public string Path {
             get => optString("Path");
             set => put("Path", value);

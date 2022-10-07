@@ -14,7 +14,10 @@ namespace BackgroundSwitcher {
                 _baseFolders = null;
             }
         }
-        public string EditImageCommand => optString("EditImageCommand");
+        public string EditImageCommand {
+            get => optString("EditImageCommand");
+            set => put("EditImageCommand", value);
+        }
         public string[] Folders {
             get => _folders ?? (_folders = optJSONArray("Folders")?.ToArray() ?? Array.Empty<string>());
             set {
@@ -41,7 +44,10 @@ namespace BackgroundSwitcher {
             get => optInt("Margin", 10);
             set => put("Margin", value);
         }
-        public double MinRatioDiff => optDouble("MinRatioDiff", 0.01);
+        public double MaxRatioDiff {
+            get => optDouble("MaxRatioDiff", 0.01);
+            set => put("MaxRatioDiff", value);
+        }
         public int MinShowIntervalDays {
             get => optInt("MinShowIntervalDays", 8);
             set => put("MinShowIntervalDays", value);
@@ -60,18 +66,31 @@ namespace BackgroundSwitcher {
                 _nonRecurseFolders = null;
             }
         }
-        public bool ShowFilenames => optBoolean("ShowFilenames");
-        public bool ShowFolders => optBoolean("ShowFolders");
+        public bool ShowFilenames {
+            get => optBoolean("ShowFilenames");
+            set => put("ShowFilenames", value);
+        }
+        public bool ShowFolders {
+            get => optBoolean("ShowFolders");
+            set => put("ShowFolders", value);
+        }
         public string[] ShowFoldersAfter {
             get {
                 if (_showFoldersAfter == null) {
                     _showFoldersAfter = optJSONArray("ShowFoldersAfter")?.ToArray() ?? Array.Empty<string>();
-                    _showFoldersAfter = _showFoldersAfter.Select(s => s.ToUpper()).ToArray();
+                    //_showFoldersAfter = _showFoldersAfter.Select(s => s.ToUpper()).ToArray();
                 }
                 return _showFoldersAfter;
             }
+            set {
+                put("ShowFoldersAfter", new JSONArray(value));
+                _showFoldersAfter = null;
+            }
         }
-        public int SplitIterations => optInt("SplitIterations", 10);
+        public int SplitIterations {
+            get => optInt("SplitIterations", 3);
+            set => put("SplitIterations", value);
+        }
         private string[] _baseFolders;
         private string[] _folders;
         private string[] _imageExtensions;

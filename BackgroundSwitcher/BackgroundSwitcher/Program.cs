@@ -147,16 +147,16 @@ namespace BackgroundSwitcher {
         ///     - has not already been shown on this run.
         ///     - larger in size than destrect (won't have to be stretched/pixelated to fit the rect).
         ///     - not in the exceptions list.
-        ///     - the difference between its aspect ratio and that of destrect is within the limitation set by minRatioDiff
+        ///     - the difference between its aspect ratio and that of destrect is within the limitation set by maxRatioDiff
         ///     OR
         ///     - destrect's aspect ratio lies between the image's min and max ratios.
         /// </summary>
-        private static JSONImageInfo[] GetImagesToUse(IEnumerable<JSONImageInfo> images, RectangleF destRect, double minRatioDiff, List<JSONImageInfo> exceptions = null) {
+        private static JSONImageInfo[] GetImagesToUse(IEnumerable<JSONImageInfo> images, RectangleF destRect, double maxRatioDiff, List<JSONImageInfo> exceptions = null) {
             var array = images.Where(i => {
                                          if (i.Shown) return false;
                                          if (i.Size.Width < destRect.Width || i.Size.Height < destRect.Height) return false;
                                          if (exceptions != null && exceptions.Any(e => ReferenceEquals(e, i))) return false;
-                                         if (Math.Abs(i.Ratio - destRect.Ratio()) <= minRatioDiff) return true;
+                                         if (Math.Abs(i.Ratio - destRect.Ratio()) <= maxRatioDiff) return true;
                                          if (i.MinRatio <= destRect.Ratio() && i.MaxRatio >= destRect.Ratio()) return true;
                                          return false;
                                      }).ToArray();
@@ -191,7 +191,7 @@ namespace BackgroundSwitcher {
                     done = true;
                     var templist = new List<JSONImageInfo>();
                     foreach (var rect in rectlist) {
-                        var infos = GetImagesToUse(_imagesFiltered, rect.Rect, _settings.MinRatioDiff, templist);
+                        var infos = GetImagesToUse(_imagesFiltered, rect.Rect, _settings.MaxRatioDiff, templist);
                         if (infos.Length == 0) {
                             done = false;
                             break;
@@ -430,7 +430,7 @@ namespace BackgroundSwitcher {
             var screens = Screen.AllScreens.Select(s => new ScreenInfo(s)).ToArray();
             var taskbar = new Taskbar();
             Log.Write(screens.Length + " screens.");
-            JSONImageInfo.MinRatioDiff = _settings.MinRatioDiff;
+            JSONImageInfo.MaxRatioDiff = _settings.MaxRatioDiff;
             MinRatio = _imagesFiltered.Select(i => i.MinRatio).Min();
             MaxRatio = _imagesFiltered.Select(i => i.MaxRatio).Max();
             // Go though the screens and generate wallpaper images
@@ -465,7 +465,7 @@ namespace BackgroundSwitcher {
                     rectlist = currBGarray.Where(v => v.DestRect.IntersectsWith(thisScreenRect))
                                           .Select(v => new RectImages {
                                                                           Rect = v.DestRect,
-                                                                          Images = GetImagesToUse(_imagesFiltered, v.DestRect, _settings.MinRatioDiff)
+                                                                          Images = GetImagesToUse(_imagesFiltered, v.DestRect, _settings.MaxRatioDiff)
                                                                       }).ToList();
                 }
                 foreach (var rect in rectlist) {
@@ -482,10 +482,10 @@ namespace BackgroundSwitcher {
                 // fill in the rectangles with images that best fit them.
                 foreach (var rect in rectlist) {
                     //double ratio = rect.Ratio();
-                    //rect.Images = GetImagesToUse(_imagesFiltered, rect.Rect, _settings.MinRatioDiff);
+                    //rect.Images = GetImagesToUse(_imagesFiltered, rect.Rect, _settings.MaxRatioDiff);
                     // If no image is found, just leave the rectangle black.  This alerts the user that he needs to:
                     // 1. Decrease MinShowIntervalDays
-                    // 2. Increase MinRatioDiff
+                    // 2. Increase MaxRatioDiff
                     // 3. Decrease MinSourceImageSize
                     // 4. Add more folders and/or more images.
                     var images = rect.Images.Where(i => !i.Shown).ToArray();
@@ -539,10 +539,11 @@ namespace BackgroundSwitcher {
                                 if (pathparts.Length > 2) { // only do this if there's at least one folder in the path.
                                     if (_settings.ShowFoldersAfter == null || _settings.ShowFoldersAfter.Length == 0) fileinfo = pathparts[pathparts.Length - 2] + "\n"; // get the last folder name before the filename.
                                     else {
+                                        var showFoldersAfter = _settings.ShowFoldersAfter.Select(s => s.ToUpper()).ToArray();
                                         int indexOfFirstFolderToShow = pathparts.Length - 2;
                                         for (int x = pathparts.Length - 2; x >= 0; --x) {
                                             string pathpart = pathparts[x];
-                                            if (_settings.ShowFoldersAfter.Any(f => pathpart.ToUpper().Contains(f))) {
+                                            if (showFoldersAfter.Any(f => pathpart.ToUpper().Contains(f))) {
                                                 indexOfFirstFolderToShow = x + 1;
                                                 break;
                                             }

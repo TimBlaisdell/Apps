@@ -102,26 +102,28 @@ namespace BackgroundSwitcher {
         private void timer1_Tick(object sender, EventArgs e) {
             var m = MousePosition;
             var now = DateTime.Now;
-            if (Keyboard.IsKeyDown(Key.Escape) && panelImageInfo.WatchMouse && multiSliderPanel.Current == panelImageInfo) {
-                Close();
-            }
-            // Update the UI every 500 ms.
-            if ((now - _lastUIUpdate).TotalMilliseconds > 500) {
-                _openingImage = false; // clear this every 500 ms.
-                _lastUIUpdate = now;
-                //lblMouseCoords.Text = $"({m.X}, {m.Y})";
-                //lblMouseCoords.Left = Width - (lblMouseCoords.Width + 30);
-                if (FocusRectEditor == null || !new Rectangle(FocusRectEditor.Location, FocusRectEditor.Size).Contains(m)) {
-                    var info = GetInfo(m);
-                    if (info != _info) {
-                        _info = info;
-                        FillValues(info);
-                    }
-                }
-            }
             // Clear the message after 10 seconds.
             if (lblMessage.Visible && (now - _messageShown).TotalSeconds > 10) {
                 ShowMessage(Color.Black, "");
+            }
+            if (multiSliderPanel.Current == panelImageInfo) {
+                if (Keyboard.IsKeyDown(Key.Escape) && panelImageInfo.WatchMouse) {
+                    Close();
+                }
+                // Update the UI every 500 ms.
+                if ((now - _lastUIUpdate).TotalMilliseconds > 500) {
+                    _openingImage = false; // clear this every 500 ms.
+                    _lastUIUpdate = now;
+                    //lblMouseCoords.Text = $"({m.X}, {m.Y})";
+                    //lblMouseCoords.Left = Width - (lblMouseCoords.Width + 30);
+                    if (!new Rectangle(Location, Size).Contains(m) && (FocusRectEditor == null || !new Rectangle(FocusRectEditor.Location, FocusRectEditor.Size).Contains(m))) {
+                        var info = GetInfo(m);
+                        if (info != _info) {
+                            _info = info;
+                            FillValues(info);
+                        }
+                    }
+                }
             }
         }
         protected override void OnClosing(CancelEventArgs e) {
