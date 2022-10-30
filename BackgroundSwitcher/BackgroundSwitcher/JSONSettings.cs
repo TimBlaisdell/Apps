@@ -14,6 +14,10 @@ namespace BackgroundSwitcher {
                 _baseFolders = null;
             }
         }
+        public bool ClickOutsideWindow {
+            get => optBoolean("ClickOutsideWindow");
+            set => put("ClickOutsideWindow", value);
+        }
         public string EditImageCommand {
             get => optString("EditImageCommand");
             set => put("EditImageCommand", value);

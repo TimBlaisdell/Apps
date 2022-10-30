@@ -1,6 +1,6 @@
 ﻿
 namespace BackgroundSwitcher {
-    partial class ImagePanel {
+    sealed partial class ImagePanel {
         /// <summary> 
         /// Required designer variable.
         /// </summary>

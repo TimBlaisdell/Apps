@@ -4,14 +4,19 @@ using System.Windows.Forms;
 using JSON;
 
 namespace BackgroundSwitcher {
-    public partial class ImagePanel : UserControl {
+    public sealed partial class ImagePanel : UserControl {
         public ImagePanel() {
             InitializeComponent();
+            DoubleBuffered = true;
         }
+        private Image _paintCanvas;
         public override Image BackgroundImage {
             get => base.BackgroundImage;
             set {
                 base.BackgroundImage = value;
+                if (value == null) return;
+                _paintCanvas?.Dispose();
+                _paintCanvas = new Bitmap(value.Width, value.Height);
                 _drawingMode = DrawingMode.None;
                 _curRect = Rectangle.Empty;
                 SelectedRectChanged?.Invoke(this, EventArgs.Empty);

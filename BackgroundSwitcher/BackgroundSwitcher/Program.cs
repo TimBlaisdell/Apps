@@ -238,21 +238,27 @@ namespace BackgroundSwitcher {
             LoadSettings();
             var form = new MainForm(currbg.ToArray<JSONImageInfo>(), _dataPath, _settings);
             form.EditImage += Form_OnEditImage;
-            form.OpenFocusRectEditor += (sender, e) => {
-                                            new Thread(() => {
-                                                           if (!LoadSettings()) return;
+            form.PrepFocusRectsPanel += (sender, e) => {
                                                            if (!FixupFolders()) return;
                                                            if (!LoadNeverShowList()) return;
                                                            if (!LoadImageList()) return;
-                                                           var a = new Action(() => {
-                                                                                  var f = form.FocusRectEditor = new FocusRectEditor(_images, _dataPath);
-                                                                                  f.Closing += (o, ee) => form.FocusRectEditor = null;
-                                                                                  f.EditImage += Form_OnEditImage;
-                                                                                  f.Show();
-                                                                              });
-                                                           form.Invoke(a);
-                                                       }).Start();
-                                        };
+                                                           e.Images = _images;
+                                                       };
+            //form.OpenFocusRectEditor += (sender, e) => {
+            //                                new Thread(() => {
+            //                                               if (!LoadSettings()) return;
+            //                                               if (!FixupFolders()) return;
+            //                                               if (!LoadNeverShowList()) return;
+            //                                               if (!LoadImageList()) return;
+            //                                               var a = new Action(() => {
+            //                                                                      var f = form.FocusRectEditor = new FocusRectEditor(_images, _dataPath);
+            //                                                                      f.Closing += (o, ee) => form.FocusRectEditor = null;
+            //                                                                      f.EditImage += Form_OnEditImage;
+            //                                                                      f.Show();
+            //                                                                  });
+            //                                               form.Invoke(a);
+            //                                           }).Start();
+            //                            };
             form.ShowDialog();
         }
         private static bool LoadImageList() {
@@ -287,8 +293,8 @@ namespace BackgroundSwitcher {
                         Log.Write("Folder doesn't exist: " + folder);
                         continue;
                     }
-                    Console.WriteLine("Processing " + folder);
                     var files = Directory.GetFiles(folder, "*.*", SearchOption.TopDirectoryOnly).Where(f => _settings.ImageExtensions.Contains(Path.GetExtension(f)?.Trim('.').ToUpper())).ToList();
+                    Console.WriteLine("Processing " + folder + " (" + files.Count + ")");
                     ProcessFiles(files);
                 }
                 Log.Write("After searching folders, " + _images.Count + " images found. " + _images.Count(i => i.Validated) + " are validated.");
@@ -391,7 +397,7 @@ namespace BackgroundSwitcher {
             }
         }
         [STAThread] private static void Main(string[] args) {
-            ParseCommandLine(args);
+             ParseCommandLine(args);
             Log.Init(_dataPath);
             if (_cleanup) {
                 Cleanup();
@@ -645,7 +651,7 @@ namespace BackgroundSwitcher {
                 string ext = Path.GetExtension(file);
                 if (!_settings.ImageExtensions.Contains(ext.Trim('.').ToUpper())) continue;
                 ++count;
-                Console.WriteLine(count.ToString());
+                Console.WriteLine(count + "/" + files.Count);
                 // Skip it if it's in nevershow.
                 if (_neverShowList.Any(ns => file.ToUpper().Contains(ns))) continue;
                 // get any focusrects for this folder.

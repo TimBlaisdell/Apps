@@ -14,13 +14,14 @@ namespace BackgroundSwitcher {
         public MainForm(string datapath) {
             _datapath = datapath;
             InitializeComponent();
-            multiSliderPanel.Height = ClientRectangle.Height - multiSliderPanel.Top;
-            panelImageInfo.SetDataPath(_datapath);
-            panelSettings.SetDataPath(_datapath);
-            panelFolders.SetDataPath(_datapath);
+            _panels = new MyUserControl[] { panelImageInfo, panelSettings, panelFolders, panelFocusRects };
             multiSliderPanel.Main = panelImageInfo;
-            multiSliderPanel.AddSlider(panelSettings, true);
-            multiSliderPanel.AddSlider(panelFolders, true);
+            foreach (var p in _panels) {
+                p.SetDataPath(_datapath);
+                if (p == panelImageInfo) continue;
+                multiSliderPanel.AddSlider(p, true);
+            }
+            multiSliderPanel.Height = ClientRectangle.Height - multiSliderPanel.Top;
         }
         public MainForm(JSONImageInfo[] infoarray, string datapath, JSONSettings settings) : this(datapath) {
             _settings = settings;
@@ -29,15 +30,16 @@ namespace BackgroundSwitcher {
             _infoArray = infoarray;
             if (_info != null) FillValues(_info);
         }
-        public FocusRectEditor FocusRectEditor {
-            get => panelImageInfo.FocusRectEditor;
-            set {
-                panelImageInfo.FocusRectEditor = value;
-                if (_info != null) panelImageInfo.FocusRectEditor?.SetImage(_info.Path);
-            }
-        }
+        //public FocusRectEditor FocusRectEditor {
+        //    get => panelImageInfo.FocusRectEditor;
+        //    set {
+        //        panelImageInfo.FocusRectEditor = value;
+        //        if (_info != null) panelImageInfo.FocusRectEditor?.SetImage(_info.Path);
+        //    }
+        //}
         public event EventHandler<string> EditImage;
         public event EventHandler OpenFocusRectEditor;
+        public event EventHandler<FocusRectsPanel.PrepFocusRectsPanelEventArgs> PrepFocusRectsPanel;
         private void btnFocusRectEdit_Click(object sender, EventArgs e) {
             ShowMessage(Color.Green, "Opening focus rect editor...");
             OpenFocusRectEditor?.Invoke(this, EventArgs.Empty);
@@ -74,15 +76,40 @@ namespace BackgroundSwitcher {
                 ShowMessage(Color.Red, "Error: " + ex.Message);
             }
         }
+        private void chkWatchMouseChanged(object sender, EventArgs e) {
+            if (sender == panelImageInfo) panelSettings.ClickOutsideWindow = panelImageInfo.WatchMouse;
+            else panelImageInfo.WatchMouse = panelSettings.ClickOutsideWindow;
+        }
         private void MouseHook_OnMouseAction(object sender, MouseHook.MouseHookEventArgs e) {
             if (!panelImageInfo.WatchMouse || multiSliderPanel.Current != panelImageInfo ||
-                new Rectangle(Location, Size).Contains(e.Data.pt.x, e.Data.pt.y) ||
-                FocusRectEditor != null && new Rectangle(FocusRectEditor.Location, FocusRectEditor.Size).Contains(e.Data.pt.x, e.Data.pt.y)) return;
+                new Rectangle(Location, Size).Contains(e.Data.pt.x, e.Data.pt.y)) // ||
+                //FocusRectEditor != null && new Rectangle(FocusRectEditor.Location, FocusRectEditor.Size).Contains(e.Data.pt.x, e.Data.pt.y)) return;
+                return;
             if (e.Type == MouseHook.MouseMessages.WM_LBUTTONDOWN) btnOpenImage_Click(null, null);
             else if (e.Type == MouseHook.MouseMessages.WM_RBUTTONDOWN) btnGoToFile_Click(null, null);
         }
+        private void multiSliderPanel_SizeChanged(object sender, EventArgs e) {
+            if (_panels == null) return;
+            foreach (var panel in _panels) {
+                panel.TargetSize = multiSliderPanel.Size;
+            }
+        }
         private void panel_ShowMessage(object sender, MessageInfo e) {
             ShowMessage(e.Color, e.Message);
+        }
+        private void panelFocusRects_EditImage(object sender, string path) {
+            if (_openingImage || string.IsNullOrEmpty(path) || !File.Exists(path)) return;
+            _openingImage = true;
+            try {
+                ShowMessage(Color.Green, "Launching editor for image...");
+                EditImage?.Invoke(this, path);
+            }
+            catch (Exception ex) {
+                ShowMessage(Color.Red, "Error: " + ex.Message);
+            }
+        }
+        private void panelFocusRects_PrepFocusRectsPanel(object sender, FocusRectsPanel.PrepFocusRectsPanelEventArgs e) {
+            PrepFocusRectsPanel?.Invoke(sender, e);
         }
         private void tabControl_SelectedIndexChanged(object sender, EventArgs e) {
             switch (tabControl.SelectedTab.Name) {
@@ -95,6 +122,9 @@ namespace BackgroundSwitcher {
                 case "pageFolders":
                     multiSliderPanel.SlideTo(panelFolders);
                     break;
+                case "pageFocusRects":
+                    multiSliderPanel.SlideTo(panelFocusRects);
+                    break;
             }
         }
         private void tabControl_TabIndexChanged(object sender, EventArgs e) {
@@ -106,7 +136,7 @@ namespace BackgroundSwitcher {
             if (lblMessage.Visible && (now - _messageShown).TotalSeconds > 10) {
                 ShowMessage(Color.Black, "");
             }
-            if (multiSliderPanel.Current == panelImageInfo) {
+            if ((multiSliderPanel.Current == panelImageInfo || multiSliderPanel.Current == panelFocusRects)) {
                 if (Keyboard.IsKeyDown(Key.Escape) && panelImageInfo.WatchMouse) {
                     Close();
                 }
@@ -116,7 +146,7 @@ namespace BackgroundSwitcher {
                     _lastUIUpdate = now;
                     //lblMouseCoords.Text = $"({m.X}, {m.Y})";
                     //lblMouseCoords.Left = Width - (lblMouseCoords.Width + 30);
-                    if (!new Rectangle(Location, Size).Contains(m) && (FocusRectEditor == null || !new Rectangle(FocusRectEditor.Location, FocusRectEditor.Size).Contains(m))) {
+                    if (panelImageInfo.WatchMouse && !new Rectangle(Location, Size).Contains(m)) { // && (FocusRectEditor == null || !new Rectangle(FocusRectEditor.Location, FocusRectEditor.Size).Contains(m))) {
                         var info = GetInfo(m);
                         if (info != _info) {
                             _info = info;
@@ -129,13 +159,17 @@ namespace BackgroundSwitcher {
         protected override void OnClosing(CancelEventArgs e) {
             base.OnClosing(e);
             MouseHook.Stop();
-            FocusRectEditor?.Close();
+            //FocusRectEditor?.Close();
+        }
+        protected override void OnResizeEnd(EventArgs e) {
+            base.OnResizeEnd(e);
+            panelFocusRects.OnResizeEnd(e);
         }
         protected override void OnShown(EventArgs e) {
             MouseHook.Start();
             MouseHook.MouseAction += MouseHook_OnMouseAction;
             base.OnShown(e);
-            TopMost = true;
+            //TopMost = true;
             timer1.Start();
             //Capture = true;
         }
@@ -144,6 +178,7 @@ namespace BackgroundSwitcher {
         //}
         private void FillValues(JSONImageInfo info) {
             panelImageInfo.FillValues(info);
+            panelFocusRects.SetImage(info?.Path);
         }
         private JSONImageInfo GetInfo(Point p) {
             foreach (var info in _infoArray) {
@@ -169,6 +204,7 @@ namespace BackgroundSwitcher {
         private DateTime _lastUIUpdate = DateTime.MinValue;
         private DateTime _messageShown;
         private bool _openingImage;
+        private MyUserControl[] _panels;
         private JSONSettings _settings;
     }
 }

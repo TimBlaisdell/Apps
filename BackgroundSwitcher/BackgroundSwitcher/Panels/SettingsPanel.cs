@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Drawing;
-using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
@@ -23,14 +22,15 @@ namespace BackgroundSwitcher.Panels {
             }
             //set => GetCell("border").Value = value.ToString();
         }
-        private string EditImageCommand {
-            get => GetCell("image edit").Value.ToString();
-            //set => GetCell("image edit").Value = value;
+        public bool ClickOutsideWindow {
+            get => GetCell("watch mouse").Value.ToString().ToLower().StartsWith("t");
+            set {
+                var cell = GetCell("watch mouse");
+                if (cell != null) cell.Value = value.ToString();
+            }
         }
-        private string ImageExts {
-            get => GetCell("image ext").Value.ToString();
-            //set => GetCell("image ext").Value = value;
-        }
+        private string EditImageCommand => GetCell("image edit").Value.ToString();
+        private string ImageExts => GetCell("image ext").Value.ToString();
         private double MaxRatioDiff {
             get {
                 try {
@@ -40,7 +40,6 @@ namespace BackgroundSwitcher.Panels {
                     return 0.0;
                 }
             }
-            //set => GetCell("ratio tol").Value = value.ToString();
         }
         private Size MinImageSize {
             get {
@@ -58,7 +57,6 @@ namespace BackgroundSwitcher.Panels {
                 }
                 return new Size(x, y);
             }
-            //set => GetCell("minimum image size").Value = value.Width + ", " + value.Height;
         }
         private int MinShowInterval {
             get {
@@ -69,7 +67,6 @@ namespace BackgroundSwitcher.Panels {
                     return 0;
                 }
             }
-            //set => GetCell("Minimum show interval").Value = value.ToString();
         }
         private bool ShowFilenames {
             get {
@@ -93,10 +90,7 @@ namespace BackgroundSwitcher.Panels {
             }
             //set => GetCell("show folders with filenames").Value = value.ToString();
         }
-        private string[] ShowFoldersAfter {
-            get => GetCell("show folders cut-off").Value.ToString().Split(',').Select(s => s.Trim()).ToArray();
-            //set => GetCell("show folders cut-off").Value = string.Join(", ", value);
-        }
+        private string[] ShowFoldersAfter => GetCell("show folders cut-off").Value.ToString().Split(',').Select(s => s.Trim()).ToArray();
         private int SplitIterations {
             get {
                 try {
@@ -106,8 +100,8 @@ namespace BackgroundSwitcher.Panels {
                     return 0;
                 }
             }
-            //set => GetCell("split").Value = value.ToString();
         }
+        public event EventHandler WatchMouseChanged;
         private void dgvSettings_CellValueChanged(object sender, DataGridViewCellEventArgs e) {
             if (_inSetDataPath || e.ColumnIndex != 1 || e.RowIndex < 0) return;
             ((RowTagData)dgvSettings.Rows[e.RowIndex].Tag).Action();
@@ -192,6 +186,16 @@ namespace BackgroundSwitcher.Panels {
                                                                       "argument on the command line, so whatever image editor you use must be\n" +
                                                                       "able to accept that.",
                                                             Action = () => _settings.EditImageCommand = EditImageCommand
+                                                        },
+                                         new RowTagData {
+                                                            Name = "Watch mouse activity",
+                                                            Tooltip = "Set to \"true\" to watch mouse location and activity outside the window.\n\n" +
+                                                                      "The image info tab will be updated with the image under the mouse, and you can\n" +
+                                                                      "click to load the image in the editor or right-click to go to the containing folder.",
+                                                            Action = () => {
+                                                                         _settings.ClickOutsideWindow = ClickOutsideWindow;
+                                                                         WatchMouseChanged?.Invoke(this, EventArgs.Empty);
+                                                                     }
                                                         }
                                      };
                 var vals = new[] {
@@ -204,7 +208,8 @@ namespace BackgroundSwitcher.Panels {
                                      _settings.ShowFilenames.ToString(),
                                      _settings.ShowFolders.ToString(),
                                      string.Join(", ", _settings.ShowFoldersAfter),
-                                     _settings.EditImageCommand
+                                     _settings.EditImageCommand,
+                                     _settings.ClickOutsideWindow.ToString()
                                  };
                 if (tagdatas.Length != vals.Length) throw new Exception("Something's wrong with the code.");
                 dgvSettings.Rows.Add(tagdatas.Length);
@@ -230,9 +235,6 @@ namespace BackgroundSwitcher.Panels {
                 if (row.Cells[0].Value.ToString().ToLower().StartsWith(name)) return row.Cells[1];
             }
             return null;
-        }
-        private void SaveSettings() {
-            File.WriteAllText(Path.Combine(_dataPath, "Settings.json"), _settings.ToString(true));
         }
         /// <summary>
         ///     A hack I found online to increase the time that DataGridView tooltips remain visible.

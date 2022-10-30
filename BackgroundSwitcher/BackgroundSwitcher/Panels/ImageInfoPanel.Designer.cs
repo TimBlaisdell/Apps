@@ -63,6 +63,7 @@ namespace BackgroundSwitcher.Panels {
             this.chkWatchMouse.Text = "Left-click to open image in editor, right-click to show in explorer, escape to ex" +
     "it.";
             this.chkWatchMouse.UseVisualStyleBackColor = true;
+            this.chkWatchMouse.CheckedChanged += new System.EventHandler(this.chkWatchMouse_CheckedChanged);
             // 
             // lblPath
             // 

@@ -32,9 +32,11 @@ namespace BackgroundSwitcher {
             this.pageImageInfo = new System.Windows.Forms.TabPage();
             this.pageFolders = new System.Windows.Forms.TabPage();
             this.pageSettings = new System.Windows.Forms.TabPage();
+            this.pageFocusRects = new System.Windows.Forms.TabPage();
             this.panelFolders = new BackgroundSwitcher.Panels.FoldersPanel();
             this.panelSettings = new BackgroundSwitcher.Panels.SettingsPanel();
             this.panelImageInfo = new BackgroundSwitcher.Panels.ImageInfoPanel();
+            this.panelFocusRects = new BackgroundSwitcher.Panels.FocusRectsPanel();
             this.tabControl.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,12 +74,14 @@ namespace BackgroundSwitcher {
             this.multiSliderPanel.StopAnimation = false;
             this.multiSliderPanel.TabIndex = 7;
             this.multiSliderPanel.ZOrderCorrection = false;
+            this.multiSliderPanel.SizeChanged += new System.EventHandler(this.multiSliderPanel_SizeChanged);
             // 
             // tabControl
             // 
             this.tabControl.Controls.Add(this.pageImageInfo);
             this.tabControl.Controls.Add(this.pageFolders);
             this.tabControl.Controls.Add(this.pageSettings);
+            this.tabControl.Controls.Add(this.pageFocusRects);
             this.tabControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl.Location = new System.Drawing.Point(1, 12);
             this.tabControl.Name = "tabControl";
@@ -117,6 +121,15 @@ namespace BackgroundSwitcher {
             this.pageSettings.Text = "Settings";
             this.pageSettings.UseVisualStyleBackColor = true;
             // 
+            // pageFocusRects
+            // 
+            this.pageFocusRects.Location = new System.Drawing.Point(4, 25);
+            this.pageFocusRects.Name = "pageFocusRects";
+            this.pageFocusRects.Size = new System.Drawing.Size(597, 0);
+            this.pageFocusRects.TabIndex = 3;
+            this.pageFocusRects.Text = "Focus regions";
+            this.pageFocusRects.UseVisualStyleBackColor = true;
+            // 
             // panelFolders
             // 
             this.panelFolders.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -124,6 +137,7 @@ namespace BackgroundSwitcher {
             this.panelFolders.Name = "panelFolders";
             this.panelFolders.Size = new System.Drawing.Size(101, 22);
             this.panelFolders.TabIndex = 11;
+            this.panelFolders.TargetSize = new System.Drawing.Size(0, 0);
             this.panelFolders.ShowMessage += new System.EventHandler<BackgroundSwitcher.Panels.MessageInfo>(this.panel_ShowMessage);
             // 
             // panelSettings
@@ -133,6 +147,8 @@ namespace BackgroundSwitcher {
             this.panelSettings.Name = "panelSettings";
             this.panelSettings.Size = new System.Drawing.Size(107, 24);
             this.panelSettings.TabIndex = 10;
+            this.panelSettings.TargetSize = new System.Drawing.Size(0, 0);
+            this.panelSettings.WatchMouseChanged += new System.EventHandler(this.chkWatchMouseChanged);
             this.panelSettings.ShowMessage += new System.EventHandler<BackgroundSwitcher.Panels.MessageInfo>(this.panel_ShowMessage);
             // 
             // panelImageInfo
@@ -143,16 +159,31 @@ namespace BackgroundSwitcher {
             this.panelImageInfo.Name = "panelImageInfo";
             this.panelImageInfo.Size = new System.Drawing.Size(123, 21);
             this.panelImageInfo.TabIndex = 8;
+            this.panelImageInfo.TargetSize = new System.Drawing.Size(0, 0);
+            this.panelImageInfo.WatchMouse = true;
             this.panelImageInfo.GoToFile += new System.EventHandler(this.btnGoToFile_Click);
             this.panelImageInfo.NeverShow += new System.EventHandler(this.btnNeverShow_Click);
             this.panelImageInfo.OpenFocusRectEditor += new System.EventHandler(this.btnFocusRectEdit_Click);
             this.panelImageInfo.OpenImage += new System.EventHandler(this.btnOpenImage_Click);
+            this.panelImageInfo.WatchMouseChanged += new System.EventHandler(this.chkWatchMouseChanged);
             this.panelImageInfo.ShowMessage += new System.EventHandler<BackgroundSwitcher.Panels.MessageInfo>(this.panel_ShowMessage);
+            // 
+            // panelFocusRects
+            // 
+            this.panelFocusRects.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelFocusRects.Location = new System.Drawing.Point(157, -3);
+            this.panelFocusRects.Name = "panelFocusRects";
+            this.panelFocusRects.Size = new System.Drawing.Size(137, 22);
+            this.panelFocusRects.TabIndex = 12;
+            this.panelFocusRects.TargetSize = new System.Drawing.Size(0, 0);
+            this.panelFocusRects.EditImage += new System.EventHandler<string>(this.panelFocusRects_EditImage);
+            this.panelFocusRects.PrepFocusRectsPanel += new System.EventHandler<BackgroundSwitcher.Panels.FocusRectsPanel.PrepFocusRectsPanelEventArgs>(this.panelFocusRects_PrepFocusRectsPanel);
             // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(619, 434);
+            this.Controls.Add(this.panelFocusRects);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.panelFolders);
             this.Controls.Add(this.panelSettings);
@@ -179,5 +210,7 @@ namespace BackgroundSwitcher {
         private Panels.FoldersPanel panelFolders;
         private System.Windows.Forms.TabPage pageFolders;
         private Panels.SettingsPanel panelSettings;
+        private System.Windows.Forms.TabPage pageFocusRects;
+        private Panels.FocusRectsPanel panelFocusRects;
     }
 }

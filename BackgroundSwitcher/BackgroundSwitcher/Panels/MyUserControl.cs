@@ -20,6 +20,7 @@ namespace BackgroundSwitcher.Panels {
                 return false;
             }
         }
+        public virtual Size TargetSize { get; set; }
         public event EventHandler<MessageInfo> ShowMessage;
         public void InvokeShowMessage(Color c, string msg) {
             ShowMessage?.Invoke(this, new MessageInfo(c, msg));
@@ -48,6 +49,9 @@ namespace BackgroundSwitcher.Panels {
                 BorderStyle = BorderStyle.None;
                 lblTypeName.SendToBack();
             }
+        }
+        protected void SaveSettings() {
+            File.WriteAllText(Path.Combine(_dataPath, "Settings.json"), _settings.ToString(true));
         }
         protected string _dataPath;
         protected JSONSettings _settings;

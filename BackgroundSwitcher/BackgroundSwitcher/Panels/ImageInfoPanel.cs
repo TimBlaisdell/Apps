@@ -8,11 +8,15 @@ namespace BackgroundSwitcher.Panels {
             InitializeComponent();
             _spacer = panelUnderPath.Top - lblPath.Bottom;
         }
-        public bool WatchMouse => chkWatchMouse.Checked;
+        public bool WatchMouse {
+            get { return chkWatchMouse.Checked; }
+            set { chkWatchMouse.Checked = value; }
+        }
         public event EventHandler GoToFile;
         public event EventHandler NeverShow;
         public event EventHandler OpenFocusRectEditor;
         public event EventHandler OpenImage;
+        public event EventHandler WatchMouseChanged;
         private void btnFocusRectEdit_Click(object sender, EventArgs e) {
             OpenFocusRectEditor?.Invoke(this, EventArgs.Empty);
         }
@@ -24,6 +28,11 @@ namespace BackgroundSwitcher.Panels {
         }
         private void btnOpenImage_Click(object sender, EventArgs e) {
             OpenImage?.Invoke(this, EventArgs.Empty);
+        }
+        private void chkWatchMouse_CheckedChanged(object sender, EventArgs e) {
+            _settings.ClickOutsideWindow = chkWatchMouse.Checked;
+            SaveSettings();
+            WatchMouseChanged?.Invoke(this, EventArgs.Empty);
         }
         private void lblPath_SizeChanged(object sender, EventArgs e) {
             if (_spacer == 0) return;
@@ -56,7 +65,7 @@ namespace BackgroundSwitcher.Panels {
                 InvokeShowMessage(Color.Red, "File does not exist: " + info.Path);
             }
             else {
-                FocusRectEditor?.SetImage(info.Path);
+                //FocusRectEditor?.SetImage(info.Path);
                 var bmp = new Bitmap(info.Path);
                 using (var gfx = Graphics.FromImage(bmp)) {
                     if (info.has("FocusRect")) {
@@ -78,12 +87,16 @@ namespace BackgroundSwitcher.Panels {
                 pboxImage.BackgroundImage = bmp;
             }
         }
+        public override void SetDataPath(string path) {
+            base.SetDataPath(path);
+            chkWatchMouse.Checked = _settings.ClickOutsideWindow;
+        }
         protected override void OnSizeChanged(EventArgs e) {
             base.OnSizeChanged(e);
             lblPath.MaximumSize = new Size(Width - lblPath.Left * 2, 10000);
         }
         private readonly int _spacer;
-        public FocusRectEditor FocusRectEditor;
+        //public FocusRectEditor FocusRectEditor;
         public int LineWidth = 4;
     }
 }
