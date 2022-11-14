@@ -93,6 +93,7 @@ namespace BackgroundSwitcher {
         private static bool FixupFolders() {
             try {
                 if (_settings.BaseFolders.Length > 0) {
+                    if (_form != null) _form.LoadingProgMax += 2;
                     int fixcount = 0;
                     int drivespec = 0;
                     int notfound = 0;
@@ -113,6 +114,7 @@ namespace BackgroundSwitcher {
                         }
                         if (save == fixcount) ++notfound;
                     }
+                    if (_form != null) _form.LoadingProgValue += 1;
                     for (int i = 0; i < _settings.NonRecurseFolders.Length; ++i) {
                         string folder = _settings.NonRecurseFolders[i];
                         if (folder[1] == ':') {
@@ -130,6 +132,7 @@ namespace BackgroundSwitcher {
                         }
                         if (save == fixcount) ++notfound;
                     }
+                    if (_form != null) _form.LoadingProgValue += 1;
                     Log.Write($"Fixed folders up using base folders list: {fixcount} fixed, {drivespec} had drive spec, {notfound} were not found.");
                 }
                 else {
@@ -236,14 +239,19 @@ namespace BackgroundSwitcher {
             if (!File.Exists(bgfile)) return;
             var currbg = new JSONArray(File.ReadAllText(bgfile));
             LoadSettings();
-            var form = new MainForm(currbg.ToArray<JSONImageInfo>(), _dataPath, _settings);
-            form.EditImage += Form_OnEditImage;
-            form.PrepFocusRectsPanel += (sender, e) => {
-                                                           if (!FixupFolders()) return;
-                                                           if (!LoadNeverShowList()) return;
-                                                           if (!LoadImageList()) return;
-                                                           e.Images = _images;
-                                                       };
+            _form = new MainForm(currbg.ToArray<JSONImageInfo>(), _dataPath, _settings);
+            _form.EditImage += Form_OnEditImage;
+            _form.PrepFocusRectsPanel += (sender, e) => {
+                                             _form.LoadingProgMax = 3;
+                                             _form.LoadingProgValue = 0;
+                                             if (!FixupFolders()) return;
+                                             _form.LoadingProgValue += 1;
+                                             if (!LoadNeverShowList()) return;
+                                             _form.LoadingProgValue += 1;
+                                             if (!LoadImageList()) return;
+                                             _form.LoadingProgValue += 1;
+                                             e.Images = _images;
+                                         };
             //form.OpenFocusRectEditor += (sender, e) => {
             //                                new Thread(() => {
             //                                               if (!LoadSettings()) return;
@@ -259,11 +267,12 @@ namespace BackgroundSwitcher {
             //                                               form.Invoke(a);
             //                                           }).Start();
             //                            };
-            form.ShowDialog();
+            _form.ShowDialog();
         }
         private static bool LoadImageList() {
             _images = new List<JSONImageInfo>();
             try {
+                if (_form != null) _form.LoadingProgMax += 6;
                 // load up my last image list
                 // omit any that are in Files.json, but are also in the nevershow list.  These will be ones that were shown, but when I saw it I put it in the nevershow list.
                 string filesfname = Path.Combine(_dataPath, "Files.json");
@@ -278,60 +287,72 @@ namespace BackgroundSwitcher {
                 }
                 else Log.Write("0 records read from Files.json");
                 Log.Write($"After culling nevershows, {_images.Count} image files.");
+                if (_form != null) _form.LoadingProgValue += 1;
                 // Load up my list of images.  On the first run, this will take a while.  Subsequent runs should be fast because the files will already be in the list.
+                if (_form != null) _form.LoadingProgMax += _settings.Folders.Length;
                 foreach (string folder in _settings.Folders) {
-                    if (!Directory.Exists(folder)) {
-                        Log.Write("Folder doesn't exist: " + folder);
-                        continue;
+                    if (Directory.Exists(folder)) {
+                        Console.WriteLine("Processing " + folder);
+                        var files = Directory.GetFiles(folder, "*.*", SearchOption.AllDirectories).Where(f => _settings.ImageExtensions.Contains(Path.GetExtension(f)?.Trim('.').ToUpper())).ToList();
+                        ProcessFiles(files);
                     }
-                    Console.WriteLine("Processing " + folder);
-                    var files = Directory.GetFiles(folder, "*.*", SearchOption.AllDirectories).Where(f => _settings.ImageExtensions.Contains(Path.GetExtension(f)?.Trim('.').ToUpper())).ToList();
-                    ProcessFiles(files);
+                    else Log.Write("Folder doesn't exist: " + folder);
+                    if (_form != null) _form.LoadingProgValue += 1;
                 }
+                if (_form != null) _form.LoadingProgValue += 1;
+                if (_form != null) _form.LoadingProgMax += _settings.NonRecurseFolders.Length;
                 foreach (string folder in _settings.NonRecurseFolders) {
-                    if (!Directory.Exists(folder)) {
-                        Log.Write("Folder doesn't exist: " + folder);
-                        continue;
+                    if (Directory.Exists(folder)) {
+                        var files = Directory.GetFiles(folder, "*.*", SearchOption.TopDirectoryOnly).Where(f => _settings.ImageExtensions.Contains(Path.GetExtension(f)?.Trim('.').ToUpper())).ToList();
+                        Console.WriteLine("Processing " + folder + " (" + files.Count + ")");
+                        ProcessFiles(files);
                     }
-                    var files = Directory.GetFiles(folder, "*.*", SearchOption.TopDirectoryOnly).Where(f => _settings.ImageExtensions.Contains(Path.GetExtension(f)?.Trim('.').ToUpper())).ToList();
-                    Console.WriteLine("Processing " + folder + " (" + files.Count + ")");
-                    ProcessFiles(files);
+                    else Log.Write("Folder doesn't exist: " + folder); 
+                    if (_form != null) _form.LoadingProgValue += 1;
                 }
                 Log.Write("After searching folders, " + _images.Count + " images found. " + _images.Count(i => i.Validated) + " are validated.");
+                if (_form != null) _form.LoadingProgValue += 1;
                 var notvalida = _images.Where(i => !i.Validated).ToArray();
                 if (notvalida.Length > 0) {
+                    if (_form != null) _form.LoadingProgMax += notvalida.Length;
                     // files that are not validated are files that were in the Files.json list, but were found to not exist now.
                     // For each one, see if there's a file in the same folder with the same hashcode.
                     foreach (var info in notvalida) {
-                        string dir = Path.GetDirectoryName(info.Path);
-                        var samefolder = _images.Where(i => Path.GetDirectoryName(i.Path) == dir && i.Path != info.Path).ToArray();
-                        if (samefolder.Length == 0) continue;
-                        var samefile = samefolder.FirstOrDefault(i => i.HashCode == info.HashCode);
-                        if (samefile != null && samefile.Validated) {
-                            // Sanity test: see if there's more than one image in the full list that has this same hash code.
-                            int count = _images.Count(i => i.HashCode == info.HashCode);
-                            if (count > 2) {
-                                Log.Write("Found duplicate hashcodes:");
-                                foreach (var zz in _images.Where(i => i.HashCode == info.HashCode)) {
-                                    Log.Write(info.Path);
+                        try {
+                            string dir = Path.GetDirectoryName(info.Path);
+                            var samefolder = _images.Where(i => Path.GetDirectoryName(i.Path) == dir && i.Path != info.Path).ToArray();
+                            if (samefolder.Length == 0) continue;
+                            var samefile = samefolder.FirstOrDefault(i => i.HashCode == info.HashCode);
+                            if (samefile != null && samefile.Validated) {
+                                // Sanity test: see if there's more than one image in the full list that has this same hash code.
+                                int count = _images.Count(i => i.HashCode == info.HashCode);
+                                if (count > 2) {
+                                    Log.Write("Found duplicate hashcodes:");
+                                    foreach (var zz in _images.Where(i => i.HashCode == info.HashCode)) {
+                                        Log.Write(info.Path);
+                                    }
                                 }
-                            }
-                            // I found an identical image that matches the non-validated one.  Remove the non-validated one and replace it with the validated one in FocusRects.
-                            _images.Remove(info);
-                            string frpath = Path.Combine(dir, "FocusRects.json");
-                            if (File.Exists(frpath)) {
-                                var json = new JSONObject(File.ReadAllText(frpath));
-                                var obj = json.optJSONObject(Path.GetFileName(info.Path));
-                                if (obj != null) {
-                                    json.remove(Path.GetFileName(info.Path));
-                                    json.put(Path.GetFileName(samefile.Path), obj);
-                                    File.WriteAllText(frpath, json.ToString(true));
-                                    samefile.put("FocusRect", obj);
+                                // I found an identical image that matches the non-validated one.  Remove the non-validated one and replace it with the validated one in FocusRects.
+                                _images.Remove(info);
+                                string frpath = Path.Combine(dir, "FocusRects.json");
+                                if (File.Exists(frpath)) {
+                                    var json = new JSONObject(File.ReadAllText(frpath));
+                                    var obj = json.optJSONObject(Path.GetFileName(info.Path));
+                                    if (obj != null) {
+                                        json.remove(Path.GetFileName(info.Path));
+                                        json.put(Path.GetFileName(samefile.Path), obj);
+                                        File.WriteAllText(frpath, json.ToString(true));
+                                        samefile.put("FocusRect", obj);
+                                    }
                                 }
                             }
                         }
+                        finally {
+                            if (_form != null) _form.LoadingProgValue += 1;
+                        }
                     }
                 }
+                if (_form != null) _form.LoadingProgValue += 1;
                 // Remove any images that are in folders I'm no longer required to include.
                 // Also remove images where the folder exists, but the image doesn't.
                 // The important thing is, I don't want to remove entries where the folder doesn't exist, because that might just be a removable drive or something, and I want to keep those.
@@ -340,6 +361,7 @@ namespace BackgroundSwitcher {
                                       return Directory.Exists(Path.GetDirectoryName(i.Path)) && !File.Exists(i.Path);
                                   });
                 Log.Write("After culling missing files and folders I don't care about, " + _images.Count + " images found.");
+                if (_form != null) _form.LoadingProgValue += 1;
                 // Write the _images list back to disk.
                 WriteFilesJson();
                 // Aftere writing Files.json, cull out records that:
@@ -352,6 +374,7 @@ namespace BackgroundSwitcher {
                 Log.Write($"{notvalid} failed to validate, {shownrecently} were shown recently.  {_imagesFiltered.Count} usable images (based on settings).");
                 // Sort the images by last used timestamp. This means when I go looking for images, I'll find the least recently used one that fits.
                 _imagesFiltered.Sort((i1, i2) => DateTime.Compare(i1.LastShown, i2.LastShown));
+                if (_form != null) _form.LoadingProgValue += 1;
                 return true;
             }
             catch (Exception ex) {
@@ -362,11 +385,13 @@ namespace BackgroundSwitcher {
         }
         private static bool LoadNeverShowList() {
             try {
+                if (_form != null) _form.LoadingProgMax += 1;
                 // Load never show list.  Force to uppercase.
                 string nevershowfname = Path.Combine(_dataPath, "NeverShow.json");
                 _neverShowList = File.Exists(nevershowfname) ? new JSONArray(File.ReadAllText(nevershowfname)).ToArray() : Array.Empty<string>();
                 if (_neverShowList.Length > 0) _neverShowList = _neverShowList.Select(s => s.ToUpper()).ToArray();
                 Log.Write(_neverShowList.Length + " nevershow files read from NeverShow.json.");
+                if (_form != null) _form.LoadingProgValue += 1;
                 return true;
             }
             catch (Exception ex) {
@@ -397,7 +422,7 @@ namespace BackgroundSwitcher {
             }
         }
         [STAThread] private static void Main(string[] args) {
-             ParseCommandLine(args);
+            ParseCommandLine(args);
             Log.Init(_dataPath);
             if (_cleanup) {
                 Cleanup();
@@ -641,68 +666,71 @@ namespace BackgroundSwitcher {
             int count = 0;
             JSONObject focusRects = new JSONObject();
             string focusRectsPath = null;
+            if (_form != null) _form.LoadingProgMax += files.Count;
             while (files.Count > 0) {
-                int f = _rand.Next(files.Count);
-                string file = files[f];
-                files.RemoveAt(f);
-                string fn = Path.GetFileName(file);
-                if (fn == null) continue; // should never happen? But anyway, if it does this is a bogus entry we should skip.
-                // Skip it if it's not a valid extension.
-                string ext = Path.GetExtension(file);
-                if (!_settings.ImageExtensions.Contains(ext.Trim('.').ToUpper())) continue;
-                ++count;
-                Console.WriteLine(count + "/" + files.Count);
-                // Skip it if it's in nevershow.
-                if (_neverShowList.Any(ns => file.ToUpper().Contains(ns))) continue;
-                // get any focusrects for this folder.
-                if (Path.GetDirectoryName(file) != focusRectsPath) {
-                    focusRectsPath = Path.GetDirectoryName(file) ?? "";
-                    string frname = Path.Combine(focusRectsPath, "FocusRects.json");
-                    focusRects = File.Exists(frname) ? new JSONObject(File.ReadAllText(frname)) : new JSONObject();
-                }
-                // Skip it if it's already in the list and has the same timestamp.
-                var lwt = File.GetLastWriteTime(file);
-                var inforecord = _images.FirstOrDefault(i => i.Path == file);
-                if (inforecord != null) {
-                    if (inforecord.has("Width") && inforecord.has("Height")) { // because some files were erroneaously written with no size info due to a bug.
-                        if (focusRects.has(Path.GetFileName(inforecord.Path))) inforecord.put("FocusRect", focusRects.getJSONObject(Path.GetFileName(inforecord.Path)));
-                        else inforecord.remove("FocusRect");
-                        if (inforecord.LastWriteTicks == lwt.Ticks) {
-                            if (!inforecord.has("Hash")) {
-                                inforecord.remove("HashCode"); // where I used to store this.  remove if it's there.
-                                inforecord.HashCode = GetHashCode(inforecord.Path);
-                            }
-                            inforecord.Validated = true;
-                            continue; // already got it.
-                        }
-                    }
-                    //else {
-                    //    int i = 10;
-                    //}
-                    _images.RemoveAll(i => i.Path == file); // remove it 'cause I'm about to regenerate it.
-                }
-                // If I get here, it means this file is one I don't already have in my list or was removed because it's been updated since I last saw it.
-                Size sz;
-                ulong hashcode;
                 try {
-                    using (var stream = File.OpenRead(file)) {
-                        using (var img = Image.FromStream(stream, false, false)) {
-                            sz = img.Size;
-                            hashcode = GetHashCode(img);
-                        }
+                    int f = _rand.Next(files.Count);
+                    string file = files[f];
+                    files.RemoveAt(f);
+                    string fn = Path.GetFileName(file);
+                    if (fn == null) continue; // should never happen? But anyway, if it does this is a bogus entry we should skip.
+                    // Skip it if it's not a valid extension.
+                    string ext = Path.GetExtension(file);
+                    if (!_settings.ImageExtensions.Contains(ext.Trim('.').ToUpper())) continue;
+                    ++count;
+                    Console.WriteLine(count + "/" + files.Count);
+                    // Skip it if it's in nevershow.
+                    if (_neverShowList.Any(ns => file.ToUpper().Contains(ns))) continue;
+                    // get any focusrects for this folder.
+                    if (Path.GetDirectoryName(file) != focusRectsPath) {
+                        focusRectsPath = Path.GetDirectoryName(file) ?? "";
+                        string frname = Path.Combine(focusRectsPath, "FocusRects.json");
+                        focusRects = File.Exists(frname) ? new JSONObject(File.ReadAllText(frname)) : new JSONObject();
                     }
-                    //using (var img = Image.FromFile(file)) {
-                    //    sz = img.Size;
-                    //}
+                    // Skip it if it's already in the list and has the same timestamp.
+                    var lwt = File.GetLastWriteTime(file);
+                    var inforecord = _images.FirstOrDefault(i => i.Path == file);
+                    if (inforecord != null) {
+                        if (inforecord.has("Width") && inforecord.has("Height")) { // because some files were erroneaously written with no size info due to a bug.
+                            if (focusRects.has(Path.GetFileName(inforecord.Path))) inforecord.put("FocusRect", focusRects.getJSONObject(Path.GetFileName(inforecord.Path)));
+                            else inforecord.remove("FocusRect");
+                            if (inforecord.LastWriteTicks == lwt.Ticks) {
+                                if (!inforecord.has("Hash")) {
+                                    inforecord.remove("HashCode"); // where I used to store this.  remove if it's there.
+                                    inforecord.HashCode = GetHashCode(inforecord.Path);
+                                }
+                                inforecord.Validated = true;
+                                continue; // already got it.
+                            }
+                        }
+                        _images.RemoveAll(i => i.Path == file); // remove it 'cause I'm about to regenerate it.
+                    }
+                    // If I get here, it means this file is one I don't already have in my list or was removed because it's been updated since I last saw it.
+                    Size sz;
+                    ulong hashcode;
+                    try {
+                        using (var stream = File.OpenRead(file)) {
+                            using (var img = Image.FromStream(stream, false, false)) {
+                                sz = img.Size;
+                                hashcode = GetHashCode(img);
+                            }
+                        }
+                        //using (var img = Image.FromFile(file)) {
+                        //    sz = img.Size;
+                        //}
+                    }
+                    catch {
+                        sz = new Size(0, 0);
+                        hashcode = 0;
+                    }
+                    if (sz.Width < _settings.MinSourceImageSize.Width || sz.Height < _settings.MinSourceImageSize.Height) continue;
+                    inforecord = new JSONImageInfo { Path = file, Validated = true, LastWrite = lwt, Size = sz, HashCode = hashcode };
+                    if (focusRects.has(Path.GetFileName(file))) inforecord.put("FocusRect", focusRects.getJSONObject(Path.GetFileName(file)));
+                    _images.Add(inforecord);
                 }
-                catch {
-                    sz = new Size(0, 0);
-                    hashcode = 0;
+                finally {
+                    if (_form != null) _form.LoadingProgValue += 1;
                 }
-                if (sz.Width < _settings.MinSourceImageSize.Width || sz.Height < _settings.MinSourceImageSize.Height) continue;
-                inforecord = new JSONImageInfo { Path = file, Validated = true, LastWrite = lwt, Size = sz, HashCode = hashcode };
-                if (focusRects.has(Path.GetFileName(file))) inforecord.put("FocusRect", focusRects.getJSONObject(Path.GetFileName(file)));
-                _images.Add(inforecord);
             }
             Console.WriteLine("\nTotal: " + _images.Count);
         }
@@ -725,6 +753,7 @@ namespace BackgroundSwitcher {
         private static bool _cleanup;
         private static string _dataPath = "C:\\ProgramData\\BackgroundSwitcher";
         private static bool _editFocusRects;
+        private static MainForm _form;
         private static bool _imageInfoMode;
         private static List<JSONImageInfo> _images = new List<JSONImageInfo>();
         private static List<JSONImageInfo> _imagesFiltered = new List<JSONImageInfo>();

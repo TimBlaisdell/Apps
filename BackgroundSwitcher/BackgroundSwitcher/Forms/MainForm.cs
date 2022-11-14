@@ -30,6 +30,14 @@ namespace BackgroundSwitcher {
             _infoArray = infoarray;
             if (_info != null) FillValues(_info);
         }
+        public int LoadingProgMax {
+            get => panelFocusRects.ProgbarMax;
+            set => panelFocusRects.ProgbarMax = value;
+        }
+        public int LoadingProgValue {
+            get => panelFocusRects.ProgbarValue;
+            set => panelFocusRects.ProgbarValue = value;
+        }
         //public FocusRectEditor FocusRectEditor {
         //    get => panelImageInfo.FocusRectEditor;
         //    set {

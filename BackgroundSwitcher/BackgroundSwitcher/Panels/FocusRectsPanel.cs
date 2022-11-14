@@ -14,6 +14,15 @@ namespace BackgroundSwitcher.Panels {
             InitializeComponent();
             _canvasSizeDiff = new Size(Width - panelCanvas.Width, Height - panelCanvas.Height);
         }
+        public bool Loading { get; private set; }
+        public int ProgbarMax {
+            get => Loading ? pbarLoading.Maximum : 0;
+            set { if (Loading) pbarLoading.BeginInvoke(new MethodInvoker(() => { pbarLoading.Maximum = value; })); }
+        }
+        public int ProgbarValue {
+            get => Loading ? pbarLoading.Value : 0;
+            set { if (Loading) pbarLoading.BeginInvoke(new MethodInvoker(() => { pbarLoading.Value = value; })); }
+        }
         public override Size TargetSize {
             get => base.TargetSize;
             set {
@@ -199,18 +208,30 @@ namespace BackgroundSwitcher.Panels {
             lblLoading.Dock = DockStyle.Fill;
             lblLoading.Visible = true;
             lblLoading.BringToFront();
+            pbarLoading.Value = 0;
+            pbarLoading.Visible = true;
+            pbarLoading.BringToFront();
             new Thread(() => {
                            Thread.Sleep(1000);
-                           var e = new PrepFocusRectsPanelEventArgs();
-                           PrepFocusRectsPanel?.Invoke(this, e);
-                           _images = e.Images;
-                           if (_images != null) {
-                               NewWorkingIndex();
-                               int i = _workingIndex;
-                               _workingIndex = -1;
-                               Invoke(new MethodInvoker(() => SetImage(_images[i].Path)));
-                               UpdateRemaining();
-                               Invoke(new MethodInvoker(() => lblLoading.Visible = false));
+                           Loading = true;
+                           try {
+                               var e = new PrepFocusRectsPanelEventArgs();
+                               PrepFocusRectsPanel?.Invoke(this, e);
+                               _images = e.Images;
+                               if (_images != null) {
+                                   NewWorkingIndex();
+                                   int i = _workingIndex;
+                                   _workingIndex = -1;
+                                   Invoke(new MethodInvoker(() => SetImage(_images[i].Path)));
+                                   UpdateRemaining();
+                                   Invoke(new MethodInvoker(() => {
+                                                                lblLoading.Visible = false;
+                                                                pbarLoading.Visible = false;
+                                                            }));
+                               }
+                           }
+                           catch {
+                               Loading = false;
                            }
                        }).Start();
         }

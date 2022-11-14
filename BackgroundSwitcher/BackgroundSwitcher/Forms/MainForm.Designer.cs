@@ -25,6 +25,7 @@ namespace BackgroundSwitcher {
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblMessage = new System.Windows.Forms.Label();
             this.multiSliderPanel = new MSP.MultiSliderPanel();
@@ -173,6 +174,8 @@ namespace BackgroundSwitcher {
             this.panelFocusRects.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelFocusRects.Location = new System.Drawing.Point(157, -3);
             this.panelFocusRects.Name = "panelFocusRects";
+            this.panelFocusRects.ProgbarMax = 0;
+            this.panelFocusRects.ProgbarValue = 0;
             this.panelFocusRects.Size = new System.Drawing.Size(137, 22);
             this.panelFocusRects.TabIndex = 12;
             this.panelFocusRects.TargetSize = new System.Drawing.Size(0, 0);
@@ -190,6 +193,7 @@ namespace BackgroundSwitcher {
             this.Controls.Add(this.panelImageInfo);
             this.Controls.Add(this.multiSliderPanel);
             this.Controls.Add(this.tabControl);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "MainForm";

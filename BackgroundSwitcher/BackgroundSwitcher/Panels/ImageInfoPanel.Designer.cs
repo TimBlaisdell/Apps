@@ -36,7 +36,6 @@ namespace BackgroundSwitcher.Panels {
             this.lblRecentShows = new System.Windows.Forms.Label();
             this.pboxImage = new System.Windows.Forms.PictureBox();
             this.panelUnderPath = new System.Windows.Forms.Panel();
-            this.btnFocusRectEdit = new System.Windows.Forms.Button();
             this.btnOpenImage = new System.Windows.Forms.Button();
             this.btnNeverShow = new System.Windows.Forms.Button();
             this.btnGoToFile = new System.Windows.Forms.Button();
@@ -175,7 +174,6 @@ namespace BackgroundSwitcher.Panels {
             this.panelUnderPath.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelUnderPath.Controls.Add(this.btnFocusRectEdit);
             this.panelUnderPath.Controls.Add(this.btnOpenImage);
             this.panelUnderPath.Controls.Add(this.btnNeverShow);
             this.panelUnderPath.Controls.Add(this.btnGoToFile);
@@ -193,26 +191,12 @@ namespace BackgroundSwitcher.Panels {
             this.panelUnderPath.Size = new System.Drawing.Size(538, 240);
             this.panelUnderPath.TabIndex = 15;
             // 
-            // btnFocusRectEdit
-            // 
-            this.btnFocusRectEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnFocusRectEdit.AutoSize = true;
-            this.btnFocusRectEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFocusRectEdit.Location = new System.Drawing.Point(375, 206);
-            this.btnFocusRectEdit.Margin = new System.Windows.Forms.Padding(2);
-            this.btnFocusRectEdit.Name = "btnFocusRectEdit";
-            this.btnFocusRectEdit.Size = new System.Drawing.Size(156, 26);
-            this.btnFocusRectEdit.TabIndex = 15;
-            this.btnFocusRectEdit.Text = "Open FocusRect editor";
-            this.btnFocusRectEdit.UseVisualStyleBackColor = true;
-            this.btnFocusRectEdit.Click += new System.EventHandler(this.btnFocusRectEdit_Click);
-            // 
             // btnOpenImage
             // 
             this.btnOpenImage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnOpenImage.AutoSize = true;
             this.btnOpenImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOpenImage.Location = new System.Drawing.Point(268, 206);
+            this.btnOpenImage.Location = new System.Drawing.Point(427, 206);
             this.btnOpenImage.Margin = new System.Windows.Forms.Padding(2);
             this.btnOpenImage.Name = "btnOpenImage";
             this.btnOpenImage.Size = new System.Drawing.Size(103, 26);
@@ -226,7 +210,7 @@ namespace BackgroundSwitcher.Panels {
             this.btnNeverShow.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNeverShow.AutoSize = true;
             this.btnNeverShow.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNeverShow.Location = new System.Drawing.Point(138, 206);
+            this.btnNeverShow.Location = new System.Drawing.Point(297, 206);
             this.btnNeverShow.Margin = new System.Windows.Forms.Padding(2);
             this.btnNeverShow.Name = "btnNeverShow";
             this.btnNeverShow.Size = new System.Drawing.Size(126, 26);
@@ -240,7 +224,7 @@ namespace BackgroundSwitcher.Panels {
             this.btnGoToFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnGoToFile.AutoSize = true;
             this.btnGoToFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGoToFile.Location = new System.Drawing.Point(18, 206);
+            this.btnGoToFile.Location = new System.Drawing.Point(177, 206);
             this.btnGoToFile.Margin = new System.Windows.Forms.Padding(2);
             this.btnGoToFile.Name = "btnGoToFile";
             this.btnGoToFile.Size = new System.Drawing.Size(116, 26);
@@ -285,7 +269,6 @@ namespace BackgroundSwitcher.Panels {
         private System.Windows.Forms.Label lblRecentShows;
         private System.Windows.Forms.PictureBox pboxImage;
         private System.Windows.Forms.Panel panelUnderPath;
-        private System.Windows.Forms.Button btnFocusRectEdit;
         private System.Windows.Forms.Button btnOpenImage;
         private System.Windows.Forms.Button btnNeverShow;
         private System.Windows.Forms.Button btnGoToFile;

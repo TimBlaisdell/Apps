@@ -49,6 +49,7 @@ namespace BackgroundSwitcher.Panels {
             this.btnSkip = new System.Windows.Forms.Button();
             this.btnSet = new System.Windows.Forms.Button();
             this.lblLoading = new System.Windows.Forms.Label();
+            this.pbarLoading = new System.Windows.Forms.ProgressBar();
             this.menuImage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numY)).BeginInit();
@@ -332,11 +333,22 @@ namespace BackgroundSwitcher.Panels {
             this.lblLoading.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblLoading.Visible = false;
             // 
+            // pbarLoading
+            // 
+            this.pbarLoading.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbarLoading.Location = new System.Drawing.Point(8, 562);
+            this.pbarLoading.Name = "pbarLoading";
+            this.pbarLoading.Size = new System.Drawing.Size(1085, 23);
+            this.pbarLoading.TabIndex = 25;
+            this.pbarLoading.Visible = false;
+            // 
             // FocusRectsPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.pbarLoading);
             this.Controls.Add(this.lblLoading);
             this.Controls.Add(this.panelCanvas);
             this.Controls.Add(this.lblRemaining);
@@ -368,6 +380,7 @@ namespace BackgroundSwitcher.Panels {
             this.Controls.SetChildIndex(this.lblRemaining, 0);
             this.Controls.SetChildIndex(this.panelCanvas, 0);
             this.Controls.SetChildIndex(this.lblLoading, 0);
+            this.Controls.SetChildIndex(this.pbarLoading, 0);
             this.menuImage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numY)).EndInit();
@@ -404,5 +417,6 @@ namespace BackgroundSwitcher.Panels {
         private System.Windows.Forms.Button btnSkip;
         private System.Windows.Forms.Button btnSet;
         private System.Windows.Forms.Label lblLoading;
+        private System.Windows.Forms.ProgressBar pbarLoading;
     }
 }
