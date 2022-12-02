@@ -693,7 +693,7 @@ namespace ChaosGame {
                                 checkd = (d1 * (100 - effectiveMix) + ConstantDist * effectiveMix) / 100;
                                 break;
                         }
-                        if (Math.Abs(d - checkd) > 0.01) throw new Exception("Insane");
+                        //if (Math.Abs(d - checkd) > 0.01) throw new Exception("Insane");
                     }
                     switch (PickOneMovement) {
                         case OnePointMovement.DirectToPoint:
