@@ -30,6 +30,7 @@ namespace BackgroundSwitcher.Panels {
             this.menuImage = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuEditThisImage = new System.Windows.Forms.ToolStripMenuItem();
             this.menuReloadImage = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuLoadImage = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.menuGoToFolder = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStayInFolder = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,6 +51,8 @@ namespace BackgroundSwitcher.Panels {
             this.btnSet = new System.Windows.Forms.Button();
             this.lblLoading = new System.Windows.Forms.Label();
             this.pbarLoading = new System.Windows.Forms.ProgressBar();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.menuLoadRandom = new System.Windows.Forms.ToolStripMenuItem();
             this.menuImage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numY)).BeginInit();
@@ -85,6 +88,8 @@ namespace BackgroundSwitcher.Panels {
             this.menuImage.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuEditThisImage,
             this.menuReloadImage,
+            this.menuLoadImage,
+            this.menuLoadRandom,
             this.toolStripSeparator1,
             this.menuGoToFolder,
             this.menuStayInFolder,
@@ -92,7 +97,7 @@ namespace BackgroundSwitcher.Panels {
             this.toolStripSeparator2,
             this.menuAutoRect});
             this.menuImage.Name = "menuImage";
-            this.menuImage.Size = new System.Drawing.Size(245, 148);
+            this.menuImage.Size = new System.Drawing.Size(245, 214);
             // 
             // menuEditThisImage
             // 
@@ -109,6 +114,13 @@ namespace BackgroundSwitcher.Panels {
             this.menuReloadImage.Size = new System.Drawing.Size(244, 22);
             this.menuReloadImage.Text = "Reload this image";
             this.menuReloadImage.Click += new System.EventHandler(this.menuReloadImage_Click);
+            // 
+            // menuLoadImage
+            // 
+            this.menuLoadImage.Name = "menuLoadImage";
+            this.menuLoadImage.Size = new System.Drawing.Size(244, 22);
+            this.menuLoadImage.Text = "Load specific image...";
+            this.menuLoadImage.Click += new System.EventHandler(this.menuLoadImage_Click);
             // 
             // toolStripSeparator1
             // 
@@ -343,6 +355,17 @@ namespace BackgroundSwitcher.Panels {
             this.pbarLoading.TabIndex = 25;
             this.pbarLoading.Visible = false;
             // 
+            // openFileDialog
+            // 
+            this.openFileDialog.Filter = "JPG images|*.jpg|All files|*.*";
+            // 
+            // menuLoadRandom
+            // 
+            this.menuLoadRandom.Name = "menuLoadRandom";
+            this.menuLoadRandom.Size = new System.Drawing.Size(244, 22);
+            this.menuLoadRandom.Text = "Load random image";
+            this.menuLoadRandom.Click += new System.EventHandler(this.menuLoadRandom_Click);
+            // 
             // FocusRectsPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -418,5 +441,8 @@ namespace BackgroundSwitcher.Panels {
         private System.Windows.Forms.Button btnSet;
         private System.Windows.Forms.Label lblLoading;
         private System.Windows.Forms.ProgressBar pbarLoading;
+        private System.Windows.Forms.ToolStripMenuItem menuLoadImage;
+        private System.Windows.Forms.OpenFileDialog openFileDialog;
+        private System.Windows.Forms.ToolStripMenuItem menuLoadRandom;
     }
 }

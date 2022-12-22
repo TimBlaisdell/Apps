@@ -13,15 +13,27 @@ namespace BackgroundSwitcher.Panels {
         public FocusRectsPanel() {
             InitializeComponent();
             _canvasSizeDiff = new Size(Width - panelCanvas.Width, Height - panelCanvas.Height);
+            pbarLoading.Maximum = 100;
+            pbarLoading.Value = 0;
+            _pBarBuffer = 100;
         }
         public bool Loading { get; private set; }
         public int ProgbarMax {
-            get => Loading ? pbarLoading.Maximum : 0;
-            set { if (Loading) pbarLoading.BeginInvoke(new MethodInvoker(() => { pbarLoading.Maximum = value; })); }
+            get => Loading ? pbarLoading.Maximum - _pBarBuffer : 0;
+            set {
+                if (value <= _pBarBuffer) {
+                    _pBarBuffer -= value;
+                    return;
+                }
+                _pBarBuffer = 0;
+                if (Loading) pbarLoading.BeginInvoke(new MethodInvoker(() => { pbarLoading.Maximum = value; }));
+            }
         }
         public int ProgbarValue {
             get => Loading ? pbarLoading.Value : 0;
-            set { if (Loading) pbarLoading.BeginInvoke(new MethodInvoker(() => { pbarLoading.Value = value; })); }
+            set {
+                if (Loading) pbarLoading.BeginInvoke(new MethodInvoker(() => { pbarLoading.Value = value; }));
+            }
         }
         public override Size TargetSize {
             get => base.TargetSize;
@@ -90,6 +102,23 @@ namespace BackgroundSwitcher.Panels {
             catch (Exception ex) {
                 MessageBox.Show("Error: " + ex.Message);
             }
+        }
+        private void menuLoadImage_Click(object sender, EventArgs e) {
+            if (openFileDialog.ShowDialog() == DialogResult.OK) {
+                var index = _images.FindIndex(i => i.Path == openFileDialog.FileName);
+                if (index < 0) {
+                    MessageBox.Show("Selected file was not found in the image list.", "File not found");
+                    return;
+                }
+                SetImage(_images[index].Path);
+            }
+        }
+        private void menuLoadRandom_Click(object sender, EventArgs e) {
+            string path;
+            do {
+                path = _images[_rand.Next(_images.Count)].Path;
+            } while (!File.Exists(path));
+            SetImage(path);
         }
         private void menuReloadImage_Click(object sender, EventArgs e) {
             LoadImage();
@@ -171,6 +200,9 @@ namespace BackgroundSwitcher.Panels {
                     break;
                 case Keys.E:
                     EditImage?.Invoke(this, _images[_workingIndex].Path);
+                    break;
+                case Keys.R:
+                    menuLoadRandom_Click(null, null);
                     break;
             }
         }
@@ -352,6 +384,7 @@ namespace BackgroundSwitcher.Panels {
         private Bitmap _curImageScaled;
         private List<JSONImageInfo> _filteredImages;
         private List<JSONImageInfo> _images;
+        private int _pBarBuffer;
         private readonly Random _rand = new Random();
         private float _ratio;
         private int _workingIndex;
