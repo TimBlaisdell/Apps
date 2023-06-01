@@ -7,8 +7,8 @@ using System.Linq;
 using System.Threading;
 using System.Windows;
 using System.Windows.Forms;
-using ChaosGame.Properties;
 using JSON;
+using PointGame.Properties;
 using Point = System.Drawing.Point;
 using Size = System.Drawing.Size;
 
